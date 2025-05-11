@@ -38,7 +38,7 @@ Well, it turns out I’m not an expert on software licences.
 
 I’m used to the sort of software licences that Siemens and Microsoft produce; the ones that say “pay me and you can use my stuff”, they also tend to say “but don’t for a minute think you can copy it and give it to someone else”.
 
-Now, I’m letting you and everyone else use my software and I’m letting you do it for *nowt*. I don’t expect you to pay for the privilege. But I also don’t want to be sued when you screw things up and the plant burns down *(think [Buncefield](https://en.wikipedia.org/wiki/Buncefield_fire))*.
+Now, I’m letting you and everyone else use my website and all it contains, and I’m letting you do it **free if charge**. I don’t expect you to pay for the privilege. But I also don’t want to be sued when you screw things up and the plant burns down *(think [Buncefield](https://en.wikipedia.org/wiki/Buncefield_fire))*.
 
 There are software licences that cover this sort of thing, they are generally called *open source* licences and there is an awful lot of them, you can see a list of them [here](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses).
 
