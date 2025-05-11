@@ -1,5 +1,5 @@
 <!-- PAL LOGO AND WEB ID START-->
-<img width="896px" src="/00-comres/11-resources/02-images/readme-logo.png" alt="PAL Logo showing Wiki Documentation heading">
+<img width="896px" src="/website/website/00-comres/11-resources/02-images/readme-logo.png" alt="PAL Logo showing Wiki Documentation heading">
 <p align="right"><img height="18px" src="https://img.shields.io/badge/Web_ID-README.md--eek-blue.svg"></p>
 <!-- PAL LOGO AND WEB ID END-->
 
@@ -9,7 +9,7 @@
 <table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
 <!-- Figure row --> <tr>
 <!-- FIGURE 1 ID -->    <td valign="bottom">
-<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/GitHub-logo.svg" alt="GitHub logo">
+<!-- FIGURE 1 IMAGE --> <img width="200" src="/website/00-comres/11-resources/02-images/GitHub-logo.svg" alt="GitHub logo">
                         </td>
                         <td width="600">
 <h2>Learn how to use GitHub</h2>
@@ -31,7 +31,7 @@
 <p>Git is the engine behind GitHub. It is a fundemental component that underlies all GitHub repositories and their local copies.</p>                        
                         </td>
 <!-- FIGURE 1 ID -->    <td valign="bottom">
-<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/git-logo.svg" alt="GitHub logo">
+<!-- FIGURE 1 IMAGE --> <img width="200" src="/website/00-comres/11-resources/02-images/git-logo.svg" alt="GitHub logo">
                         </td>
                     </tr>
 </table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
@@ -41,7 +41,7 @@
 <table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
 <!-- Figure row --> <tr>
 <!-- FIGURE 1 ID -->    <td valign="bottom">
-<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/vscode-logo.svg" alt="GitHub logo">
+<!-- FIGURE 1 IMAGE --> <img width="200" src="/website/00-comres/11-resources/02-images/vscode-logo.svg" alt="GitHub logo">
                         </td>
                         <td width="600">
 <h2>Manage it all with VSCode</h2>
@@ -63,7 +63,7 @@
 <p>Everything is available to you free of charge, there is even a pdf of the whole website that you can download and use as you see fit.</p>                        
                         </td>
 <!-- FIGURE 1 ID -->    <td valign="bottom">
-<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/mgh-logo_07.svg" alt="GitHub logo">
+<!-- FIGURE 1 IMAGE --> <img width="200" src="/website/00-comres/11-resources/02-images/mgh-logo_07.svg" alt="GitHub logo">
                         </td>
                     </tr>
 </table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
