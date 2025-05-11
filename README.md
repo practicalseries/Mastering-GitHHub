@@ -8,7 +8,7 @@
 
 <table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
 <!-- Figure row --> <tr>
-<!-- FIGURE 1 ID -->    <td>
+<!-- FIGURE 1 ID -->    <td valign="bottom">
 <!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/GitHub-logo.svg" alt="GitHub logo">
                         </td>
                         <td width="600">
@@ -30,7 +30,7 @@
 
 <p>Git is the engine behind GitHub. It is a fundemental component that underlies all GitHub repositories and their local copies.</p>                        
                         </td>
-<!-- FIGURE 1 ID -->    <td>
+<!-- FIGURE 1 ID -->    <td valign="bottom">
 <!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images//git-logo.svg" alt="GitHub logo">
                         </td>
                     </tr>
@@ -40,7 +40,7 @@
 
 <table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
 <!-- Figure row --> <tr>
-<!-- FIGURE 1 ID -->    <td>
+<!-- FIGURE 1 ID -->    <td valign="bottom">
 <!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/vscode-logo.svg" alt="GitHub logo">
                         </td>
                         <td width="600">
