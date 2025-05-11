@@ -68,6 +68,8 @@
                     </tr>
 </table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
 
+<br><br>
+
 # What is this site about?
 
 This is a complete guide to using GitHub and its annoying, provincial, command line cousin, Git (the one that nobody likes or understands).
