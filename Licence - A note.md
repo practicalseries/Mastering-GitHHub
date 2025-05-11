@@ -108,7 +108,7 @@ All the above licences provide this type of protection against liability.
 
 Ok, let’s start with the ones I’m not going to use and why.
 
-I’m not going to use the copyleft (GPL and LGPL) licences. This is because they don’t let you (as in people who download the software) make money from the software provided.
+I’m not going to use the copyleft (GPL and LGPL) licences. This is because they don’t let you (as in people who use this website or download any of my software) make money from what is provided.
 
 I firmly believe that engineers should be paid for the work they do.
 
