@@ -11,7 +11,7 @@ From first commit to expert, your easy guide to understanding Git and GitHub wit
 
 The website is available here: 
 
-<p><!--<a href="https://masteringgithub.com/">--><img height="30" src="https://img.shields.io/badge/Mastering_GitHub-1F883D"></p>
+<p align="right"><img height="18px" src="https://img.shields.io/badge/Web_ID-README.md--eek-blue.svg"></p>
 
 <br><br>
 
