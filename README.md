@@ -15,7 +15,8 @@ The website is available here:
 wiki/00-0000/04-data/github-wiki-design.pdf"><img height="30" src="https://img.shields.io/badge/
 Download_the_pdf_document-1F883D"></a></p>
 
-<p align="left"><img height="30px" src="https://img.shields.io/badge/Download_the_pdf_document-1F883D"></p>
+<p align="left"><a href="https://github.com/practicalseries/GitHub-Wiki-Design-and-Implementation/
+wiki/00-0000/04-data/github-wiki-design.pdf"><img height="30px" src="https://img.shields.io/badge/Download_the_pdf_document-1F883D"></a></p>
 
 <br><br>
 
