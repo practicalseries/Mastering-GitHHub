@@ -81,13 +81,13 @@ The website is available here:
 
 # What is this site about?
 
-This is a complete guide to using GitHub and its annoying, provincial, command line cousin, Git (the one that nobody likes or understands).
+This is a complete guide to using GitHub and its annoying, provincial, command line cousin, Git *(the one that nobody likes or understands)*.
 
 GitHub is the online version of Git and both are version control systems for software (websites, applications, programming, documentation, &c. pretty much anything you can develop on a computer). 
 
 They both (but especially Git) have a fairly steep learning curve. GitHub is based upon Git and they both use the same convoluted terminology and have the same underlying software engine.
 
-This site is intended to be a simple, straightforward instruction manual for using Git and GitHub. It is based around Visual Studio Code (also called VS Code), a free and powerful text editor from Microsoft which is used to manage the Git and GitHub interfaces.
+This site is intended to be a simple, straightforward instruction manual for using Git and GitHub. It is based around [Visual Studio Code](https://code.visualstudio.com/) *(also called VS Code)*, a free and powerful text editor from Microsoft which is used to manage the Git and GitHub interfaces.
 
 
 
