@@ -11,11 +11,11 @@ From first commit to expert, your easy guide to understanding Git and GitHub wit
 
 The full website can be seen here: 
 
-<p align="left">&emsp;&emsp;&emsp; <a href="https://masteringgithub.com"><img height="30px" src="https://img.shields.io/badge/Mastering_GitHub-1F883D"></a></p>
+<p align="left">&emsp;&emsp;&emsp; <a href="https://masteringgithub.com"><img height="30px" src="https://img.shields.io/badge/Mastering_GitHub_website-blue"></a></p>
 
-The entire website contents are available as a pdf (in short a book) here
+The entire website contents are available as a pdf *(in short a book)* here:
 
-<p align="left">&emsp;&emsp;&emsp; <a href="/website/00-comres/11-resources/04-data/Mastering GitHub.pdf"><img height="30px" src="https://img.shields.io/badge/Mastering_GitHub-1F883D"></a></p>
+<p align="left">&emsp;&emsp;&emsp; <a href="/website/00-comres/11-resources/04-data/Mastering GitHub.pdf"><img height="30px" src="https://img.shields.io/badge/Download_Mastering_GitHub_pdf_document-1F883D"></a></p>
 
 
 
