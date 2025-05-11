@@ -85,9 +85,9 @@ The entire website contents are available as a pdf *(in short a book)* here:
 
 <br><br>
 
-# What is this site about?
+# What's this site about?
 
-This is a complete guide to using GitHub and its annoying, provincial, command line cousin, Git *(the one that nobody likes or understands)*.
+This is a complete guide to using [GitHub](https://GitHub.com/)GitHub and its annoying, provincial, command line cousin, [Git](https://git-scm.com/) *(the one that nobody likes or understands)*.
 
 GitHub is the online version of Git and both are version control systems for software (websites, applications, programming, documentation, &c. pretty much anything you can develop on a computer). 
 
