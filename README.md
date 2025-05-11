@@ -31,7 +31,7 @@
 <p>Git is the engine behind GitHub. It is a fundemental component that underlies all GitHub repositories and their local copies.</p>                        
                         </td>
 <!-- FIGURE 1 ID -->    <td valign="bottom">
-<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images//git-logo.svg" alt="GitHub logo">
+<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/git-logo.svg" alt="GitHub logo">
                         </td>
                     </tr>
 </table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
@@ -51,5 +51,22 @@
                         </td>
                     </tr>
 </table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
+
+<br>
+
+<table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
+<!-- Figure row --> <tr>
+                        <td width="600">
+<h2>What's the catch?</h2>
+<p>Well, there isn't one. <strong>This site is completely free</strong>, there is no registration or enroloment; there is also no advertising.</p>
+
+<p>Everything is available to you free of charge, there is even a pdf of the whole website that you can download and use as you see fit.</p>                        
+                        </td>
+<!-- FIGURE 1 ID -->    <td valign="bottom">
+<!-- FIGURE 1 IMAGE --> <img width="200" src="/00-comres/11-resources/02-images/mgh-logo_07.svg" alt="GitHub logo">
+                        </td>
+                    </tr>
+</table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
+
 
 <br><br>
