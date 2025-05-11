@@ -73,7 +73,7 @@ The entire website contents are available as a pdf *(in short a book)* here:
 <!-- Figure row --> <tr>
                         <td width="600">
 <h2>What's the catch?</h2>
-<p>Well, there isn't one. <strong>This site is completely free</strong>, there is no registration or enroloment; there is also no advertising.</p>
+<p>Well, there isn't one. <strong>This <a href="https://masteringgithub.com/">website</a> is completely free</strong>, there is no registration or enroloment; there is also no advertising.</p>
 
 <p>Everything is available to you free of charge, there is even a pdf of the whole website that you can download and use as you see fit.</p>                        
                         </td>
