@@ -1,0 +1,317 @@
+<!DOCTYPE html>                                                                 <!-- HTML 5 file -->
+
+<!-- PRACTICALSERIES (c) 2021
+
+*******************************************************************************
+
+PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
+                 Published in the United Kingdom
+
+                 Email: mg@practicalseries.com
+                 Web:   https://practicalseries.com
+
+******************************************************************************* -->
+<html lang="en">                                                                <!-- Declare language                              -->
+    <head>                                                                      <!-- Start of head section                         -->
+        <meta charset="utf-8">                                                  <!-- Use unicode char set (< 1024 char from SOF)   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Make page follow browser width and reset zoom -->
+        <meta name="description" content="Practiacl series automation library, PAL">
+
+<!-- ==========================================================================
+
+
+
+*******************************************************************************
+Title :          PRACTICAL SERIES AUTOMATION LIBRARY (PAL)
+
+                 WEBSITE MAIN INDEX                                  INDEX.HTML
+*******************************************************************************
+DETAILS
+
+The Practical Series publication - Practical Series Automation Library (PAL)
+
+This website is part of the Practical Series Automation Library (PAL); a
+library of software modules and templates that have been made available for
+the Siemens Simatic S7-1500 range of controllers. The PAL is fully deployable
+software that is suitable for the control of most industrial process
+applications.
+
+*******************************************************************************
+MODIFICATION HISTORY:
+
+This is a complete summary of all software modifications.
+
+Date          Issue        Author         Reason for Modification
+*******************************************************************************
+25 Apr 2025   000.100      M. Gledhill    File created
+                                          based on 97-00-blank-index.html
+*************************************************************************** -->
+
+
+<!-- **************************************************************************
+     FAVICON
+     ***********************************************************************-->
+        <!-- favicons all platforms --> <link rel="apple-touch-icon" sizes="180x180" href="00-comres/11-resources/02-images/01-favicons/apple-touch-icon.png">
+                                        <link rel="icon" type="image/png"            href="00-comres/11-resources/02-images/01-favicons/favicon-32x32.png" sizes="32x32">
+                                        <link rel="icon" type="image/png"            href="00-comres/11-resources/02-images/01-favicons/favicon-16x16.png" sizes="16x16">
+                                        <link rel="mask-icon"                        href="00-comres/11-resources/02-images/01-favicons/safari-pinned-tab.svg">
+                                        <meta name="theme-color" content="#ffffff">
+
+
+<!-- **************************************************************************
+     HEAD SCRIPT AREA
+     ***********************************************************************-->
+        <!-- jQuery Library -->         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Waypoints (sticky nav) --> <script src="00-comres/21-global/05-js/jquery.waypoints.min.js"></script>
+        <!-- Hyphenator -->             <script src="00-comres/21-global/05-js/hyphenator.js"></script>
+        <!-- Lightbox -->               <script src="00-comres/21-global/05-js/lightbox.js"></script>
+        <!-- Prettify (main) -->        <script src="00-comres/21-global/05-js/run_prettify.js?autoload=true&lang=css"></script>
+        <!-- MathJax -->                <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
+        <!-- PS main script -->         <script src="00-comres/11-resources/05-js/script.js"></script>
+                                                                <!-- ▼▼▼▼ CHANGE FOLDER ▼▼▼▼  -->
+         <!-- PS local scroll script --> <script src="01-admin/01-pages/main-index/05-local-js/scroll.js"></script>
+
+
+
+
+<!-- **************************************************************************
+     HEAD CSS LOAD
+     ***********************************************************************-->
+        <!-- Load PS fonts -->          <link rel="stylesheet" type="text/css" href="00-comres/21-global/03-fonts/ps-fonts.css">
+        <!-- Load TIA fonts -->         <link rel="stylesheet" type="text/css" href="00-comres/21-global/03-fonts/tia-fonts.css">
+        <!-- Load Google fonts -->      <link rel="preconnect" href="https://fonts.googleapis.com">
+                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+        <!-- Normalise -->              <link rel="stylesheet" type="text/css" href="00-comres//21-global/01-css/normalise.css">
+        <!-- Lightbox styles -->        <link rel="stylesheet" type="text/css" href="00-comres/21-global/01-css/lightbox.css">
+        <!-- Ionicons -->               <link rel="stylesheet" type="text/css" href="00-comres/21-global/01-css/ionicons.min.css">
+        <!-- PS grid system -->         <link rel="stylesheet" type="text/css" href="00-comres/11-resources/01-css/grid.css">
+        <!-- PS main styles -->         <link rel="stylesheet" type="text/css" href="00-comres/11-resources/01-css/style.css">
+        <!-- PAL styles -->             <link rel="stylesheet" type="text/css" href="00-comres/11-resources/01-css/style-pal.css">
+                                                                <!-- ▼▼▼▼ CHANGE FOLDER ▼▼▼▼  -->
+        <!-- Code frag highlights -->  <link rel="stylesheet" type="text/css" href="01-admin/01-pages/main-index/01-local-css/codelines.css">
+
+<!--  **************************************************************************
+      GOOGLE ANALYTICS
+      ***********************************************************************-->
+                                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRBPM8PX37"></script>
+                                        <script>
+                                            window.dataLayer = window.dataLayer || [];
+                                            function gtag(){dataLayer.push(arguments);}
+                                            gtag('js', new Date());
+                                        
+                                            gtag('config', 'G-GRBPM8PX37');
+                                        </script>
+
+
+<!-- **************************************************************************
+     TITLE
+     ***********************************************************************-->
+        <title>Mastering GitHub</title>
+    </head>
+
+    <body>
+
+
+<!-- **************************************************************************
+     HEADER (COVER & TABLE OF CONTENTS)
+     ***********************************************************************-->
+
+     <div class="hero" id="js--000000">
+
+<!-- ************************************************************************** [WP TOPNAV]
+     TOP NAVIGATION (ABOVE CONTENTS LIST)
+     ***********************************************************************-->
+
+            <nav class="nav-cover">                                               <!-- Start of top nav bar     -->
+                <div class="top-nav">                           <!-- Start of top nav row     -->
+                    <div class="rg-row">                        <!-- Start of nav button row  -->
+                        <!-- Button 01 - Previous Section -->
+                        <div class="nav-wide" ></div>
+                        <!-- Button 02 - Previous Chapter -->
+                        <div class="nav-wide" ></div>
+                        <!-- Button 03 - Home wide (hidden when fixed nav activates) -->
+                        <a class="nav-wide nav-home" href="index.html#js--000000"><span class="top-nav-text">Home</span><span class="top-nav-icon">h</span></a>
+                        <!-- Button 03a - Top narrow (hidden until fixed nav activates) -->
+                        <a class="nav-narrow js--sc-000000" href="#"><span class="top-nav-icon">t</span><span class="top-nav-text">Top</span></a>
+                        <!-- Button 03b - Home narrow (hidden until fixed nav activates) -->
+                        <a class="nav-narrow" href="index.html#js--000000"><span class="top-nav-text">Home</span><span class="top-nav-icon">h</span></a>
+                        <!-- Button 04 - Next Chapter -->
+                        <a class="nav-wide" href="./11-web/01-00-introduction.html#js--000000"><span class="top-nav-text">Next chapter</span><span class="top-nav-icon">d</span></a>
+                        <!-- Button 05 - Next section -->
+                        <a class="nav-wide" href="./11-web/01-00-introduction.html#js--000000"><span class="top-nav-text">Next section</span><span class="top-nav-icon">r</span></a>
+                    </div>                                      <!-- End of nav button row    -->
+                </div>                                          <!-- End of top nav row       -->
+            </nav>                                              <!-- End of top nav bar       -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP 000002]
+     MASTHEAD IMAGE
+     ***********************************************************************-->
+            
+     <div class="rg-row masthead-row">
+        <div class="cover-title">
+            <h1>Mastering<br><span class="cover-resize">GITHUB</span></h1>
+        </div>
+    </div>
+    
+
+
+<!-- **************************************************************************
+     HERO FULL WIDTH
+     ***********************************************************************
+
+    <div class="rg-row">
+        <div class="rg-col rg-span1-1">
+            <div style="margin-top: 2rem;"></div>
+            <div class="cover-title">
+                <h1 style="text-align: center;"><span class="all-caps"  style="color: #1C2F4B;">Mastering<br>GitHub</span></h1>
+            </div>
+        </div>
+    </div>-->
+
+     
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      COVER IMAGE
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="rg-row">                                <!-- Start of title row       -->
+                <div class="rg-col rg-span1-1">                 <!-- Start of title           -->
+                    <!--<div class="pal-overline-index"></div>      <!-- Overline bar             -->
+                    <div class="fig-row" style="text-align: center; margin-top: 0.1rem;">
+<!-- Image -->          <figure class="fig-col fig1-1" id="js--f00-01">
+                            <img style="max-width:450px" src="00-comres/11-resources/02-images/mgh-logo_06.svg" alt="Cover Image">
+                        </figure>
+                    </div>                                      <!-- END OF FIGURE            -->
+                    <!--<div class="pal-overline-index"></div>      <!-- Overline bar             -->
+                </div>                                          <!-- End of title             -->
+            </div>                                              <!-- End of title row         -->
+            
+
+            <div class="rg-row">
+                <div class="rg-col rg-span1-1">
+                    <div style="margin-top: rem;"></div>          <!-- Overline bar             -->
+                    <div class="cover-title">
+                        <h2>From first commit to expert user</h2>
+        <!-- Doc Title Lrg -->  <h3>Simple instructions for managing Git and GitHub with VS Code</h3>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="fig-row" style="text-align: center; max-height: 100px;">
+                <!-- Image --><figure class="fig-col fig1-1" id="js--f00-01" style="margin-bottom: 0; padding-bottom: 0;">
+                                  <img  src="00-comres/11-resources/02-images/hero-curve-002.svg" alt="Hero curve">
+                              </figure>
+                        </div>                                      <!-- END OF FIGURE            -->
+                     
+<!-- ========================================================================== -->
+       
+
+
+</div>                                                       <!-- End of header            -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP FIXEDNAV]
+     FIXED NAVIGATION BAR CHANGEOVER POINT
+     ***********************************************************************-->
+     <div id="js--fixed-nav"></div>                          <!-- fixed navigation point   -->
+     <!-- ========================================================================== [WP END]      -->
+     
+
+<!-- ************************************************************************** [WP LEADIN]
+     HEADLINE   (SANS FONT)
+     ***********************************************************************-->
+     
+     <section class="section-std" id="js--000100">          <!-- Start of section         -->
+
+
+
+
+        <div class="rg-row">                  <!-- Start of subtitle row    -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+            <div class="rg-col rg-span1-5">
+                <img style="width:100%; max-width: 200px; border-radius: 10%" src="00-comres/11-resources/02-images/GitHub-logo.svg" alt="Cover Image">
+            </div>           <!-- Left column (not used)   -->
+
+            <div class="rg-col rg-span2-5" style="vertical-align: middle;">                 <!-- Start of subtitle column -->
+                <p class="nohyp sans" ><span class="all-caps sans-head-b">Learn how to use GitHub</span><br><span class="hypoff">The cloud-based platform used by software developers to store, share, and collaborate on software projects using Git. It acts as a central hub for managing code repositories, tracking changes, and facilitating team-based development.</span></p>
+            </div>                                          <!-- End of subtitle column   -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+        </div>                                              <!-- End of Subtitle row      -->
+
+        <div class="rg-row" style="margin-top: 4rem">                  <!-- Start of subtitle row    -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+
+            <div class="rg-col rg-span2-5">                 <!-- Start of subtitle column -->
+                <p class="nohyp sans" ><span class="all-caps sans-head-b">Understand how it links to Git</span><br><span class="hypoff">The most popular distributed version control system for tracking changes in files. A crucial tool for collaborative software development and project management.</span></p>
+            </div>                                          <!-- End of subtitle column   -->
+            <div class="rg-col rg-span1-5">
+                <img style="width:100%; max-width: 200px; border-radius: 10%" src="00-comres/11-resources/02-images/git-logo.svg" alt="Cover Image">
+            </div>           <!-- Left column (not used)   -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+        </div>                                              <!-- End of Subtitle row      -->
+
+        <div class="rg-row" style="margin-top: 4rem">                  <!-- Start of subtitle row    -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+            <div class="rg-col rg-span1-5">
+                <img style="width:100%; max-width: 200px; border-radius: 10%" src="00-comres/11-resources/02-images/vscode-logo.svg" alt="Cover Image">
+            </div>           <!-- Left column (not used)   -->
+
+            <div class="rg-col rg-span2-5">                 <!-- Start of subtitle column -->
+                <p class="nohyp sans" ><span class="all-caps sans-head-b">Manage it all with VSCode</span><br><span class="hypoff"></span>The free, lightweight, versatile code text editor with cross-platform support for writing, editing, and debugging code. It is complete with syntax highlighting, code completion, debugging tools, and built-in Git integration. 
+                </p>
+            </div>                                          <!-- End of subtitle column   -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+        </div>                                              <!-- End of Subtitle row      -->
+       
+
+
+
+    </section>                                              <!-- End of section           -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP LAST]
+     SECTION - LAST SECTION BEFORE FOOTER (WITH NAVIGATION)
+     ***********************************************************************-->
+
+        <p> <br class="toc-pad"></p>
+        <p> <br class="toc-pad"></p>
+        <div class="section-std" id="js--999901">               <!-- Start of additional row  -->
+            <div class="rg-row">                                <!-- Start of row content     -->
+                <div class="rg-col rg-span1-5">                 <!-- Start of left column     -->
+                </div>                                          <!-- End of left column       -->
+
+                <div class="rg-col rg-span3-5 aside-nav">       <!-- Start of end image area  -->
+                    
+                </div>                                          <!-- End of section text area -->
+
+                <div class="rg-col rg-span1-5">                 <!-- Start of right column    -->
+                </div>                                          <!-- End of right column      -->
+            </div>                                              <!-- End of row content       -->
+        </div>                                                  <!-- End of additional row    -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP FOOTER]
+     FOOTER
+     ***********************************************************************-->
+        <footer class="footer">                                 <!-- Start of footer          -->
+            <ul class="footer-nav">                             <!-- Start of footer nav      -->
+                <li><a class="js--sc-000000" href="#"><span class="top-nav-icon" style="color:#5b7daf">t</span>Top</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800100">Contact MG</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800200">Acknowledgments</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800300">Colophon</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800400">Legal &amp; Privacy</a></li>
+            </ul>                                               <!-- End of footer nav        -->
+
+            <ul class="social-links">
+ <!--            <li><a href="https://www.facebook.com/practicalseries"><i id="js--fbicon" class="ion-social-facebook-outline"></i></a></li>
+                <li><a href="https://twitter.com/practicalseries"><i id="js--twicon" class="ion-social-twitter-outline"></i></a></li> -->
+            </ul>
+        </footer>                                               <!-- End of footer            -->
+<!-- ========================================================================== [WP END]      -->
+
+    </body>
+</html>

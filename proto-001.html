@@ -1,0 +1,720 @@
+<!DOCTYPE html>                                                                 <!-- HTML 5 file -->
+
+<!-- PRACTICALSERIES (c) 2021
+
+*******************************************************************************
+
+PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
+                 Published in the United Kingdom
+
+                 Email: mg@practicalseries.com
+                 Web:   https://practicalseries.com
+
+******************************************************************************* -->
+<html lang="en">                                                                <!-- Declare language                              -->
+    <head>                                                                      <!-- Start of head section                         -->
+        <meta charset="utf-8">                                                  <!-- Use unicode char set (< 1024 char from SOF)   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Make page follow browser width and reset zoom -->
+        <meta name="description" content="Practiacl series automation library, PAL">
+
+<!-- ==========================================================================
+
+
+
+*******************************************************************************
+Title :          PRACTICAL SERIES AUTOMATION LIBRARY (PAL)
+
+                 WEBSITE MAIN INDEX                                  INDEX.HTML
+*******************************************************************************
+DETAILS
+
+The Practical Series publication - Practical Series Automation Library (PAL)
+
+This website is part of the Practical Series Automation Library (PAL); a
+library of software modules and templates that have been made available for
+the Siemens Simatic S7-1500 range of controllers. The PAL is fully deployable
+software that is suitable for the control of most industrial process
+applications.
+
+*******************************************************************************
+MODIFICATION HISTORY:
+
+This is a complete summary of all software modifications.
+
+Date          Issue        Author         Reason for Modification
+*******************************************************************************
+25 Apr 2025   000.100      M. Gledhill    File created
+                                          based on 97-00-blank-index.html
+*************************************************************************** -->
+
+
+<!-- **************************************************************************
+     FAVICON
+     ***********************************************************************-->
+        <!-- favicons all platforms --> <link rel="apple-touch-icon" sizes="180x180" href="00-comres/11-resources/02-images/01-favicons/apple-touch-icon.png">
+                                        <link rel="icon" type="image/png"            href="00-comres/11-resources/02-images/01-favicons/favicon-32x32.png" sizes="32x32">
+                                        <link rel="icon" type="image/png"            href="00-comres/11-resources/02-images/01-favicons/favicon-16x16.png" sizes="16x16">
+                                        <link rel="mask-icon"                        href="00-comres/11-resources/02-images/01-favicons/safari-pinned-tab.svg">
+                                        <meta name="theme-color" content="#ffffff">
+
+
+<!-- **************************************************************************
+     HEAD SCRIPT AREA
+     ***********************************************************************-->
+        <!-- jQuery Library -->         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Waypoints (sticky nav) --> <script src="00-comres/21-global/05-js/jquery.waypoints.min.js"></script>
+        <!-- Hyphenator -->             <script src="00-comres/21-global/05-js/hyphenator.js"></script>
+        <!-- Lightbox -->               <script src="00-comres/21-global/05-js/lightbox.js"></script>
+        <!-- Prettify (main) -->        <script src="00-comres/21-global/05-js/run_prettify.js?autoload=true&lang=css"></script>
+        <!-- MathJax -->                <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
+        <!-- PS main script -->         <script src="00-comres/11-resources/05-js/script.js"></script>
+                                                                <!-- ▼▼▼▼ CHANGE FOLDER ▼▼▼▼  -->
+         <!-- PS local scroll script --> <script src="01-admin/01-pages/main-index/05-local-js/scroll.js"></script>
+
+
+
+
+<!-- **************************************************************************
+     HEAD CSS LOAD
+     ***********************************************************************-->
+        <!-- Load PS fonts -->          <link rel="stylesheet" type="text/css" href="00-comres/21-global/03-fonts/ps-fonts.css">
+        <!-- Load TIA fonts -->         <link rel="stylesheet" type="text/css" href="00-comres/21-global/03-fonts/tia-fonts.css">
+        <!-- Load Google fonts -->      <link rel="preconnect" href="https://fonts.googleapis.com">
+                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Normalise -->              <link rel="stylesheet" type="text/css" href="00-comres//21-global/01-css/normalise.css">
+        <!-- Lightbox styles -->        <link rel="stylesheet" type="text/css" href="00-comres/21-global/01-css/lightbox.css">
+        <!-- Ionicons -->               <link rel="stylesheet" type="text/css" href="00-comres/21-global/01-css/ionicons.min.css">
+        <!-- PS grid system -->         <link rel="stylesheet" type="text/css" href="00-comres/11-resources/01-css/grid.css">
+        <!-- PS main styles -->         <link rel="stylesheet" type="text/css" href="00-comres/11-resources/01-css/style.css">
+        <!-- PAL styles -->             <link rel="stylesheet" type="text/css" href="00-comres/11-resources/01-css/style-pal.css">
+                                                                <!-- ▼▼▼▼ CHANGE FOLDER ▼▼▼▼  -->
+        <!-- Code frag highlights -->  <link rel="stylesheet" type="text/css" href="01-admin/01-pages/main-index/01-local-css/codelines.css">
+
+<!--  **************************************************************************
+      GOOGLE ANALYTICS
+      ***********************************************************************-->
+                                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRBPM8PX37"></script>
+                                        <script>
+                                            window.dataLayer = window.dataLayer || [];
+                                            function gtag(){dataLayer.push(arguments);}
+                                            gtag('js', new Date());
+                                        
+                                            gtag('config', 'G-GRBPM8PX37');
+                                        </script>
+
+
+<!-- **************************************************************************
+     TITLE
+     ***********************************************************************-->
+        <title>Mastering GitHub</title>
+    </head>
+
+    <body>
+
+
+<!-- **************************************************************************
+     HEADER (COVER & TABLE OF CONTENTS)
+     ***********************************************************************-->
+
+        <header id="js--000000">
+
+<!-- ************************************************************************** [WP TOPNAV]
+     TOP NAVIGATION (ABOVE CONTENTS LIST)
+     ***********************************************************************-->
+
+            <nav class="nav-cover">                                               <!-- Start of top nav bar     -->
+                <div class="top-nav">                           <!-- Start of top nav row     -->
+                    <div class="rg-row">                        <!-- Start of nav button row  -->
+                        <!-- Button 01 - Previous Section -->
+                        <div class="nav-wide" ></div>
+                        <!-- Button 02 - Previous Chapter -->
+                        <div class="nav-wide" ></div>
+                        <!-- Button 03 - Home wide (hidden when fixed nav activates) -->
+                        <a class="nav-wide nav-home" href="index.html#js--000000"><span class="top-nav-text">Home</span><span class="top-nav-icon">h</span></a>
+                        <!-- Button 03a - Top narrow (hidden until fixed nav activates) -->
+                        <a class="nav-narrow js--sc-000000" href="#"><span class="top-nav-icon">t</span><span class="top-nav-text">Top</span></a>
+                        <!-- Button 03b - Home narrow (hidden until fixed nav activates) -->
+                        <a class="nav-narrow" href="index.html#js--000000"><span class="top-nav-text">Home</span><span class="top-nav-icon">h</span></a>
+                        <!-- Button 04 - Next Chapter -->
+                        <a class="nav-wide" href="./11-web/01-00-introduction.html#js--000000"><span class="top-nav-text">Next chapter</span><span class="top-nav-icon">d</span></a>
+                        <!-- Button 05 - Next section -->
+                        <a class="nav-wide" href="./11-web/01-00-introduction.html#js--000000"><span class="top-nav-text">Next section</span><span class="top-nav-icon">r</span></a>
+                    </div>                                      <!-- End of nav button row    -->
+                </div>                                          <!-- End of top nav row       -->
+            </nav>                                              <!-- End of top nav bar       -->
+<!-- ========================================================================== [WP END]      -->
+
+
+
+<!-- **************************************************************************
+     HERO FULL WIDTH
+     ***********************************************************************-->
+
+    <div class="rg-row">
+        <div class="rg-col rg-span1-1">
+            <div style="margin-top: 2rem;"></div>          <!-- Overline bar             -->
+            <div class="cover-title">
+                <h1 style="text-align: center;"><span class="all-caps"  style="color: #1C2F4B;">Mastering<br>GitHub</span></h1>
+            </div>
+        </div>
+    </div>
+
+     
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      COVER IMAGE
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="rg-row">                                <!-- Start of title row       -->
+                <div class="rg-col rg-span1-1">                 <!-- Start of title           -->
+                    <!--<div class="pal-overline-index"></div>      <!-- Overline bar             -->
+                    <div class="fig-row" style="text-align: center; margin-top: 0.1rem;">
+<!-- Image -->          <figure class="fig-col fig1-1" id="js--f00-01">
+                            <img style="max-width:600px" src="00-comres/11-resources/02-images/mgh-logo_06.svg" alt="Cover Image">
+                        </figure>
+                    </div>                                      <!-- END OF FIGURE            -->
+                    <!--<div class="pal-overline-index"></div>      <!-- Overline bar             -->
+                </div>                                          <!-- End of title             -->
+            </div>                                              <!-- End of title row         -->
+            
+
+            <div class="rg-row">
+                <div class="rg-col rg-span1-1">
+                    <div style="margin-top: rem;"></div>          <!-- Overline bar             -->
+                    <div class="cover-title">
+                        <h2 style="color: #4C6C9C; text-align: center;"><span class="all-caps">From first commit to expert user</h2>
+        <!-- Doc Title Lrg -->  <h3  style="color: #4C6C9C; margin-top: 0.5rem; text-align: center;"><span class="all-caps">Simple instructions for managing Git and GitHub with VS Code</span></h3>
+        
+                    </div>
+                </div>
+            </div>
+        
+<!-- ========================================================================== -->
+
+
+<!-- ************************************************************************** [WP FIXEDNAV]
+     FIXED NAVIGATION BAR CHANGEOVER POINT
+     ***********************************************************************-->
+     <div id="js--fixed-nav"></div>                          <!-- fixed navigation point   -->
+     <!-- ========================================================================== [WP END]      -->
+     
+
+<!-- ************************************************************************** [WP LEADIN]
+     HEADLINE   (SANS FONT)
+     ***********************************************************************-->
+     
+     <section class="section-std" id="js--000100">          <!-- Start of section         -->
+        <div class="rg-row" style="margin-top: 4rem">                  <!-- Start of subtitle row    -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+            <div class="rg-col rg-span1-5">
+                <img style="max-width:220px; border-radius: 10%" src="00-comres/11-resources/02-images/GitHub-logo.svg" alt="Cover Image">
+            </div>           <!-- Left column (not used)   -->
+
+            <div class="rg-col rg-span2-5">                 <!-- Start of subtitle column -->
+                <p class="nohyp sans" style="vertical-align: middle; hyphens: none;"><span class="all-caps" style="hyphens: none;">Learn how to use GitHub</span><br>
+                    The cloud-based platform used by software developers to store, share, and collaborate on software projects using Git. It acts as a central hub for managing code repositories, tracking changes, and facilitating team-based development. </p>
+            </div>                                          <!-- End of subtitle column   -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+        </div>                                              <!-- End of Subtitle row      -->
+
+        <div class="rg-row" style="margin-top: 4rem">                  <!-- Start of subtitle row    -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+
+            <div class="rg-col rg-span2-5">                 <!-- Start of subtitle column -->
+                <p class="nohyp sans" style="vertical-align: middle;"><span class="all-caps">Understand how it links to Git</span><br>
+                    The most popular distributed version control system for tracking changes in files. A crucial tool for collaborative software development and project management.</p>
+            </div>                                          <!-- End of subtitle column   -->
+            <div class="rg-col rg-span1-5">
+                <img style="max-width:220px; border-radius: 10%" src="00-comres/11-resources/02-images/git-logo.svg" alt="Cover Image">
+            </div>           <!-- Left column (not used)   -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+        </div>                                              <!-- End of Subtitle row      -->
+
+        <div class="rg-row" style="margin-top: 4rem">                  <!-- Start of subtitle row    -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+            <div class="rg-col rg-span1-5">
+                <img style="max-width:220px; border-radius: 10%" src="00-comres/11-resources/02-images/vscode-logo.svg" alt="Cover Image">
+            </div>           <!-- Left column (not used)   -->
+
+            <div class="rg-col rg-span2-5">                 <!-- Start of subtitle column -->
+                <p class="nohyp sans" style="vertical-align: middle;"><span class="all-caps">Manage it all with VSCode</span><br>
+                    The free, lightweight, versatile code text editor with cross-platform support for writing, editing, and debugging code. It is complete with syntax highlighting, code completion, debugging tools, and built-in Git integration. 
+                </p>
+            </div>                                          <!-- End of subtitle column   -->
+            <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+        </div>                                              <!-- End of Subtitle row      -->
+       
+
+
+
+    </section>                                              <!-- End of section           -->
+<!-- ========================================================================== [WP END]      -->
+
+
+
+
+
+
+
+     
+
+
+<!-- ************************************************************************** [WP TOC]
+     TABLE OF CONTENTS
+     ***********************************************************************-->
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      TOC - OVERLINE
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="rg-row sub-title-row" style="margin-bottom: 0">
+                <div class="rg-col rg-span1-5"></div>
+                <div class="rg-col rg-span3-5">
+<!-- Contents -->   <div class="title-contents" style="margin-top: 1rem"><h1>Full site contents</h1></div> 
+                </div>
+                <div class="rg-col rg-span1-5"></div>
+            </div>
+            
+
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      TOC AREA
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <div class="rg-row">                                <!-- Start of TOC section     -->
+                <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+                <div class="rg-col rg-span3-5">                 <!-- Start of TOC column      -->
+
+               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    TOC - INTRODUCING THE PAL
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                    <ul class="toc-line">
+<!-- Level 1 -->        <li><a class="js--sc-000100" href="index.html#js--000100">
+                               <div class="toc-lev"><span class="toc-lev1-num"></span><span class="toc-lev1-text">Practical Series Automation Library</span></div></a>
+                        </li>
+                    </ul>
+                    
+               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    TOC - A NOTE BY THE AUTHOR
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                    <ul class="toc-line">
+<!-- Level 1 -->        <li><a class="js--sc-000100a" href="index.html#js--000100a">
+                               <div class="toc-lev"><span class="toc-lev1lt-num"></span><span class="toc-lev1lt-text">A note by the author</span></div></a>
+                        </li>
+                    </ul>
+                    
+
+               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+               <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    TOC - 01 INTRODUCING THE PAL
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                    <ul class="toc-line">
+                        <!-- Level 1 -->        <li><a class="js--sc-010000" href="./11-web/01-00-introduction.html#js--000000">
+                                                       <div class="toc-lev"><span class="toc-lev1-num">1</span><span class="toc-lev1-text">Introducing the PAL</span></div></a>
+                                                </li>
+                                            </ul>
+                        
+                                            <ul class="toc-list">
+                        <!-- Level 2 -->        <li><a class="js--sc-010100" href="./11-web/01-00-introduction.html#js--010100">
+                                                    <div class="toc-lev"><span class="toc-lev2-num">1.1</span><span class="toc-lev2-text">The approach taken</span></div></a>
+                                                </li>
+                        <!-- Level 3 -->        <li><a class="js--sc-010101" href="./11-web/01-00-introduction.html#js--010101">
+                                                    <div class="toc-lev"><span class="toc-lev3-num">1.1.1</span><span class="toc-lev3-text">Application modules and the software structure</span></div></a>
+                                                </li>
+                        <!-- Level 3 -->        <li><a class="js--sc-010102" href="./11-web/01-00-introduction.html#js--010102">
+                                                    <div class="toc-lev"><span class="toc-lev3-num">1.1.2</span><span class="toc-lev3-text">The standard modules</span></div></a>
+                                                </li>
+                        <!-- Level 3 -->        <li><a class="js--sc-010103" href="./11-web/01-00-introduction.html#js--010103">
+                                                    <div class="toc-lev"><span class="toc-lev3-num">1.1.3</span><span class="toc-lev3-text">The user interface</span></div></a>
+                                                </li>
+                        <!-- Level 3 -->        <li><a class="js--sc-010104" href="./11-web/01-00-introduction.html#js--010104">
+                                                    <div class="toc-lev"><span class="toc-lev3-num">1.1.4</span><span class="toc-lev3-text">Templates and documentation modules</span></div></a>
+                                                </li>
+                                            
+                        <!-- Level 3 -->        <li><a class="js--sc-010104a" href="./11-web/01-00-introduction.html#js--010104a">
+                                                    <div class="toc-lev"><span class="toc-lev3-num"></span><span class="toc-lev3-text">Template modules</span></div></a>
+                                                </li>
+                        <!-- Level 3 -->        <li><a class="js--sc-010104b" href="./11-web/01-00-introduction.html#js--010104b">
+                                                    <div class="toc-lev"><span class="toc-lev3-num"></span><span class="toc-lev3-text">Documentation modules</span></div></a>
+                                                </li>
+                        <!-- Level 2 -->        <li><a class="js--sc-010200" href="./11-web/01-00-introduction.html#js--010200">
+                                                    <div class="toc-lev"><span class="toc-lev2-num">1.2</span><span class="toc-lev2-text">Background to the Projects</span></div></a>
+                        <!-- Level 2 -->        <li><a class="js--sc-010300" href="./11-web/01-00-introduction.html#js--010300">
+                                                    <div class="toc-lev"><span class="toc-lev2-num">1.3</span><span class="toc-lev2-text">Regulations and standards and validation</span></div></a>
+                        <!-- Level 3 -->        <li><a class="js--sc-010300a" href="./11-web/01-00-introduction.html#js--010300a">
+                                                    <div class="toc-lev"><span class="toc-lev3-num"></span><span class="toc-lev3-text">A note by the Author about validation</span></div></a>
+                                                </li>
+                                                <br class="toc-pad">  
+                                                <br class="toc-pad">                           
+                        <!-- TOC PADDING  -->       <br class="top-pad">
+                        <!-- TOC PADDING  -->       <br class="top-pad">
+                        <!-- TOC PADDING  -->       <br class="top-pad">
+                                                </li>
+                                            </ul>
+                                       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                        
+
+               <p class='hyp' style="margin: 1.5rem 0 0.7rem 0;"><span class='sans' style="font-size: 1.3rem; color: #4C6C9C;">Project documentation and software</span></p>
+
+                <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                TOC - TOP LEVEL
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                <ul class="toc-list">
+<!-- Level 1 -->  <li><a href="21-project/01-00-docs.html">
+                    <div class="toc-lev"><span class="toc-lev1-num"></span><span class="toc-lev1-text">Project document archive</span></div></a>
+                </li>
+<!-- Level 1 -->        <li><a href="31-git/81-00-archive.html">
+                    <div class="toc-lev"><span class="toc-lev1-num"></span><span class="toc-lev1-text">Software archive</span></div></a>
+                </li>
+            </ul>
+                <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                   
+
+                </div>                                          <!-- End of TOC column        -->
+                <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+            </div>                                              <!-- End of TOC section       -->
+<!-- ========================================================================== [WP END]      -->
+
+
+        </header>                                               <!-- End of header            -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP LEADIN]
+     HEADLINE   (SANS FONT)
+     ***********************************************************************-->
+
+        <section class="section-std" id="js--000100">          <!-- Start of section         -->
+            <div class="rg-row sub-title-row">                  <!-- Start of subtitle row    -->
+                <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+                <div class="rg-col rg-span3-5">                 <!-- Start of subtitle column -->
+                    <div class="sub-title-thinline"></div>      <!-- Thin overline            -->
+                    <div class="sub-title-num-box"></div>
+                </div>                                          <!-- End of subtitle column   -->
+                <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+            </div>                                              <!-- End of Subtitle row      -->
+
+            <div class="rg-row">                                <!-- Start of section content -->
+                <div class="rg-col rg-span1-5">                 <!-- Start of left column     -->
+                    <aside class="aside-head">                  <!-- Start of left side bar   -->
+<!---                        <h2>Introducing the PAL</h2>                                     -->
+                    </aside>                                    <!-- End of left side bar     -->
+                <!--     <aside class="aside-left">                  Start of left side bar   -->
+                <!--         <p></p>                                 Side bar content         -->
+                <!--     </aside>                                    End of left side bar     -->
+                </div>                                          <!-- End of left column       -->
+
+                <div class="rg-col rg-span3-5">                 <!-- Start of section text    -->
+
+                    <p class="hyp sans"><span class="all-caps">The Practical  Series  Automation Library</span> &mdash;  The PAL.</p>
+
+                    <p class="hyp"><span class="all-caps"></span>THIS IS THE</span> Practical Series Automation Library of software modules website.</p>
+
+                    <p class="hyp">The Practical Series Automation Library <em>(PAL)</em> is a library of software modules and templates that have been developed for the Siemens Simatic S7-1500 range of controllers (and to a lesser extent the S7-1200 range).</p>
+
+                    <p class="hyp">The full library and all necessary documentation are available from within this, the Practical Series Automation Library (PAL) website and is freely available to anyone who wants it to use it.</p>
+
+                    <p class="hyp">The PAL software structure is such that it is applicable to virtually all industrial applications that can be controlled by a programmable logic controller (PLC)<sup>&dagger;</sup>.</p>
+
+                    <p class="hyp">The PAL contains fully deployable software that has been developed by the author in his professional capacity as a chartered electrical engineer. It is currently in use on various live plants throughout the UK and in some other parts of the world.</p>
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    TABLE - FOOTNOTE
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                    <table class='table-fnote' id='js--fnfNoteID'>
+                        <tr>
+                            <th class='table-cent fnote-top' style='width: 10%'></th>
+                            <th class='table-left fnote-top' style='width: 10%'></th>
+                            <th class='table-left fnote-top' style='width: 20%'></th>
+                            <th class='table-left' style='width: 60%'></th>
+                        </tr>
+                        <tr>
+                    <!-- Footnote number -->    <td class='table-left'><em>&dagger;</em></td>
+                    <!-- Footnote text below --><td class='table-left'></td>
+                            <td colspan='2' class='table-left'>The Siemens Simatic S7-1500 and S7-1200 range of Controllers are, what would be generally referred to as, program logic controllers (PLCs). Controller is simply the common term used within Siemens literature for this type of device. For clarity, where a Siemens Controller is being referred to, the word Controller is capitalised (to indicate it is a Siemens Controller, rather than some non-specific controlling device).</td>
+                        </tr>
+                    </table>
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">In general terms, the PAL software is considered to be suitable for use in the following types of industries (this is not an exhaustive list):</p>
+
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                          UNNUMBERED LIST
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                        <ul class='list-no-num'>                    <!-- Start of unnumbered list -->
+                                            <li><p class='hyp'>Water and waste water treatment</p></li>
+                    
+                                            <li><p class='hyp'>Pharmaceutical and batch production</p></li>
+                    
+                                            <li><p class='hyp'>Brewing and fermentation</p></li>
+                    
+                                            <li><p class='hyp'>Chemical manufacturing</p></li>
+                    
+                                            <li><p class='hyp'>Oil and gas systems</p></li>
+                    
+                                            <li><p class='hyp'>Food and beverage production</p></li>
+                    
+                                            <li><p class='hyp'>Material handling</p></li>
+                                        </ul>                                       <!-- End of unnumbered list   -->
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">The software is written to very high standards; these are the standards needed to deploy the software in pharmaceutical environments. It is, in the engineering terminology, a <em>validated</em> system (meeting the requirement of <em>&ldquo;good manufacturing practice&rdquo;)</em>. I explain all about validation in further sections (see here <a class='hlink utx' href='lnkpage.html#js--lnkID'>Section&nbsp;secNo</a>).</p>
+
+                    <p class="hyp">For those of you familiar with validated systems, the software within the PAL was developed under a fully validated project with all the necessary documentation that goes with such a process <em>(validation plans, test plans, user requirement specification, functional specifications &amp;c.)</em> and I&rsquo;ve made all this documentation available too. You can see a full list here: <a class='hlink ' href='../21-project/01-00-docs.html'>Project Documents</a></p>
+
+                    <p class="hyp" align="center"><span class="notice">If you don&rsquo;t understand the software, don&rsquo;t use it.<br>If you do use it, you do so at your own risk.</span></p>
+
+                    <p class="hyp">The software <em>(including this website, which is also software, albeit in a different form)</em> is all stored in version control repositories and are available from the GitHub website here: <a class='hlink' href='https://github.com/practicalseries/PS2001-pal-software'>(PAL Software)</a> and here: <a class='hlink' href='https://github.com/practicalseries/PS2001-pal-website'>(PAL Website)</a> </p>
+
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                          NOTE - HANGING INDENT
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                        <ul class='note'>                           <!-- Start of note            -->
+                                            <li>These repositories can be quite complicated&nbsp;&mdash;&nbsp;particularly if you are not familiar with (the very badly named) Git, its terminology and its old-fashioned command line interface (I refer you to my own site that discusses Git and its various peccadillos  <a class='hlink' href='https://www.practicalseries.com/1002-vcs/index.html'>here</a>).</li>
+                                        </ul>                                       <!-- End of note              -->
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">The repositories are all public and you can access and copy them <em>(fork in the terminology of Git)</em> to your hearts content.</p>
+
+                    <p class="hyp">To summarise, there are basically three components to the website:</p>
+
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                          NUMBERED LIST
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                        <ol class='list-num'>                       <!-- Start of numbered list   -->
+                                            <li><p class='hyp'>The PAL software itself <em>(the library)</em> <a class='hlink' href='../31-git/81-00-archive.html'>PAL Software</a></p></li>
+                    
+                                            <li><p class='hyp'>The associated <a class='hlink ' href='../21-project/01-00-docs.html'>PAL documentation</a></p></li>
+                    
+                                            <li><p class='hyp'>The Git repositories <a class='hlink' href='https://github.com/practicalseries/PS2001-pal-software'>(Software)</a> and <a class='hlink' href='https://github.com/practicalseries/PS2001-pal-website'>(Website)</a></p></li>
+                                        </ol>                                       <!-- End of numbered list     -->
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">There is unfortunately a fifth component&nbsp;&mdash;&nbsp;<em>my sense of humour</em>. I can only apologise in advance. Engineers <em>(particularly English ones)</em> tend to have a dark sense of humour; we deploy it as a robust and vigorous defence mechanism <em>(what others might call cruel and unusual punishment)</em>. I&rsquo;ve noticed similar traits in the police, armed forces and doctors.</p>
+
+                </div>                                          <!-- End of section text      -->
+
+                <div class="rg-col rg-span1-5">                 <!-- Start of right column    -->
+                <!--     <aside class="aside-right">                 Start of right side bar  -->
+                <!--         <p></p>                                 Side bar content         -->
+                <!--     </aside>                                    End of left side bar     -->
+                </div>                                          <!-- End of right column      -->
+            </div>                                              <!-- End of section content   -->
+        </section>                                              <!-- End of section           -->
+<!-- ========================================================================== [WP END]      -->
+
+
+
+
+<!-- ************************************************************************** [WP LEADIN]
+     SECTION START - AUTHOR'S NOTE
+     ***********************************************************************-->
+
+        <section class="section-std" id="js--000100a">           <!-- Start of section         -->
+            <div class="rg-row sub-title-row">                  <!-- Start of subtitle row    -->
+                <div class="rg-col rg-span1-5"></div>           <!-- Left column (not used)   -->
+                <div class="rg-col rg-span3-5">                 <!-- Start of subtitle column -->
+                    <div class="sub-title-thinline"></div>      <!-- Thin overline            -->
+                    <div class="sub-title-num-box"><h6>Placeholder</h6></div>
+                </div>                                          <!-- End of subtitle column   -->
+                <div class="rg-col rg-span1-5"></div>           <!-- Right column (not used)  -->
+            </div>                                              <!-- End of Subtitle row      -->
+
+
+            <div class="rg-row">                                <!-- Start of section content -->
+                <div class="rg-col rg-span1-5">                 <!-- Start of left column     -->
+                    <aside class="aside-head">                  <!-- Start of left side bar   -->
+                        <h2>a note by the author</h2>
+                    </aside>                                    <!-- End of left side bar     -->
+                </div>                                          <!-- End of left column       -->
+
+                <div class="rg-col rg-span3-5 section-text">    <!-- Start of section text    -->
+
+                    <p class="hyp"><span class="all-caps">I am by profession</span>, a chartered electrical engineer, <em>a bored one</em>, and I programme PLCs for a living. I&rsquo;ve been doing it for years, <em>many, many years</em>&nbsp;&mdash;&nbsp;and, to be honest, I&rsquo;m not entirely sure I want to do it anymore. Engineering is a fairly thankless task and is, by and large, an unrecognised profession in England&nbsp;&mdash;&nbsp;although it does pay fairly well. Engineering is also a dying profession <em>(at least in this country)</em>, nobody studies it at university anymore.</p>
+
+                    <p class="hyp">For anyone who doesn&rsquo;t know what a PLC is, it&rsquo;s a <em>Programmable Logic Controller</em>, or where Siemens are concerned, just a <em>Controller</em>, and they pretty much control just about every automated process in the world, from rollercoasters to water treatment plants; brewing, baggage handling, power stations, car production lines, traffic lights, chemical plants, I&rsquo;d be willing to bet there is a couple on the space-station; I&rsquo;ve even seen one play I&rsquo;m forever blowing bubbles on a trombone it had an air compressor connected to the mouthpiece and a three phase motor driving the slide <em>(engineering at its finest)</em>. If it&rsquo;s got an electrical panel, it&rsquo;s a fair bet it&rsquo;s got a PLC inside it somewhere.</p>
+
+                    <p class="hyp">PLCs were invented in 1968 <em>(I was just two, so I didn&rsquo;t have a lot to do with it in those days)</em> by Richard <em>&ldquo;Dick&rdquo;</em> Morley, the founder of Modicon, he called it the Modicon 084 (the number reflects the number of the project, it was the 84th project&nbsp;&mdash;&nbsp;<em>Engineers are never lacking for imaginative names)</em>, here they are, Dick is on the left and the PLC in the middle. I&rsquo;ve added a pencil to give a sense of scale.</p>
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                         LIGHTBOX FIGURE - SINGLE FIGURE FULL PAGE WIDTH (748 px)
+                            To limit the image width add style='max-width: xxxpx' before src=
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                        <div class='fig-row'>
+                    <!-- Image -->          <figure class='fig-col fig1-1' id='js--ffig01'>
+                                                <a href='11-web/01-pages/00-00-index/02-images/figm-01.jpg' data-lightbox='fig-set' data-title='Figure 1 - Richard E. Morley and friends with the Modicon 084'>
+                                                    <img src='11-web/01-pages/00-00-index/02-images/figm-01.jpg' alt='Figure 1 - Richard E. Morley and friends with the Modicon 084'>
+                                                </a>
+                                                <figcaption>Figure 1 &emsp; Richard E. Morley and friends with the Modicon 084</figcaption>
+                                            </figure>
+                                        </div>
+                    <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">I&rsquo;ve worked with PLCs in one form or another since I left university in the 1980s, <em>although not, I&rsquo;m sorry to say, the Modicon 084</em>.</p>
+
+                    <p class="hyp">The first one I worked with was the Siemens S5-135U, it looked like this:</p>
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                         LIGHTBOX FIGURE - SINGLE FIGURE FULL PAGE WIDTH (748 px)
+                            To limit the image width add style='max-width: xxxpx' before src=
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                         <div class='fig-row'>
+                            <!-- Image -->          <figure class='fig-col fig1-1' id='js--ffig02'>
+                                                        <a href='11-web/01-pages/00-00-index/02-images/figm-02.png' data-lightbox='fig-set' data-title='Figure 2 - Siemens S5-135U'>
+                                                            <img style='max-width: 590px' src='11-web/01-pages/00-00-index/02-images/figm-02.png' alt='Figure 2 - S5-135U'>
+                                                        </a>
+                                                        <figcaption>Figure 2 &emsp; Here&rsquo;s one I made earlier&nbsp;&mdash;&nbsp;the pencil gives its scale</figcaption>
+                                                    </figure>
+                                                </div>
+                            <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        
+                    <p class="hyp">It was 20 years later than the Modicon 084, but you can tell it&rsquo;s the same sort of thing (it was big and heavy, again the pencil gives a sense of scale).</p>
+
+                    <p class="hyp">And just in case you were wondering about me, here I am; standing up, third from the left, this was my first proper job just after I&rsquo;d graduated from university, it was 1988, Margaret Thatcher was our Prime Minster and I was working for the National Nuclear Corporation with some of the cleverest people I&rsquo;ve ever met <em>(not that they were necessarily with me in this picture):</em></p>
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                         LIGHTBOX FIGURE - SINGLE FIGURE FULL PAGE WIDTH (748 px)
+                            To limit the image width add style='max-width: xxxpx' before src=
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                         <div class='fig-row'>
+                            <!-- Image -->          <figure class='fig-col fig1-1' id='js--ffig03'>
+                                                        <a href='11-web/01-pages/00-00-index/02-images/figm-03.png' data-lightbox='fig-set' data-title='Figure 3 - The author in 1988, third from the left'>
+                                                            <img src='11-web/01-pages/00-00-index/02-images/figm-03.png' alt='Figure 3 - The author in 1988, third from the left'>
+                                                        </a>
+                                                        <figcaption>Figure 3 &emsp; The author in 1988, third from the left (the pencil is still to scale)</figcaption>
+                                                    </figure>
+                                                </div>
+                            <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">At the time we were working on a project called the European, Tritium Handling, Experimental Laboratory <em>(Ethel for short)</em> and it used S5-135U PLCs.</p>
+
+                    <p class="hyp">After a few years I had progressed to working directly for Siemens and started working with the S5-135U&rsquo;s big brother the S5-155U (it looked virtually the same, but supported redundant processors). We were developing a system of X-Rays scanners to find bombs in airport baggage (it was after <a class='xref utx' href='https://www.fbi.gov/history/famous-cases/pan-am-103-bombing'>Lockerbie</a>).</p>
+
+                    <p class="hyp">This is what we looked like back then, 1996 (the photo was taken on the roof of Gatwick airport&nbsp;&mdash;&nbsp;<em>not sure what happened to the pilots who parked their planes there):</em></p>
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                         LIGHTBOX FIGURE - SINGLE FIGURE FULL PAGE WIDTH (748 px)
+                            To limit the image width add style='max-width: xxxpx' before src=
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                         <div class='fig-row'>
+                            <!-- Image -->          <figure class='fig-col fig1-1' id='js--ffig04'>
+                                                        <a href='11-web/01-pages/00-00-index/02-images/figm-04.jpg' data-lightbox='fig-set' data-title='Figure 4 - TThe Author, second from the left'>
+                                                            <img src='11-web/01-pages/00-00-index/02-images/figm-04.jpg' alt='Figure 4 - The Author, second from the left'>
+                                                        </a>
+                                                        <figcaption>Figure 4 &emsp; The Author, second from the left — Number 3 (sorry, no pencil this time)</figcaption>
+                                                    </figure>
+                                                </div>
+                            <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <p class="hyp">The lady in the middle <em>(no 6 in the convict line-up)</em>, Jane, later became my wife <em>(well, second wife, but she was definitely a good one)</em>.</p>
+
+                    <p class="hyp">If you&rsquo;re wondering what the significance of 93671 is, I can&rsquo;t remember. I rang some of the other people and they couldn&rsquo;t remember either <em>(the best guess was that it was the number of slaves Siemens had working for them under the Nazi…</em>  <span class='emph'>No, stop, stop, stop, don&rsquo;t go there!).</span></p>
+
+                    <p class="hyp">Anyway, back to PLCs, these are built in colour nowadays, and they&rsquo;re a bit smaller <em>(it&rsquo;s the same pencil, a Staedtler No.2 HB, if you are wondering, and is still to scale):</em></p>
+
+                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                         LIGHTBOX FIGURE - SINGLE FIGURE FULL PAGE WIDTH (748 px)
+                            To limit the image width add style='max-width: xxxpx' before src=
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                         <div class='fig-row'>
+                            <!-- Image -->          <figure class='fig-col fig1-1' id='js--ffig05'>
+                                                        <a href='11-web/01-pages/00-00-index/02-images/figm-05.png' data-lightbox='fig-set' data-title='Figure 5 - Modern PLC'>
+                                                            <img src='11-web/01-pages/00-00-index/02-images/figm-05.png' alt='Figure 5 - Modern PLC'>
+                                                        </a>
+                                                        <figcaption>Figure 5 &emsp; Modern PLCs (this one’s shorter than a pencil)</figcaption>
+                                                    </figure>
+                                                </div>
+                            <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                            <p class="hyp">So here I am a bored engineer, wondering what to do with the rest of my life <em>(I&rsquo;m thinking pig farming might be good).</em></p>
+
+                            <p class="hyp">Some years ago I started a small website with the intention of writing a few obscure engineering texts in the form of web based books that might have been useful to other engineers; needless to say I got distracted and ended up writing about HTML, CSS and how to make good websites; I also wrote at excruciating length about a version control system called, would you believe it, Git, <em>(I also devoted some of the time to taking the piss out of people who use Linux&mdash; bit unfair perhaps, they&rsquo;re such an easy target).</em></p>
+        
+                            <p class="hyp">And I enjoyed it, it fired my flagging enthusiasm; I&rsquo;ve always like writing, which is unusual for an engineer&nbsp;&mdash;&nbsp;engineers as a rule do not like writing, they view it as a chore, an inconvenience. They use unnecessary apostrophes, have an indiscriminate view of punctuation <em>(which they consider to be largely superfluous)</em>, and a have a concept of grammar that starts with assembler language (it could be worse, it could be salesmen or project managers with their inappropriate personal pronouns, all that <em>&ldquo;how are your good selves&rdquo;</em> and their usual bollocks). But I like writing and I&rsquo;m old enough and went to the type of school where they taught you to do it properly.</p>
+        
+                            <p class="hyp">Taking stock, I realised that, over the years, I have written quite a lot of software for PLCs and even have a library of software modules that I developed and have used on various projects. </p>
+        
+                            <p class="hyp">This library is a set of fully deployable software modules that is suitable for the control of most industrial process applications; it is the same software I use in my day job as an engineer. </p>
+        
+                            <p class="hyp">It is currently in use on various live plants throughout the UK and in some other parts of the world and I have made a living charging people money to use it.</p>
+
+                            <p class="hyp"><span class='emph'>I am now making this software available to the you, dear reader, and to the world at large. I&rsquo;m also going to explain (in excruciating detail) how it works, and why, from an engineering perspective, it is configured as it is.</span></p>
+        
+                            <p class="hyp"><em>&ldquo;Why am I doing this?&rdquo;</em> you ask.</p>
+        
+                            <p class="hyp">Well, it&rsquo;s partly philanthropy, but it is also the fact that I should have written this stuff down years ago, and now I&rsquo;ve started, I&rsquo;m finding the process quite enjoyable and cathartic &mdash;and since engineering is a dying profession in England, I&rsquo;ve decided to share my knowledge with anyone to whom it may be of interest.</p>
+        
+                            <p class="hyp">I&rsquo;m also getting old, and before I sink into my dotage and start dribbling into my porridge, I&rsquo;ve decided to give something back; I&rsquo;m passing on my knowledge and experience to the next generation of engineers <em>(if there is one).</em></p>
+        
+                            <p class="hyp">So you are free to use the software described here (you can even download my library of modules without doing any work at all)&mdash;yes, it is my software, yes, I own it, but I&rsquo;m not going to sue anyone who uses it&mdash;<em>fill your boots</em>&mdash;I ask only that you are kind enough to credit me in your software (and if you find it useful, to possibly make a donation).</p>
+
+                            <p class="hyp">Bear in mind this is proper industrial software and has a degree of practical complexity appropriate for the environments within which it is deployed&mdash;this is not the simple <em>&ldquo;open a valve and fill a tank&rdquo;</em> software you find on PLC training courses&mdash;this is the real thing, it is proper engineering software, written by a proper engineer and to proper engineering standards. <em>Use it wisely young Skywalker.</em></p>
+
+                            <div class="flourish"></div>                <!-- paragraph break with flourish -->
+        
+                            <p class="hyp">I&rsquo;m going to do one other thing, I&rsquo;m going to do this as a formal engineering project written and developed to the highest engineering standards, in the engineering lingo, it is a <em>GxP project</em> (GxP means good … <em>something</em> … practice, where the <em>x</em> stands for various things, manufacturing, distribution, engineering, cricketing &amp;c.&nbsp;&mdash;&nbsp;<em>sorry, not cricketing, just joking)</em>. </p>
+        
+                            <p class="hyp">GxP projects comply with the standards and regulations required for pharmaceutical or medical applications and are generally the most rigorous standards used for PLC applications (what we will officially call <em>&ldquo;control systems&rdquo;)</em>. The rigour is evident in the level of documentation, testing and software control required.</p>
+        
+                            <p class="hyp">This is a GxP level project, the documents are the normal documents required by such a project and they are written to a high standard, I freely issue these documents as part of the library and they are a good template for all control system engineering projects. If you want to know how to write a User Requirement Specification, a Test Plan, or any of the other <em>(many, many)</em> engineering documents that go with a GxP project and what should be in them, read on to the validation section <a class='hlink utx' href='lnkpage.html#js--lnkID'>Section&nbsp;secNo</a>.</p>
+        
+                            <p class="hyp">To avoid any confusion <em>(and, if I&rsquo;m being honest, to avoid any liability)</em> I&rsquo;m making this software and all the associated documentation available under the MIT Open-Source licence. The MIT licence is a &ldquo;permissive&rdquo; licence; it is what most people think of when they think about open-source software. The licence is easy to comply with; essentially, you or your organisation need only reproduce the MIT licence and copyright notice, when using the software. Otherwise, you may do as you wish with the code, including modifying it, adding it to your software or just selling it. You must however, include the copyright notice.</p>
+
+                            <p class="hyp">I&rsquo;ve included the licence <em>(and an explanation of why I chose this licence)</em> <a class='hlink' href='https://github.com/practicalseries/PS2001-pal-software/blob/master/LICENCE.md'>here</a>.</p>
+        
+                    <p class="hyp">Michael Gledhill<br>Chester&mdash;February 2025</p>
+
+                </div>                                          <!-- End of section text      -->
+
+                <div class="rg-col rg-span1-5">                 <!-- Start of right column    -->
+                <!--     <aside class="aside-left">                  Start of left side bar   -->
+                <!--         <p></p>                                 Side bar content         -->
+                <!--     </aside>                                    End of left side bar     -->
+                </div>                                          <!-- End of right column      -->
+            </div>                                              <!-- End of section content   -->
+        </section>                                              <!-- End of section           -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP LAST]
+     SECTION - LAST SECTION BEFORE FOOTER (WITH NAVIGATION)
+     ***********************************************************************-->
+
+        <p> <br class="toc-pad"></p>
+        <p> <br class="toc-pad"></p>
+        <div class="section-std" id="js--999901">               <!-- Start of additional row  -->
+            <div class="rg-row">                                <!-- Start of row content     -->
+                <div class="rg-col rg-span1-5">                 <!-- Start of left column     -->
+                </div>                                          <!-- End of left column       -->
+
+                <div class="rg-col rg-span3-5 aside-nav">       <!-- Start of end image area  -->
+                    <img src="00-comres/11-resources/01-css/01-css-images/end-mark.svg" alt="End flourish image">
+                </div>                                          <!-- End of section text area -->
+
+                <div class="rg-col rg-span1-5">                 <!-- Start of right column    -->
+                </div>                                          <!-- End of right column      -->
+            </div>                                              <!-- End of row content       -->
+        </div>                                                  <!-- End of additional row    -->
+<!-- ========================================================================== [WP END]      -->
+
+
+<!-- ************************************************************************** [WP FOOTER]
+     FOOTER
+     ***********************************************************************-->
+        <footer class="footer">                                 <!-- Start of footer          -->
+            <ul class="footer-nav">                             <!-- Start of footer nav      -->
+                <li><a class="js--sc-000000" href="#"><span class="top-nav-icon" style="color:#5b7daf">t</span>Top</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800100">Contact MG</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800200">Acknowledgments</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800300">Colophon</a><span class="footer-spacer">&#x25C7;</span></li>
+                <li><a href="11-web/80-00-finally.html#js--800400">Legal &amp; Privacy</a></li>
+            </ul>                                               <!-- End of footer nav        -->
+
+            <ul class="social-links">
+ <!--            <li><a href="https://www.facebook.com/practicalseries"><i id="js--fbicon" class="ion-social-facebook-outline"></i></a></li>
+                <li><a href="https://twitter.com/practicalseries"><i id="js--twicon" class="ion-social-twitter-outline"></i></a></li> -->
+            </ul>
+        </footer>                                               <!-- End of footer            -->
+<!-- ========================================================================== [WP END]      -->
+
+    </body>
+</html>
