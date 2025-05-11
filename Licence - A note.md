@@ -42,7 +42,7 @@ Now, I’m letting you and everyone else use my website and all it contains, and
 
 There are software licences that cover this sort of thing, they are generally called *open source* licences and there is an awful lot of them, you can see a list of them [here](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses).
 
-I ignored most of these licences (after a bit of research), some are just variations of others with silly terms added *“The Software shall be used for Good, not Evil.”* JSON I’m looking at you here (how do you enforce this, who decides what’s Good &mdash; presumably at some point Germany thought it was a *good thing* to invade Poland). Others are not very widely used and consequently have not been tested in court. There seem to be five main ones:
+I ignored most of these licences *(after a bit of research)*, some are just variations of others with silly terms added *“The Software shall be used for Good, not Evil.”* JSON I’m looking at you here (how do you enforce this, who decides what’s Good &mdash; presumably at some point Germany thought it was a *good thing* to invade Poland). Others are not very widely used and consequently have not been tested in court. There seem to be five main ones:
 
 * MIT licence (Massachusetts Institute of Technology)
 * Apache (Apache Software Foundation)
@@ -82,7 +82,7 @@ This is a bit of a problem for me, let me give you an example, let say I produce
 
 It’s even worse, if you already have an existing software project (it could be absolutely massive) and you use any of my “U-Can’t-Bend-It” software (perhaps to provide a particular interface), then, under the terms of the GPL licence, your whole programme is considered a derivative work and it must be released under the same GPL licence.
 
-The LGPL (lesser GPL) has been introduce to address this particular problem (although bizarrely, the FSF website seems to discourage its use, see [here](https://www.gnu.org/licenses/why-not-lgpl.en.html)); the LPGL allows the use of library software in proprietary programmes (programmes for which you can charge).
+The LGPL (lesser GPL) has been introduce to address this particular problem (although bizarrely, the FSF website seems to discourage its use, see [here](https://www.gnu.org/licenses/why-not-lgpl.en.html)); the LGPL allows the use of library software in proprietary programmes (programmes for which you can charge).
 
 **[:arrow_up: Top](#idtop)**<!-- END OF SECTION - LINK TO TOP🔽🔽(BLANK LINE ABOVE) -->
 <HR>                        <!-- END OF SECTION - SEPARATING LINE                    -->
@@ -90,7 +90,7 @@ The LGPL (lesser GPL) has been introduce to address this particular problem (alt
 
 ### <!--     🟥H3🟥-->Limiting liabilities
 
-The other thing for me to consider, is the question of liability. I do not want to be liable for any problem you may encounter when using this software.
+The other thing for me to consider, is the question of liability. I do not want to be liable for any problem you may encounter when using or relying on anything in this website.
 
 Open source software licences (I’m including the GPL licences in this broad definition &mdash; *it will probably annoy them*) generally limit the liability of those providing the software to zero; this is exactly the same amount that those providing the software get paid &mdash; NOTHING.
 
