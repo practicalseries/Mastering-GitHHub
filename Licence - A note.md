@@ -136,7 +136,7 @@ Oh, yes, the final point: __don’t sue me if it all goes tits up__.
 
 Licence or license? I’m English so I think licen**ce** is a noun and licen**se** is a verb: James Bond is licen**se**d to kill, so he has a killing licen**ce**. Americans, use license as both the noun and the verb *(of course they do)*. 
 
-Generally, I use the proper English spelling throughout the documentation in this project; I differ only when I’m using a literal explanation of something on a screen, or something being installed &c. and it’s important to clearly show exactly what the user will see.
+Generally, I use the proper English spelling throughout the documentation in this project; I differ only when I’m using a literal explanation of something on a screen, something being installed, or a filename &c. and it’s important to clearly show exactly what the user will see.
 <br><br>             <!-- END OF PAGE - PADDING🔽🔽(NO BLANK LINE ABOVE) -->
 <hr>                 <!-- END OF PAGE - SEPARATING LINE                   -->
 <a name="idend"></a><!-- END OF PAGE – MARKER  🔼🔼                      -->
