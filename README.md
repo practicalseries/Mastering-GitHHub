@@ -28,7 +28,7 @@ The entire website contents are available as a pdf *(in short a book)* here:
                         </td>
                         <td width="600">
 <h2>Learn how to use GitHub</h2>
-<p>GitHub is a cloud-based platform used by software developers to store, share, and collaborate on software projects using Git. It acts as a central hub for managing code repositories, tracking changes, and facilitating collaboration  .</p>
+<p>[GitHub](https://GitHub.com/) is a cloud-based platform used by software developers to store, share, and collaborate on software projects using Git. It acts as a central hub for managing code repositories, tracking changes, and facilitating collaboration  .</p>
 
 <p>GitHub is the platform of choice for version controlled software development. This website will take you through everything you need to know about GitHub.</p>                        
                         </td>
@@ -41,7 +41,7 @@ The entire website contents are available as a pdf *(in short a book)* here:
 <!-- Figure row --> <tr>
                         <td width="600">
 <h2>Understand how it links to Git</h2>
-<p>Git is the most popular distributed version control system for tracking changes in files. A crucial tool for collaborative software development and project management.</p>
+<p>[Git](https://git-scm.com/) is the most popular distributed version control system for tracking changes in files. A crucial tool for collaborative software development and project management.</p>
 
 <p>Git is the engine behind GitHub. It is a fundemental component that underlies all GitHub repositories and their local copies.</p>                        
                         </td>
@@ -60,7 +60,7 @@ The entire website contents are available as a pdf *(in short a book)* here:
                         </td>
                         <td width="600">
 <h2>Manage it all with VSCode</h2>
-<p>VS Code is a free, lightweight, versatile code text editor with cross-platform support for writing, editing, and debugging code. It is complete with syntax highlighting, code completion and debugging tools.</p>
+<p>[Visual Studio Code](https://code.visualstudio.com/) is a free, lightweight, versatile code text editor with cross-platform support for writing, editing, and debugging code. It is complete with syntax highlighting, code completion and debugging tools.</p>
 
 <p>VS Code is built to work with Git and GitHub. It has a graphical user interface that simplifies interactions with Git and effortlessly manages local and remote repositories.</p>                        
                         </td>
@@ -87,7 +87,7 @@ The entire website contents are available as a pdf *(in short a book)* here:
 
 # What's this site about?
 
-This is a complete guide to using [GitHub](https://GitHub.com/)GitHub and its annoying, provincial, command line cousin, [Git](https://git-scm.com/) *(the one that nobody likes or understands)*.
+This is a complete guide to using [GitHub](https://GitHub.com/) and its annoying, provincial, command line cousin, [Git](https://git-scm.com/) *(the one that nobody likes or understands)*.
 
 GitHub is the online version of Git and both are version control systems for software (websites, applications, programming, documentation, &c. pretty much anything you can develop on a computer). 
 
