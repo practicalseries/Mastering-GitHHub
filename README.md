@@ -13,7 +13,7 @@
                         </td>
                         <td width="600">
 <h2>Learn how to use GitHub</h2>
-<p>GitHub is a cloud-based platform used by software developers to store, share, and collaborate on software projects using Git. It acts as a central hub for managing code repositories, tracking changes, and facilitating team-based development.</p>
+<p>GitHub is a cloud-based platform used by software developers to store, share, and collaborate on software projects using Git. It acts as a central hub for managing code repositories, tracking changes, and facilitating collaboration  .</p>
 
 <p>GitHub is the platform of choice for version controlled software development. This website will take you through everything you need to know about GitHub.</p>                        
                         </td>
