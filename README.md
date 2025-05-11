@@ -9,7 +9,7 @@ A complete website that teaches you how to use Git and GitHub and manage the who
 
 From first commit to expert, your easy guide to understanding Git and GitHub with VS Code.
 
-The website is available here: 
+The website is available here: <a href="https://masteringgithub.com"><img height="30px" src="https://img.shields.io/badge/Mastering_GitHub-1F883D"></a>
 
 <p align="left"><a href="https://masteringgithub.com"><img height="30px" src="https://img.shields.io/badge/Mastering_GitHub-1F883D"></a></p>
 
