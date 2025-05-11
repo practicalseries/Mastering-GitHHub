@@ -4,6 +4,16 @@
 <!-- PAL LOGO AND WEB ID END-->
 
 # Mastering GitHub 
+
+A complete website that teaches you how to use Git and GitHub and manage the whole thing with Visual Studio Code.
+
+From first commit to expert, your easy guide to understanding Git and GitHub with VS Code.
+
+The website is available here: 
+
+<p align="left"><a href="https://masteringgithub.com/"><img height="30" src="https://img.shields.io/badge/
+Mastering_GitHub-1F883D"></a></p>
+
 <br><br>
 
 <table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
