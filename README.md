@@ -4,7 +4,7 @@
 <!-- PAL LOGO AND WEB ID END-->
 
 # Mastering GitHub 
-<br><br><br>
+<br><br>
 
 <table align="center"><!-- DBL FIGURE START             🔽🔽(BLANK LINE ABOVE) -->
 <!-- Figure row --> <tr>
@@ -51,3 +51,5 @@
                         </td>
                     </tr>
 </table>                             <!-- DBL FIGURE END🔼🔼(BLANK LINE BELOW) -->
+
+<br><br>
