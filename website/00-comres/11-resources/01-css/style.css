@@ -838,6 +838,17 @@ a:active { color: #404030; }
     color: #404030
 }
 
+.title-text-lrg {                            /* container for large number */
+    /*display: inline-block;*/
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-family: "conc-t2-r";
+    font-feature-settings: "ss02";
+    font-size: 500%;
+    color: #404030;
+}
+
 .title-contents {                           /* container for heading text */
     /*display: inline-block;*/
     float: left;
@@ -866,22 +877,22 @@ a:active { color: #404030; }
    ------------------------------------------------------------------------- */
 
 @media all {.title-num-box { font-size: 500%; } .title-text-box { font-size: 190%; }}
-@media all and (max-width:1276px) {.title-num-box { font-size: 500%; } .title-text-box { font-size: 190%; }}
-@media all and (max-width:1240px) {.title-num-box { font-size: 488%; } .title-text-box { font-size: 185%; }}
-@media all and (max-width:1200px) {.title-num-box { font-size: 470%; } .title-text-box { font-size: 179%; }}
-@media all and (max-width:1160px) {.title-num-box { font-size: 452%; } .title-text-box { font-size: 172%; }}
-@media all and (max-width:1120px) {.title-num-box { font-size: 438%; } .title-text-box { font-size: 167%; }}
-@media all and (max-width:1080px) {.title-num-box { font-size: 420%; } .title-text-box { font-size: 160%; }}
-@media all and (max-width:1040px) {.title-num-box { font-size: 406%; } .title-text-box { font-size: 154%; }}
-@media all and (max-width:1000px) {.title-num-box { font-size: 390%; } .title-text-box { font-size: 148%; }}
-@media all and (max-width:960px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:920px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:880px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:840px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:800px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:760px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:720px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:680px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:1276px) {.title-text-lrg { font-size: 500%; } .title-text-box { font-size: 190%; }}
+@media all and (max-width:1240px) {.title-text-lrg { font-size: 488%; } .title-text-box { font-size: 185%; }}
+@media all and (max-width:1200px) {.title-text-lrg { font-size: 470%; } .title-text-box { font-size: 179%; }}
+@media all and (max-width:1160px) {.title-text-lrg { font-size: 452%; } .title-text-box { font-size: 172%; }}
+@media all and (max-width:1120px) {.title-text-lrg { font-size: 438%; } .title-text-box { font-size: 167%; }}
+@media all and (max-width:1080px) {.title-text-lrg { font-size: 420%; } .title-text-box { font-size: 160%; }}
+@media all and (max-width:1040px) {.title-text-lrg { font-size: 406%; } .title-text-box { font-size: 154%; }}
+@media all and (max-width:1000px) {.title-text-lrg { font-size: 390%; } .title-text-box { font-size: 148%; }}
+@media all and (max-width:960px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:920px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:880px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:840px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:800px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:760px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:720px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:680px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
 @media all and (max-width:640px){
     .title-num-box { display: none; }
     .title-text-box { width: 100%; }
@@ -891,6 +902,25 @@ a:active { color: #404030; }
         margin-right: 2%;
         margin-left: -0.8rem;
     }}
+
+@media all {.title-text-lrg { font-size: 500%; }}
+@media all and (max-width:1276px) {.title-num-box { font-size: 500%; }}
+@media all and (max-width:1240px) {.title-num-box { font-size: 488%; }}
+@media all and (max-width:1200px) {.title-num-box { font-size: 470%; }}
+@media all and (max-width:1160px) {.title-num-box { font-size: 452%; }}
+@media all and (max-width:1120px) {.title-num-box { font-size: 438%; }}
+@media all and (max-width:1080px) {.title-num-box { font-size: 420%; }}
+@media all and (max-width:1040px) {.title-num-box { font-size: 406%; }}
+@media all and (max-width:1000px) {.title-num-box { font-size: 390%; }}
+@media all and (max-width:960px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:920px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:880px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:840px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:800px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:760px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:720px)  {.title-num-box { font-size: 395%; }}
+@media all and (max-width:680px)  {.title-num-box { font-size: 395%; }}
+
 
 
 /* ****************************************************************************
@@ -2541,8 +2571,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 
 
 .footer {                                   /* footer row */
-    margin-bottom: 0;
-    margin-left: -1px;                     /* offset start to cover body left border */
+     margin-left: -1px;                     /* offset start to cover body left border */
     width: 100.16%;                        /* make wider than body to cover borders */
     padding-top: 15px;
     padding-bottom: 0;
@@ -2556,6 +2585,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 .footer-spacer {                            /* spacing between navigation entries */
     margin-left:1rem;
     font-size: 0.8rem;
+
 }
 
 .footer-nav {                               /* container for footer navigation list */
@@ -2566,7 +2596,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 .footer-nav li {                            /* format list elements */
     display: inline;
     margin-left:1rem;
-    color: #4C6C9C;
+    color: #1C2F4B;
 }
  .footer-nav li:first-child {                /* remove left margin from first navigation link */
     margin-left: 0;
@@ -2576,11 +2606,11 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 .footer-nav li a:visited {
     color: #1C2F4B;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: border-bottom 0.2s;}
 .footer-nav li a:hover,
 .footer-nav li a:active {
-    border-bottom: 1px solid #4C6C9C;
+    border-bottom: 3px solid #1C2F4B;
 }
 
 .foot{
@@ -2591,8 +2621,10 @@ tr.in-no-border th {                        /* incidental table no-bottom border
     background-color: #fff;
     padding-top: 0.8rem;
     padding-bottom: 1rem;
-    border: 1px solid #1C2F4B;
+    border: 3px solid #1C2F4B;
     border-radius: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; 
    
 }
 

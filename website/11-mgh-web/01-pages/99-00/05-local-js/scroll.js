@@ -237,6 +237,14 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
        $('html, body').animate({scrollTop: $('#js--991100').offset().top -20}, 1000);
     });                                         /* END of scroll function */
 
+    $('.js--sc-991200').click(function () {
+       $('html, body').animate({scrollTop: $('#js--991200').offset().top -20}, 1000);
+    });                                         /* END of scroll function */
+
+    $('.js--sc-991300').click(function () {
+       $('html, body').animate({scrollTop: $('#js--991300').offset().top -20}, 1000);
+    });                                         /* END of scroll function */
+
 
   /* ---------------------------------------------------------------------------
    SCROLL TO -  NON-STANDARD (INLINE) SECTIONS
