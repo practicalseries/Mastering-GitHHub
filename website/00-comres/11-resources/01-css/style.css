@@ -522,6 +522,30 @@ a:active { color: #404030; }
 }
 
 
+
+.btnw {                                          /* basic settings for a button */
+    border: 2px solid #fff;
+    margin-right: 1rem;
+    padding: 0.2rem 0.5rem;
+    font-family: "conc-c4-r";
+    font-feature-settings: "ss02";
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.btnw-full { background-color: #fff; }        /* settings for filled in button */
+.btnw-full:link,
+.btnw-full:visited {
+    color: #000;
+    transition: background-color 0.2s;
+}
+.btnw-full:hover,
+.btnw-full:active {
+    background-color: #ccc;
+    border: 2px solid #ccc;
+}
+
+
 /* ****************************************************************************
    UNTESTED LINK
    ****************************************************************************
@@ -2550,7 +2574,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 
 .footer-nav li a:link,                      /* format anchor properties */
 .footer-nav li a:visited {
-    color: #4C6C9C;
+    color: #1C2F4B;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.2s;}
@@ -2567,7 +2591,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
     background-color: #fff;
     padding-top: 0.8rem;
     padding-bottom: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #1C2F4B;
     border-radius: 0.5rem;
    
 }

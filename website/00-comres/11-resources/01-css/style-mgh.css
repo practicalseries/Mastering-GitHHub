@@ -342,4 +342,61 @@ Date          Issue        Author         Reason for Modification
     margin-bottom: 1.5rem;
 }
 
+.eop{
+    margin-bottom: 4rem;
+    width:100%;
+    background:url('../02-images/bottom-circuit-04.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.eop-over-lay{
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-image:linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,1));  
+}
+
+
+.eop-title h1 {                           /* format h1 - MAIN TITLE */
+    font-family: "conc-t7-r";
+    font-feature-settings: "ss02";
+    font-size: 340%;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 0.4rem 0;
+}
+
+.eop-sans p{                                     /* TEXT STYLE - sans serif font (override) */
+    font-family: "conc-t4-r";
+    font-feature-settings: "ss02";
+    color: #fff;
+}
+
+
+@media all {.eop-title h1 { font-size: 340%; } .eop-title h2 { font-size: 195%; } .eop-title h3 { font-size: 110%; }}
+@media all and (max-width:1290px) {.eop-title h1 { font-size: 327%; } .eop-title h2 { font-size: 186%; } .eop-title h3 { font-size: 105%; }}
+@media all and (max-width:1240px) {.eop-title h1 { font-size: 316%; } .eop-title h2 { font-size: 179%; } .eop-title h3 { font-size: 101%; }}
+@media all and (max-width:1200px) {.eop-title h1 { font-size: 305%; } .eop-title h2 { font-size: 172%; } .eop-title h3 { font-size: 97%; }}
+@media all and (max-width:1160px) {.eop-title h1 { font-size: 294%; } .eop-title h2 { font-size: 165%; } .eop-title h3 { font-size: 94%; }}
+@media all and (max-width:1120px) {.eop-title h1 { font-size: 284%; } .eop-title h2 { font-size: 158%; } .eop-title h3 { font-size: 89%; }}
+@media all and (max-width:1080px) {.eop-title h1 { font-size: 273%; } .eop-title h2 { font-size: 151%; } .eop-title h3 { font-size: 85%; }}
+@media all and (max-width:1040px) {.eop-title h1 { font-size: 262%; } .eop-title h2 { font-size: 144%; } .eop-title h3 { font-size: 81%; }}
+@media all and (max-width:1000px) {.eop-title h1 { font-size: 251%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:960px)  {.eop-title h1 { font-size: 252%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:920px)  {.eop-title h1 { font-size: 251%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:880px)  {.eop-title h1 { font-size: 251%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:840px)  {.eop-title h1 { font-size: 251%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:800px)  {.eop-title h1 { font-size: 251%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:760px)  {.eop-title h1 { font-size: 250%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:720px)  {.eop-title h1 { font-size: 250%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:680px)  {.eop-title h1 { font-size: 249%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:640px)  {.eop-title h1 { font-size: 249%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:600px)  {.eop-title h1 { font-size: 248%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:560px)  {.eop-title h1 { font-size: 248%; } .eop-title h2 { font-size: 137%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:520px)  {.eop-title h1 { font-size: 340%; } .eop-title h2 { font-size: 177%; } .eop-title h3 { font-size: 100%; }}
 
