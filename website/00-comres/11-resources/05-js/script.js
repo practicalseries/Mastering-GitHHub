@@ -1,14 +1,15 @@
-/* PRACTICALSERIES (c) 2021
+/* MASTERING GITHUB (c) 2025
 
 *******************************************************************************
-Title :          PRACTICAL SERIES                                     SCRIPT.JS
+Title:            MASTERING GITHUB                                    SCRIPT.JS
 *******************************************************************************
 
-PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
-                 Published in the United Kingdom
+MASTERING GITHUB: Is authored by Michael Gledhill 
+                  and published by the Practical Series of Publications
+                  Published in the United Kingdom
 
-                 Email: mg@practicalseries.com
-                 Web:   www.practicalseries.com
+                  Email: mg@masteringgithub.com
+                  Web:   https://masteringgithub.com
 
 -------------------------------------------------------------------------------
 DETAILS
@@ -45,12 +46,17 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 -------------------------------------------------------------------------------
+
+
+*******************************************************************************
 MODIFICATION HISTORY:
 
 This is a complete summary of all software modifications.
 
 Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
+15 May 2025   001.000      M. Gledhill    Re-issued at version 001.000
+
 10 Feb 2021   000.101      M. Gledhill    Development release for site build
                                           Revision control active
 
@@ -81,7 +87,7 @@ $(document).ready(function() {                      /* START OF PAGE READY FUNCT
    **************************************************************************** */
 
     $('#rev-script').append (
-        "<p>000.101</p>" /* LOCAL JS REVISION NUMBER */
+        "<p>001.000</p>" /* LOCAL JS REVISION NUMBER */
     );
     
     

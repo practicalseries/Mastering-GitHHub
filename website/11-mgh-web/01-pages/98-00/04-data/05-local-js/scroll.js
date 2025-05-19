@@ -1,16 +1,15 @@
-
-
-/* PRACTICALSERIES (c) 2021
+/* MASTERING GITHUB (c) 2025
 
 *******************************************************************************
 Title :          LOCAL SCROLL - JQUERY                                SCROLL.JS
 *******************************************************************************
 
-PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
-                 Published in the United Kingdom
+MASTERING GITHUB: Is authored by Michael Gledhill 
+                  and published by the Practical Series of Publications
+                  Published in the United Kingdom
 
-                 Email: mg@practicalseries.com
-                 Web:   www.practicalseries.com
+                  Email: mg@masteringgithub.com
+                  Web:   https://masteringgithub.com
 
 -------------------------------------------------------------------------------
 DETAILS         LOCAL SCROLL FUNCTIONS
@@ -57,10 +56,7 @@ This is a complete summary of all software modifications.
 
 Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
-11 Feb 2021   000.101      M. Gledhill    Released as a development prototype
-
-09 Feb 2021   000.000      M. Gledhill    File created
-                                          based on 97-00 scroll.js file
+15 May 2025   001.000      M. Gledhill    File created
 ---------------------------------------------------------------------------- */
 
 
@@ -79,10 +75,8 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
    **************************************************************************** */
 
     $('#rev-scroll').append (
-        "<p>000.101</p>" /* LOCAL JS REVISION NUMBER */
+        "<p>001.000</p>" /* LOCAL JS REVISION NUMBER */
     );
-
-
 
 /* ****************************************************************************
    SCROLL TO SECTION
@@ -92,7 +86,7 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
    ************************************************************************* */
 
 
-/* ---------------------------------------------------------------------------
+ /* ---------------------------------------------------------------------------
    SCROLL TO TOP
    The offset is set to .to -80 - e.g.
 
@@ -102,10 +96,10 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
    ------------------------------------------------------------------------- */
    $('.js--sc-000000').click(function () {
        $('html, body').animate({scrollTop: $('#js--000000').offset().top -80}, 1000);
-    });
+    });                                         /* END of scroll function */
 
 
-/* ---------------------------------------------------------------------------
+ /* ---------------------------------------------------------------------------
    SCROLL TO CHAPTER (Non heading level after TOC)
    The offset is set to .to -10 - e.g.
 
@@ -114,46 +108,68 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
     });
    ------------------------------------------------------------------------- */
     $('.js--sc-980000').click(function () {
-       $('html, body').animate({scrollTop: $('#js--980000').offset().top -10}, 1000);
-    });
+       $('html, body').animate({scrollTop: $('#js--980000').offset().top -75}, 1000);
+    });                                         /* END of scroll function */
 
-
-/* ---------------------------------------------------------------------------
+    $('.js--sc-980000a').click(function () {
+       $('html, body').animate({scrollTop: $('#js--980000a').offset().top -370}, 1000);
+    });   
+                                          /* END of scroll function */
+  
+  /* ---------------------------------------------------------------------------
    SCROLL TO -  SECTIONS & SUBSECTIONS
    The offset is set to .to -20 - e.g.
 
     $('.js--sc-NN0100').click(function () {
-       $('html, body').animate({scrollTop: $('#js--NN0100').offset().top -20}, 1000);
+       $('html, body').animate({scrollTop: $('#js--NN0100').offset().top -60}, 1000);
     });
    ------------------------------------------------------------------------- */
-    $('.js--sc-980100').click(function () {
-       $('html, body').animate({scrollTop: $('#js--980100').offset().top -20}, 1000);
-    });
+    
+   /* SUPPLEMENTARY SECTIONS */
+   
+    $('.js--sc-980100').click(function () { /* SUPPLEMENTARY SECTION */
+       $('html, body').animate({scrollTop: $('#js--980100').offset().top -140}, 1000);
+    });                                         /* END of scroll function */
+    $('.js--sc-980101').click(function () { /* SUPPLEMENTARY SECTION */
+       $('html, body').animate({scrollTop: $('#js--980101').offset().top -140}, 1000);
+    });                                         /* END of scroll function */
 
-    $('.js--sc-980101').click(function () {
-       $('html, body').animate({scrollTop: $('#js--980101').offset().top -20}, 1000);
-    });
 
-    $('.js--sc-980200').click(function () {
+
+   /*NORMAL SECTIONS */
+
+    $('.js--sc-980200').click(function () { 
        $('html, body').animate({scrollTop: $('#js--980200').offset().top -20}, 1000);
-    });
+    });                                         /* END of scroll function */
+    $('.js--sc-980201').click(function () {
+       $('html, body').animate({scrollTop: $('#js--980201').offset().top -20}, 1000);
+    });                                         /* END of scroll function */
 
 
-/* ---------------------------------------------------------------------------
+  /* ---------------------------------------------------------------------------
    SCROLL TO -  NON-STANDARD (INLINE) SECTIONS
    The offset is set to .to -120 - e.g.
 
-          $('.js--sc-nn0101a').click(function () {
-           $('html, body').animate({scrollTop: $('#js--nn0101a').offset().top -120}, 1000);
-          });
+    $('.js--sc-NN0101a').click(function () {
+        $('html, body').animate({scrollTop: $('#js--NN0101a').offset().top -120}, 1000);
+    });
    ------------------------------------------------------------------------- */
-    $('.js--sc-980101a').click(function () {
+   /* SUPPLEMENTARY SECTIONS */
+
+    $('.js--sc-980101a').click(function () { /* SUPPLEMENTARY SECTION */
        $('html, body').animate({scrollTop: $('#js--980101a').offset().top -120}, 1000);
     });
 
-    $('.js--sc-980101b').click(function () {
-       $('html, body').animate({scrollTop: $('#js--980101b').offset().top -140}, 1000);
+   /* NORMAL SECTIONS */    
+    $('.js--sc-980201a').click(function () {
+       $('html, body').animate({scrollTop: $('#js--980201a').offset().top -60}, 1000);
     });
+
+    $('.js--sc-980201b').click(function () {
+       $('html, body').animate({scrollTop: $('#js--980201b').offset().top -60}, 1000);
+    });
+
+
 
 /* ---------------------------------------------------------------------------
    SCROLL TO -  CROSS REFERENCES
@@ -187,13 +203,21 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
        $('html, body').animate({scrollTop: $('#js--fnNN').offset().top -80}, 1000);
     });
    ------------------------------------------------------------------------- */
-
     $('.js--sc-f98-01').click(function () {
        $('html, body').animate({scrollTop: $('#js--f98-01').offset().top -80}, 1000);
     });
 
+    $('.js--sc-t98-01').click(function () {
+       $('html, body').animate({scrollTop: $('#js--t98-01').offset().top -60}, 1000);
+    });
 
+    $('.js--sc-c98-01').click(function () {
+       $('html, body').animate({scrollTop: $('#js--c98-01').offset().top -120}, 1000);
+    });
 
+    $('.js--sc-e98-01').click(function () {
+       $('html, body').animate({scrollTop: $('#js--e98-01').offset().top -80}, 1000);
+    });
 
 
 });                                             /* END OF PAGE READY FUNCTION */

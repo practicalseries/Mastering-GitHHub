@@ -1,15 +1,16 @@
-/* MASTERING GITHUB (c) 2025
+
+
+/* PRACTICALSERIES (c) 2021
 
 *******************************************************************************
-Title:              MASTERING GITHUB                                  STYLE.CSS
+Title:           PRACTICAL SERIES                                REF STYLE.CSS
 *******************************************************************************
 
-MASTERING GITHUB:   Is authored by Michael Gledhill 
-                    and published by the Practical Series of Publications
-                    Published in the United Kingdom
+PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
+                 Published in the United Kingdom
 
-                    Email: mg@masteringgithub.com
-                    Web:   https://masteringgithub.com
+                 Email: mg@practicalseries.com
+                 Web:   https://practicalseries.com
 
 -------------------------------------------------------------------------------
 DETAILS
@@ -48,13 +49,9 @@ of style sheets and the order in which they should be called is given here:
         lightbox.css            - styles associated with lightbox2 viewer
         grid.css                - defines a responsive grid (Kerstner grid)
                                   for columns within the website
+        style.css               - this file
         codelines.css           - Optional, adds additional line styling to
                                   Google Prettify code fragments
-        style.css               - this file
-        pal-style.css           - styles associated with the PAL
-                                  (Practical Automation Library)
-        style-mgh.css           - styles associated with the MGH
-                                  (Mastering GitHub) website
 
 -------------------------------------------------------------------------------
 COLOURS IN USE
@@ -70,20 +67,19 @@ COLOURS IN USE
  sidebar background   | when collapsed (lt gy)                 | #f8f8f8
  Table border         | Outline for all tables                 | #cccccc
  table background     | Incidental, code 7 formulae (lt gy)    | #fbfbfb
- Navigation base      | Navigation (link/visited)              | #8693a5
- Navigation hover     | Navigation (active/hover)              | #4C6C9C
+ Navigation base      | Navigation (link/visited)              | #cccccc
+ Navigation hover     | Navigation (active/hover)              | #686868
  Navigation bkgrd     | Navigation background (link/visited)   | #fff
  Navigation bkgrd     | Navigation background (active/hover)   | #c8c8c8
  TOC list             | Contents list of entries (blue)        | #4C6C9C
  Footer background    | Footer area background (cream)         | #fbfaf6
- Footer navigation    | Footer navigation & spacer text (blue) | #1C2F4B
- Button background    | Button light blue                      | #4C6C9C
- Button hover         | Button dark blue (hover)               | #1C2F4B
+ Footer navigation    | Footer navigation & spacer text (blue) | #4c6c9c
+ Footer nav highlight | Footer nav highlights (lighter blue)   | #5b7daf
+ Button background    | Button light orange                    | #e67e22
+ Button hover         | Button dark orange (hover)             | #de7519
  Text (red)           | Red text highlight                     | #c0504d
  Untested link        | Highlights untested links              | #ff0000
- Logo dark blue       |                                        | #1C2F4B
- Logo light blue      |                                        | #4C6C9C
- ----------------------+----------------------------------------+---------------
+----------------------+----------------------------------------+---------------
  git-cmd              | Blue colour used for Git commands      | #4F81BD
  git-background       | Git command table background colour    | #404030
 ----------------------+----------------------------------------+---------------
@@ -104,22 +100,33 @@ MODIFICATION HISTORY:
 
 This is a complete summary of all software modifications.
 
-Date          Issue        Author       Reason for Modification
+Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
-15 May 2025   001.000      M. Gledhill  Minor changes for MGH formats
-                                            Body width moved to grid.css
-                                            Masthead added
-                                            Bottom banner added
-                                            Minor changes to margins &c.
-                                            Button colours changed
-                                        Based on origial style.css 000.104
+02 May 2021   000.104      M. Gledhill    Green badge colour changed
+
+01 May 2021   000.103      M. Gledhill    table-doc class added for 
+                                          documentation lists 
+                                          
+14 Feb 2021   000.102      M. Gledhill    SS02 stylistic set applied to
+                                          .sans and .sans-b classes
+
+10 Feb 2021   000.101      M. Gledhill    Development release for site build
+                                          Revision control active
+
+09 Feb 2021   000.001      M. Gledhill    .rev-badge-side added
+                                          .title-contents added 
+                                          em changed to italic
+                                          .emph bold emphasis added
+
+08 Feb 2021   000.000      M. Gledhill    Established for PAL
+                                          Based on R01 in PS1001
 ---------------------------------------------------------------------------- */
 
 
-/*  ****************************************************************************
-    REVISION
-    **************************************************************************** */
-#rev-style:after { content: "001.000"; }
+/* ****************************************************************************
+   REVISION
+   **************************************************************************** */
+#rev-style:after { content: "000.104"; }
 
 
 
@@ -187,7 +194,7 @@ html {
 }
 
 body {
-    /* max-width: 1276px; */                /* Moved to rg-row to allow masthead banner to span page width */                
+    max-width: 1276px;
     /* min-width: 520px; */                 /* min width removed 13 Feb 17- not required */
     margin: 0 auto;
     background-color: #fff;                 /* make content area background white */
@@ -201,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {                    /* set standard headings */
     font-feature-settings: "ss02";
     font-size: 100%
 }
-h3 { margin-top: 3.5rem; }
+h3 { margin-top: 5rem; }
 h4, h5 { margin-top: 2rem; }
 h6 {                                        /* Placeholder heading - not displayed */
     margin: 0;
@@ -239,18 +246,18 @@ a:active { color: #404030; }
 
 @media all {html {font-size: 24px;}}
 @media all and (max-width:1276px){html {font-size: 24px;}}
-@media all and (max-width:960px) {html {font-size: 23px;}}
-@media all and (max-width:920px) {html {font-size: 22px;}}
-@media all and (max-width:880px) {html {font-size: 21px;}}
-@media all and (max-width:840px) {html {font-size: 20px;}}
-@media all and (max-width:800px) {html {font-size: 19px;}}
-@media all and (max-width:760px) {html {font-size: 18px;}}
-@media all and (max-width:720px) {html {font-size: 17px;}}
-@media all and (max-width:680px) {html {font-size: 16px;}}
-@media all and (max-width:640px) {html {font-size: 15px;}}
-@media all and (max-width:600px) {html {font-size: 14px;}}
-@media all and (max-width:560px) {html {font-size: 13px;}}
-@media all and (max-width:520px) {html {font-size: 12px;}}
+@media all and (max-width:960px){html {font-size: 23px;}}
+@media all and (max-width:920px){html {font-size: 22px;}}
+@media all and (max-width:880px){html {font-size: 21px;}}
+@media all and (max-width:840px){html {font-size: 20px;}}
+@media all and (max-width:800px){html {font-size: 19px;}}
+@media all and (max-width:760px){html {font-size: 18px;}}
+@media all and (max-width:720px){html {font-size: 17px;}}
+@media all and (max-width:680px){html {font-size: 16px;}}
+@media all and (max-width:640px){html {font-size: 15px;}}
+@media all and (max-width:600px){html {font-size: 14px;}}
+@media all and (max-width:560px){html {font-size: 13px;}}
+@media all and (max-width:520px){html {font-size: 12px;}}
 
 
 /* ****************************************************************************
@@ -310,7 +317,7 @@ a:active { color: #404030; }
 
 .nav-wide,                                  /* nav-wide/nav-narrow are the */
 .nav-narrow {                               /* navigation buttons          */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     height: 60px;
     padding-top: 18px;
@@ -319,27 +326,28 @@ a:active { color: #404030; }
     border-bottom: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
 }
-.nav-wide { width: 16.6%; }                   /* nav-wide is 20% of top-nav */
-.nav-wide:last-child { border-right: 0; }     /* remove right border on last area */
+.nav-wide { width: 20%; }                   /* nav-wide is 20% of top-nav */
+.nav-wide:last-child { border-right: 0; }   /* remove right border on last area */
 
-.nav-narrow { width: 16.6%; display: none; }  /* nav-narrow is 10% of top-nav */
-                                              /* hide the narrow nav until fixed-nav activates */
 
-.nav-home { display: inline-block; }          /* make the wide home button visible */
-                                              /* this will be hidden when fixed-nav activates */
+.nav-narrow { width: 10%; display: none; }  /* nav-narrow is 10% of top-nav */
+                                            /* hide the narrow nav until fixed-nav activates */
 
-.nav-wide:link,                               /* navigation link options */
+.nav-home { display: inline-block; }        /* make the wide home button visible */
+                                            /* this will be hidden when fixed-nav activates */
+
+.nav-wide:link,                             /* navigation link options */
 .nav-wide:visited,
 .nav-narrow:link,
 .nav-narrow:visited {
-    color: #8693a5;
+    color: #cccccc;
     transition: background-color 0.2s, color 0.2s;
 }
 .nav-wide:hover,                            /* navigation hover options */
 .nav-wide:active,
 .nav-narrow:hover,
 .nav-narrow:active {
-    color: #4C6C9C;
+    color: #686868;
     background-color: #f8f8f8;
 }
 
@@ -380,26 +388,6 @@ a:active { color: #404030; }
 .fixed-nav .nav-narrow { display: inline-block;}  /* display narrow top & home buttons */
 .fixed-nav .nav-wide:first-child { border-left: 1px solid #ededed; }
 .fixed-nav .nav-wide:last-child { border-right: 1px solid #ededed; }
-
-.fix-nav {                                /* fixed (sticky) navigation */
-    position: fixed;
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 1.0);
-    color: #CCCCCC;
-    margin: 0 auto;
-    font-family: "conc-c4-r";
-    font-feature-settings: "ss02";
-    font-size:75%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;                          /* Ensure nav is at top level */
-}
-
-.fix-nav .nav-home { display: none; }     /* hide large home button */
-.fix-nav .nav-narrow { display: inline-block;}  /* display narrow top & home buttons */
-.fix-nav .nav-wide:first-child { border-left: 1px solid #ededed; }
-.fix-nav .nav-wide:last-child { border-right: 1px solid #ededed; }
 
 
 /* ----------------------------------------------------------------------------
@@ -469,7 +457,7 @@ a:active { color: #404030; }
 }
 
 .btn {                                          /* basic settings for a button */
-    border: 2px solid #4C6C9C;
+    border: 2px solid #e67e22;
     margin-right: 1rem;
     padding: 0.2rem 0.5rem;
     font-family: "conc-c4-r";
@@ -478,7 +466,7 @@ a:active { color: #404030; }
     border-radius: 1rem;
 }
 
-.btn-full { background-color: #4C6C9C; }        /* settings for filled in button */
+.btn-full { background-color: #e67e22; }        /* settings for filled in button */
 .btn-full:link,
 .btn-full:visited {
     color: #fff;
@@ -486,50 +474,26 @@ a:active { color: #404030; }
 }
 .btn-full:hover,
 .btn-full:active {
-    background-color: #1F2D41;
-    border: 2px solid #1F2D41;
+    background-color: #de7519;
+    border: 2px solid #de7519;
 }
 
 .btn-ghost {background-color: transparent; }    /* settings for an outline button */
 .btn-ghost:link,
 .btn-ghost:visited {
-    color: #4C6C9C;
+    color: #e67e22;
     transition: background-color 0.2s, color 0.2s;
 }
 .btn-ghost:hover,
 .btn-ghost:active {
     color: #fff;
-    background-color: #1F2D41;
-    border: 2px solid #1F2D41;
+    background-color: #de7519;
+    border: 2px solid #de7519;
 }
 
 .payment {                                       /* container for button in a list */
     display:table;
     margin: -0.5rem auto 1rem auto;
-}
-
-
-
-.btnw {                                          /* basic settings for a button */
-    border: 2px solid #fff;
-    margin-right: 1rem;
-    padding: 0.2rem 0.5rem;
-    font-family: "conc-c4-r";
-    font-feature-settings: "ss02";
-    text-decoration: none;
-    border-radius: 1rem;
-}
-
-.btnw-full { background-color: #fff; }        /* settings for filled in button */
-.btnw-full:link,
-.btnw-full:visited {
-    color: #000;
-    transition: background-color 0.2s;
-}
-.btnw-full:hover,
-.btnw-full:active {
-    background-color: #ccc;
-    border: 2px solid #ccc;
 }
 
 
@@ -586,86 +550,6 @@ a:active { color: #404030; }
 }
 
 
-
-
-/* ****************************************************************************
-   MASTHEAD TITLE AND PICTURE
-   ****************************************************************************
-   On the site Home page, the navigation & title bars are missing, and a 
-   cover image and titles are inserted in their place.
-
-   This is the first area a visitor to the site sees.
-   ************************************************************************* */
-   .hero {
-    background-image: url(../02-images/branch-bg-005.svg);
-    background-color: #fff;
-    background-position: center top;
-    background-size: auto auto;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    /*height: 100vh*/
-}
-.masthead-row{
-    
-    width: 100%;
-    margin:0 auto;
-    
-}
-/*@media all and (max-width:1920px){ .masthead-row {display: none;}}*/
-
-
-
-/*.masthead-img {
-    overflow: hidden;
-    background:#fff;
-}
-
-.masthead-img-box {
-    display:block;
-    max-width: 1920px;
-
-    margin: 0 auto;
-    background-image: url(01-css-images/masthead-persp.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-
-    width: 100%;
-    position:relative;
-
-    overflow: hidden;
-    height: 560px;
-}*/
-
-.masthead-curve{
-    position: absolute;
-    overflow: hidden;
-    z-index: 996;
-    width: 100%;
-    height: 150px;
-    margin-left: 0%;
-    border-color: #000 transparent transparent;
-    /*border-radius: 50%/30px 30px 0 0;*/
-    border-radius: 100%/200% 200% 0 0;
-    background:  #aaa;
-    margin-top: 1.5rem;
-}
-
-
-/*
-@media all {header { background-image: url(01-css-images/header-scada-persp%20R00.12.png);  background-size: 100%  }}
-
-@media all and (max-width: 960px)  {header { background-image: url(01-css-images/header-scada-circ%20R00.13.png); background-size: 100% }}
-*/
-
-
-
-
-
-
-
-
-
 /* ****************************************************************************
    LANDING PAGE - COVER PICTURE & WEBSITE TITLES
    ****************************************************************************
@@ -681,37 +565,27 @@ a:active { color: #404030; }
     border-top: 4px solid #404030; }
 
 .cover-title h1 {                           /* format h1 - MAIN TITLE */
-    font-family: "Poppins";
-    font-weight: 700;
+    font-family: "conc-t3-r";
+    font-feature-settings: "ss02";
     font-size: 340%;
-    letter-spacing: 0.086rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: #1C2F4B;
     margin: 0 0 0.4rem 0;
 }
                                             /* format h2-h4 - COMMON FEATURES */
-.cover-title h2,
 .cover-title h3,
 .cover-title h4 {
-    font-family: "Poppins";
-    text-align: center;
-    color: #4C6C9C;
+    font-family: "conc-t4-r";
+    font-feature-settings: "ss02";
+    text-transform: uppercase;
+    letter-spacing: 0.086rem;
 }
 .cover-title h2 {                           /* format h2 - SUBHEADING */
-    font-weight: 700;
-    text-transform: uppercase;
     font-size: 140%;
-    letter-spacing: 0.086rem;
     line-height: 140%;
     margin: 1rem 0 0 0;
 }
-.cover-title h3 { 
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.086rem;
+.cover-title h3 {                           /* format h3 - AUTHOR */
     font-size: 110%;
-    margin: 0.5rem 0 2rem 0;
+    margin: 0 0 0.4rem 0;
 }
 .cover-title h4 {                           /* format h4 - OPTIONAL DESCRIPTION */
     font-size: 104%;
@@ -723,8 +597,6 @@ a:active { color: #404030; }
     padding: 0;
 }
 .cover-fig img {width: 100%;}               /* format cover image */
-
-.cover-resize {font-size: 160%;}
 
 /* ----------------------------------------------------------------------------
    COVER HEADINGS- RESPONSIVE COMPONENTS
@@ -738,27 +610,27 @@ a:active { color: #404030; }
    Below 640px, the large number is no longer displayed and the smaller
    version of the number (in the heading text area) is made visible
    ------------------------------------------------------------------------- */
-@media all {.cover-title h1 { font-size: 340%; } .cover-title h2 { font-size: 195%; } .cover-title h3 { font-size: 110%; }}
-@media all and (max-width:1290px) {.cover-title h1 { font-size: 327%; } .cover-title h2 { font-size: 186%; } .cover-title h3 { font-size: 105%; }}
-@media all and (max-width:1240px) {.cover-title h1 { font-size: 316%; } .cover-title h2 { font-size: 179%; } .cover-title h3 { font-size: 101%; }}
-@media all and (max-width:1200px) {.cover-title h1 { font-size: 305%; } .cover-title h2 { font-size: 172%; } .cover-title h3 { font-size: 97%; }}
-@media all and (max-width:1160px) {.cover-title h1 { font-size: 294%; } .cover-title h2 { font-size: 165%; } .cover-title h3 { font-size: 94%; }}
-@media all and (max-width:1120px) {.cover-title h1 { font-size: 284%; } .cover-title h2 { font-size: 158%; } .cover-title h3 { font-size: 89%; }}
-@media all and (max-width:1080px) {.cover-title h1 { font-size: 273%; } .cover-title h2 { font-size: 151%; } .cover-title h3 { font-size: 85%; }}
-@media all and (max-width:1040px) {.cover-title h1 { font-size: 262%; } .cover-title h2 { font-size: 144%; } .cover-title h3 { font-size: 81%; }}
-@media all and (max-width:1000px) {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:960px)  {.cover-title h1 { font-size: 252%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:920px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:880px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:840px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:800px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:760px)  {.cover-title h1 { font-size: 250%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 77%; }}
-@media all and (max-width:720px)  {.cover-title h1 { font-size: 250%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 76%; }}
-@media all and (max-width:680px)  {.cover-title h1 { font-size: 249%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 76%; }}
-@media all and (max-width:640px)  {.cover-title h1 { font-size: 249%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 76%; }}
-@media all and (max-width:600px)  {.cover-title h1 { font-size: 248%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 76%; }}
-@media all and (max-width:560px)  {.cover-title h1 { font-size: 248%; } .cover-title h2 { font-size: 137%; } .cover-title h3 { font-size: 76%; }}
-@media all and (max-width:520px)  {.cover-title h1 { font-size: 340%; } .cover-title h2 { font-size: 177%; } .cover-title h3 { font-size: 100%; }}
+@media all {.cover-title h1 { font-size: 340%; } .cover-title h2 { font-size: 140%; } .cover-title h3 { font-size: 110%; }}
+@media all and (max-width:1290px) {.cover-title h1 { font-size: 327%; } .cover-title h2 { font-size: 134%; } .cover-title h3 { font-size: 105%; }}
+@media all and (max-width:1240px) {.cover-title h1 { font-size: 316%; } .cover-title h2 { font-size: 129%; } .cover-title h3 { font-size: 101%; }}
+@media all and (max-width:1200px) {.cover-title h1 { font-size: 305%; } .cover-title h2 { font-size: 124%; } .cover-title h3 { font-size: 97%; }}
+@media all and (max-width:1160px) {.cover-title h1 { font-size: 294%; } .cover-title h2 { font-size: 119%; } .cover-title h3 { font-size: 94%; }}
+@media all and (max-width:1120px) {.cover-title h1 { font-size: 284%; } .cover-title h2 { font-size: 114%; } .cover-title h3 { font-size: 89%; }}
+@media all and (max-width:1080px) {.cover-title h1 { font-size: 273%; } .cover-title h2 { font-size: 109%; } .cover-title h3 { font-size: 85%; }}
+@media all and (max-width:1040px) {.cover-title h1 { font-size: 262%; } .cover-title h2 { font-size: 104%; } .cover-title h3 { font-size: 81%; }}
+@media all and (max-width:1000px) {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:960px)  {.cover-title h1 { font-size: 252%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:920px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:880px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:840px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:800px)  {.cover-title h1 { font-size: 251%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:760px)  {.cover-title h1 { font-size: 250%; } .cover-title h2 { font-size: 99%; } .cover-title h3 { font-size: 77%; }}
+@media all and (max-width:720px)  {.cover-title h1 { font-size: 250%; } .cover-title h2 { font-size: 98%; } .cover-title h3 { font-size: 76%; }}
+@media all and (max-width:680px)  {.cover-title h1 { font-size: 249%; } .cover-title h2 { font-size: 98%; } .cover-title h3 { font-size: 76%; }}
+@media all and (max-width:640px)  {.cover-title h1 { font-size: 249%; } .cover-title h2 { font-size: 98%; } .cover-title h3 { font-size: 76%; }}
+@media all and (max-width:600px)  {.cover-title h1 { font-size: 248%; } .cover-title h2 { font-size: 98%; } .cover-title h3 { font-size: 76%; }}
+@media all and (max-width:560px)  {.cover-title h1 { font-size: 248%; } .cover-title h2 { font-size: 98%; } .cover-title h3 { font-size: 76%; }}
+@media all and (max-width:520px)  {.cover-title h1 { font-size: 340%; } .cover-title h2 { font-size: 140%; } .cover-title h3 { font-size: 110%; }}
 
 
 /* ****************************************************************************
@@ -796,13 +668,8 @@ a:active { color: #404030; }
     border-top: 2px solid #404030;
 }
 
-.title-uplift{
-    margin-top: -0.6rem;
-    margin-bottom: 2rem;
-}
-
 .title-num-box {                            /* container for large number */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 33.3%;
     text-align: left;
@@ -813,7 +680,7 @@ a:active { color: #404030; }
 }
 
 .title-text-box {                           /* container for heading text */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 66.6%;
     font-family: "conc-t3-r";
@@ -825,19 +692,8 @@ a:active { color: #404030; }
     color: #404030
 }
 
-.title-text-lrg {                            /* container for large number */
-    /*display: inline-block;*/
-    float: left;
-    width: 100%;
-    text-align: left;
-    font-family: "conc-t2-r";
-    font-feature-settings: "ss02";
-    font-size: 500%;
-    color: #404030;
-}
-
 .title-contents {                           /* container for heading text */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 100%;
     font-family: "conc-t3-r";
@@ -864,50 +720,31 @@ a:active { color: #404030; }
    ------------------------------------------------------------------------- */
 
 @media all {.title-num-box { font-size: 500%; } .title-text-box { font-size: 190%; }}
-@media all and (max-width:1276px) {.title-text-lrg { font-size: 500%; } .title-text-box { font-size: 190%; }}
-@media all and (max-width:1240px) {.title-text-lrg { font-size: 488%; } .title-text-box { font-size: 185%; }}
-@media all and (max-width:1200px) {.title-text-lrg { font-size: 470%; } .title-text-box { font-size: 179%; }}
-@media all and (max-width:1160px) {.title-text-lrg { font-size: 452%; } .title-text-box { font-size: 172%; }}
-@media all and (max-width:1120px) {.title-text-lrg { font-size: 438%; } .title-text-box { font-size: 167%; }}
-@media all and (max-width:1080px) {.title-text-lrg { font-size: 420%; } .title-text-box { font-size: 160%; }}
-@media all and (max-width:1040px) {.title-text-lrg { font-size: 406%; } .title-text-box { font-size: 154%; }}
-@media all and (max-width:1000px) {.title-text-lrg { font-size: 390%; } .title-text-box { font-size: 148%; }}
-@media all and (max-width:960px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:920px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:880px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:840px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:800px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:760px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:720px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
-@media all and (max-width:680px)  {.title-text-lrg { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:1276px) {.title-num-box { font-size: 500%; } .title-text-box { font-size: 190%; }}
+@media all and (max-width:1240px) {.title-num-box { font-size: 488%; } .title-text-box { font-size: 185%; }}
+@media all and (max-width:1200px) {.title-num-box { font-size: 470%; } .title-text-box { font-size: 179%; }}
+@media all and (max-width:1160px) {.title-num-box { font-size: 452%; } .title-text-box { font-size: 172%; }}
+@media all and (max-width:1120px) {.title-num-box { font-size: 438%; } .title-text-box { font-size: 167%; }}
+@media all and (max-width:1080px) {.title-num-box { font-size: 420%; } .title-text-box { font-size: 160%; }}
+@media all and (max-width:1040px) {.title-num-box { font-size: 406%; } .title-text-box { font-size: 154%; }}
+@media all and (max-width:1000px) {.title-num-box { font-size: 390%; } .title-text-box { font-size: 148%; }}
+@media all and (max-width:960px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:920px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:880px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:840px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:800px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:760px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:720px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
+@media all and (max-width:680px)  {.title-num-box { font-size: 395%; } .title-text-box { font-size: 150%; }}
 @media all and (max-width:640px){
     .title-num-box { display: none; }
     .title-text-box { width: 100%; }
     .title-small-num {
         visibility: visible;
-        display: inline-block;
-        margin-right: 2%;
-        margin-left: -0.8rem;
-    }}
-
-@media all {.title-text-lrg { font-size: 500%; }}
-@media all and (max-width:1276px) {.title-num-box { font-size: 500%; }}
-@media all and (max-width:1240px) {.title-num-box { font-size: 488%; }}
-@media all and (max-width:1200px) {.title-num-box { font-size: 470%; }}
-@media all and (max-width:1160px) {.title-num-box { font-size: 452%; }}
-@media all and (max-width:1120px) {.title-num-box { font-size: 438%; }}
-@media all and (max-width:1080px) {.title-num-box { font-size: 420%; }}
-@media all and (max-width:1040px) {.title-num-box { font-size: 406%; }}
-@media all and (max-width:1000px) {.title-num-box { font-size: 390%; }}
-@media all and (max-width:960px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:920px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:880px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:840px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:800px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:760px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:720px)  {.title-num-box { font-size: 395%; }}
-@media all and (max-width:680px)  {.title-num-box { font-size: 395%; }}
-
+        display:inline-block;
+        float:left;
+        margin-right: 2%;}
+    }
 
 
 /* ****************************************************************************
@@ -1111,17 +948,6 @@ a:active { color: #404030; }
 }
 
 
-
-.wide { visibility: visible;}
-@media all and (max-width: 520px) { .wide {display:none;}}
-
-.narrow { display: none; }
-@media all and (max-width: 520px) { .narrow {display: block} }
-
-.wide-left {margin-left: 0;} /* removes the left margin from a grid column */
-
-
-
 /* ****************************************************************************
    SECTION STANDARD
    ****************************************************************************
@@ -1210,7 +1036,7 @@ a:active { color: #404030; }
 }
 
 .sub-title-num-box {                        /* container for sub-title number */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 20%;
     text-align: left;
@@ -1221,7 +1047,7 @@ a:active { color: #404030; }
 }
 
 .sub-title-text-box {                       /* container for sub-title heading text */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 80%;
     text-align: left;
@@ -1232,7 +1058,7 @@ a:active { color: #404030; }
 }
 
 .sub-title-inline {                         /* container for inline sub-title (no number) */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 100%;
     text-align: left;
@@ -1240,10 +1066,6 @@ a:active { color: #404030; }
     font-feature-settings: "ss02";
     font-size: 1.7rem;
     color: #404030;
-}
-
-.hypoff {
-    hyphens: none;
 }
 
 
@@ -1271,7 +1093,6 @@ a:active { color: #404030; }
 
 .aside-left,                                /* container for side bars */
 .aside-right,
-.aside-centre,
 .aside-head {
     font-family: "conc-t3-r";
     font-feature-settings: "ss02";
@@ -1288,11 +1109,6 @@ a:active { color: #404030; }
     text-align: left;
     padding-right: 0.7em;
 }
-
-.aside-centre {
-    text-align: center;
-}
-
 
 .aside-left p,                              /* TEXT STYLE - paragraph */
 .aside-right p,
@@ -1418,12 +1234,12 @@ a:active { color: #404030; }
     height: 1rem;
 }
 .rev-badge-side {
-    margin: 1rem 0 0 0rem;
+    margin: 1rem 0 0 2rem;
     padding: 0;
     width: 100%;
 }
 .rev-badge-side img {
-    height: 0.8rem;
+    height: 1rem;
 }
 
 
@@ -1613,19 +1429,6 @@ a:active { color: #404030; }
     font-feature-settings: "ss02";
 }
 
-.sans-head {
-    font-family: "Poppins";
-    font-weight: 300;
-    font-style: normal;
-    margin-bottom: 0;
-}
-.sans-head-b {
-    font-family: "Poppins";
-    font-weight: 700;
-    font-style: normal;
-    margin: 0 0 0 0;
-}
-
 .index {                                    /* TEXT STYLE - index font (override) */
     font-family: "conc-i3-r";
     font-feature-settings: "ss00";
@@ -1661,25 +1464,6 @@ a:active { color: #404030; }
     content: "Note:"; float: left;          /* force the margin to the edge of the row */
     margin-left: -3.3rem;
 }
-
-
-
-.note-sans {                                     /* TEXT STYLE - Note (hanging indent) */
-    font-family: "conc-t3-i";               /* notes are unordered lists with some */
-}                                           /* margin manipulation  to create the hanging effect */
-.note-sans li {
-    list-style: none;
-    line-height: 135%;
-    margin-left: 3.3rem;
-    margin-right: 0.2rem;
-    margin-bottom: 0.85rem;
-}
-.note-sans li:before {                           /* prefix the list with Note: and */
-    content: "Note:"; float: left;          /* force the margin to the edge of the row */
-    margin-left: -3.3rem;
-}
-
-
 
 .menu {                                     /* TEXT STYLE - code fragment */
     font-family: "conc-c4-r";
@@ -2558,7 +2342,8 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 
 
 .footer {                                   /* footer row */
-     margin-left: -1px;                     /* offset start to cover body left border */
+    margin-bottom: 0;
+    margin-left: -1px;                     /* offset start to cover body left border */
     width: 100.16%;                        /* make wider than body to cover borders */
     padding-top: 15px;
     padding-bottom: 0;
@@ -2570,9 +2355,8 @@ tr.in-no-border th {                        /* incidental table no-bottom border
     border-top: 1px solid #ebebeb
  }
 .footer-spacer {                            /* spacing between navigation entries */
-    margin-left:1rem;
+    margin-left:2rem;
     font-size: 0.8rem;
-
 }
 
 .footer-nav {                               /* container for footer navigation list */
@@ -2582,39 +2366,22 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 
 .footer-nav li {                            /* format list elements */
     display: inline;
-    margin-left:1rem;
-    color: #1C2F4B;
+    margin-left:2rem;
+    color: #4C6C9C;
 }
- .footer-nav li:first-child {                /* remove left margin from first navigation link */
+.footer-nav li:first-child {                /* remove left margin from first navigation link */
     margin-left: 0;
-}                                     
-
+}
 .footer-nav li a:link,                      /* format anchor properties */
 .footer-nav li a:visited {
-    color: #1C2F4B;
+    color: #4C6C9C;
     text-decoration: none;
-    border-bottom: 3px solid transparent;
+    border-bottom: 1px solid transparent;
     transition: border-bottom 0.2s;}
 .footer-nav li a:hover,
 .footer-nav li a:active {
-    border-bottom: 3px solid #1C2F4B;
+    border-bottom: 2px solid #5b7daf;
 }
-
-.foot{
-    font-family: "conc-c4-r";
-    font-feature-settings: "ss02";
-    font-size: 0.85rem;
-    line-height: 100%;
-    background-color: #fff;
-    padding-top: 0.8rem;
-    padding-bottom: 1rem;
-    border: 3px solid #1C2F4B;
-    border-radius: 0.5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem; 
-   
-}
-
 
 /* ----------------------------------------------------------------------------
    FOOTER - RESPONSIVE COMPONENTS

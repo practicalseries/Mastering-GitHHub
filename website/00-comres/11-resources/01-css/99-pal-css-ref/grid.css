@@ -1,15 +1,14 @@
-/* MASTERING GITHUB (c) 2025
+/* PRACTICALSERIES (c) 2016
 
 *******************************************************************************
-Title:            RESPONSIVE GRID ARRANGEMENT                          GRID.CSS
+Title :          RESPONSIVE GRID ARRANGEMENT                           GRID.CSS
 *******************************************************************************
 
-MASTERING GITHUB: Is authored by Michael Gledhill 
-                  and published by the Practical Series of Publications
-                  Published in the United Kingdom
+PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
+                 Published in the United Kingdom
 
-                  Email: mg@masteringgithub.com
-                  Web:   https://masteringgithub.com
+                 Email: mg@practicalseries.com
+                 Web:   https://practicalseries.com
 
 -------------------------------------------------------------------------------
 DETAILS
@@ -87,27 +86,28 @@ vertically; the point at which this occurs is a screen width at or below
 520 px.
 
 -------------------------------------------------------------------------------
-
-
-*******************************************************************************
 MODIFICATION HISTORY:
 
 This is a complete summary of all software modifications.
 
-Date           Issue       Author         Reason for Modification
+Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
-15 May 2025    001.000      M. Gledhill   Max width removed from body style and
-                                          added to rg-row (allows for hero bar)
+10 Feb 2021   000.101      M. Gledhill    Development release for site build
+                                          Revision control active
 
-08 May 2025    000.102      M. Gledhill   File created
-                                          Based on grid.css 000,101
+08 Feb 2021   000.000      M. Gledhill    Established for PAL
+                                          Based on R01 in PS1001
 ---------------------------------------------------------------------------- */
 
 
 /* ****************************************************************************
    REVISION
    **************************************************************************** */
-#rev-grid:after { content: "001.000"; }
+#rev-grid:after { content: "000.101"; }
+
+
+
+
 
 
 /* ****************************************************************************
@@ -122,15 +122,14 @@ Date           Issue       Author         Reason for Modification
    The subsequent before and after pseudo elements force the .row class to
    self-clear (clearfix hack) to prevent floating problems.
    ------------------------------------------------------------------------- */
- 
-   .rg-row {                                 /* sets the basic row  properties */
-   max-width: 1276px;                        /* moved from style.css body */
-   margin: 0 auto;
-   padding: 0;
+
+.rg-row {                                   /* sets the basic row  properties */
+    margin: 0 auto;
+    padding: 0;
 }
 
-.rg-row:before,                              /* IE 9 support */
-.rg-row:after {                              /* ClearFix */
+.rg-row:before,                             /* IE 9 support */
+.rg-row:after {                             /* ClearFix */
     content:"";
     display:table;
 }
@@ -150,12 +149,12 @@ Date           Issue       Author         Reason for Modification
    point all column margins are removed (by media query)
    ------------------------------------------------------------------------- */
 
-.rg-col {                                    /* sets the basic column width and properties */
+.rg-col {                                   /* sets the basic column width and properties */
 	display: block;
 	float: left;
 	margin: 1% 0% 0% 3.45%;
 }
-.rg-col:first-child { margin-left: 0; }      /* remove left margin from first column */
+.rg-col:first-child { margin-left: 0; }     /* remove left margin from first column */
 
 
 /* ----------------------------------------------------------------------------
@@ -171,14 +170,14 @@ Date           Issue       Author         Reason for Modification
    Each column spans an area of the row, taking a three columns width
    arrangement, this can be arranged in four different ways:
 
-      - three columns of single column width - span1-3 (span 1 column of 3)
+    - three columns of single column width - span1-3 (span 1 column of 3)
 
-      - one double width column - span2-3 (span 2 columns of 3) and a single
-        column (span1-3)
+    - one double width column - span2-3 (span 2 columns of 3) and a single
+      column (span1-3)
 
-      - one single width column - span1-3 and a double column (span2-3)
+    - one single width column - span1-3 and a double column (span2-3)
 
-      - finally a single triple width column - span3-3 (span 3 columns of 3)
+    - finally a single triple width column - span3-3 (span 3 columns of 3)
 
      |<------------------------- width of screen  ----------------------->|
 
@@ -204,7 +203,7 @@ Date           Issue       Author         Reason for Modification
 
 .rg-span1-1 { width: 100%; }
 
-@media only screen and (max-width: 520px) {  /* stack columns at <=520 px */
+@media only screen and (max-width: 520px) { /* stack columns at <=520 px */
 	.rg-span1-1 { width: 100%; padding:0 1%; }/* by making all columns 100 % (effectively, small margin) */
 }
 
@@ -216,9 +215,9 @@ Date           Issue       Author         Reason for Modification
 .rg-span1-2 { width: 48.27%; }
 .rg-span2-2 { width: 100%; }
 
-@media only screen and (max-width: 520px) {  /* stack columns at <=520 px */
-	.rg-span1-2,                              /* by making all columns 100 % (effectively, small margin) */
-   .rg-span2-2 { width: 100%; padding:0 1%; }
+@media only screen and (max-width: 520px) { /* stack columns at <=520 px */
+	.rg-span1-2,
+    .rg-span2-2 { width: 100%; padding:0 1%; }/* by making all columns 100 % (effectively, small margin) */
 }
 
 
@@ -230,10 +229,10 @@ Date           Issue       Author         Reason for Modification
 .rg-span2-3 { width: 65.51%; }
 .rg-span3-3 { width: 100%; }
 
-@media only screen and (max-width: 520px) {  /* stack columns at <=520 px */
-	.rg-span1-3,                              /* by making all columns 100 % (effectively, small margin) */
-   .rg-span2-3,
-   .rg-span3-3 { width: 100%; padding:0 1%; }
+@media only screen and (max-width: 520px) {     /* stack columns at <=520 px */
+	.rg-span1-3,
+    .rg-span2-3,
+    .rg-span3-3 { width: 100%; padding:0 1%; }    /* by making all columns 100 % (effectively, small margin) */
 }
 
 
@@ -246,11 +245,11 @@ Date           Issue       Author         Reason for Modification
 .rg-span3-4 { width: 74.13%; }
 .rg-span4-4 { width: 100%; }
 
-@media only screen and (max-width: 520px) {  /* stack columns at <=520 px */
-	.rg-span1-4,                              /* by making all columns 100 % (effectively, small margin) */
-   .rg-span2-4,
-   .rg-span3-4,
-   .rg-span4-4 { width: 100%; padding:0 1%; }
+@media only screen and (max-width: 520px) {     /* stack columns at <=520 px */
+	.rg-span1-4,
+    .rg-span2-4,
+    .rg-span3-4,
+    .rg-span4-4 { width: 100%; padding:0 1%; }    /* by making all columns 100 % (effectively, small margin) */
 }
 
 
@@ -264,12 +263,12 @@ Date           Issue       Author         Reason for Modification
 .rg-span4-5 { width: 79.31%; }
 .rg-span5-5 { width: 100%; }
 
-@media only screen and (max-width: 520px) {  /* stack columns at <=520 px */
-	.rg-span1-5,                              /* by making all columns 100 % (effectively, small margin) */
-   .rg-span2-5,
-   .rg-span3-5,
-   .rg-span4-5,
-   .rg-span5-5 { width: 100%; padding:0 1%; }
+@media only screen and (max-width: 520px) {     /* stack columns at <=520 px */
+	.rg-span1-5,
+    .rg-span2-5,
+    .rg-span3-5,
+    .rg-span4-5,
+    .rg-span5-5 { width: 100%; padding:0 1%; }    /* by making all columns 100 % (effectively, small margin) */
 }
 
 /* ----------------------------------------------------------------------------
@@ -283,14 +282,11 @@ Date           Issue       Author         Reason for Modification
 .rg-span5-6 { width: 82.75%; }
 .rg-span6-6 { width: 100%; }
 
-@media only screen and (max-width: 520px) {  /* stack columns at <=520 px */
-	.rg-span1-6,                              /* by making all columns 100 % (effectively, small margin) */
-   .rg-span2-6,
-   .rg-span3-6,
-   .rg-span4-6,
-   .rg-span5-6,
-   .rg-span6-6 { width: 100%; padding:0 1%; }
+@media only screen and (max-width: 520px) {     /* stack columns at <=520 px */
+	.rg-span1-6,
+    .rg-span2-6,
+    .rg-span3-6,
+    .rg-span4-6,
+    .rg-span5-6,
+    .rg-span6-6 { width: 100%; padding:0 1%; }    /* by making all columns 100 % (effectively, small margin) */
 }
-/* ****************************************************************************
-   END OF FILE
-   **************************************************************************** */

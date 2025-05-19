@@ -1,16 +1,15 @@
-
-
-/* PRACTICALSERIES (c) 2021
+/* MASTERING GITHUB (c) 2025
 
 *******************************************************************************
 Title :          LOCAL SCROLL - JQUERY                                SCROLL.JS
 *******************************************************************************
 
-PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
-                 Published in the United Kingdom
+MASTERING GITHUB: Is authored by Michael Gledhill 
+                  and published by the Practical Series of Publications
+                  Published in the United Kingdom
 
-                 Email: mg@practicalseries.com
-                 Web:   www.practicalseries.com
+                  Email: mg@masteringgithub.com
+                  Web:   https://masteringgithub.com
 
 -------------------------------------------------------------------------------
 DETAILS         LOCAL SCROLL FUNCTIONS
@@ -57,8 +56,7 @@ This is a complete summary of all software modifications.
 
 Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
-10 May 2025   001.000      M. Gledhill    File created
-                                          based on 97-00 scroll.js file
+15 May 2025   001.000      M. Gledhill    File created
 ---------------------------------------------------------------------------- */
 
 

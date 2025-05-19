@@ -1,16 +1,15 @@
-
-
-/* PRACTICALSERIES (c) 2021
+/* MASTERING GITHUB (c) 2025
 
 *******************************************************************************
-Title :          PRACTICAL SERIES AUTOMATION LIBRARY (PAL)        STYLE-PAL.CSS
+Title:              MASTERING GITHUB                              STYLE-MGH.CSS
 *******************************************************************************
 
-PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
-                 Published in the United Kingdom
+MASTERING GITHUB:   Is authored by Michael Gledhill 
+                    and published by the Practical Series of Publications
+                    Published in the United Kingdom
 
-                 Email: mg@practicalseries.com
-                 Web:   www.practicalseries.com
+                    Email: mg@masteringgithub.com
+                    Web:   https://masteringgithub.com
 
 -------------------------------------------------------------------------------
 DETAILS
@@ -22,77 +21,23 @@ it provides additional styles for:
 
 The style sheet also contains responsive formatting for each of the areas
 (responsive settings are at the end of each section).
-
-This is one of a set of style sheets associated with the website, a full list
-of style sheets and the order in which they should be called is given here:
-
-        ps-fonts.css            - web fonts for the site
-        tia-fonts.css           - Siemens TIA Portal web fonts for the site
-        ionicons.min.css        - Social media font icons
-        normalise.css           - standardises the rendering of the site on
-                                  different browsers
-        prettify.css            - styles associated with Google Prettify
-        (called by script)        this is called automatically by the
-                                  run_prettify.js file
-        lightbox.css            - styles associated with lightbox2 viewer
-        grid.css                - defines a responsive grid (Kerstner grid)
-                                  for columns within the website
-        style.css               - this file
-        codelines.css           - Optional, adds additional line styling to
-                                  Google Prettify code fragments
-
-COLOURS IN USE
-
- Colour                 Usage                                    Hex Code
-----------------------+----------------------------------------+---------------
- Page                 | Page colour outside 1276px boundary    | #fbfaf6
- Page edge            | Border colour to page edge             | #ededed
- Background           | Overall background colour (white)      | #fff
- Main text            | main body text (v. dk gy)              | #404030
- sidebar text         | sidebar sans serif text (lt gy)        | #686868
- sidebar border       | when collapsed (gy)                    | #cccccc
- sidebar background   | when collapsed (lt gy)                 | #f8f8f8
- Table border         | Outline for all tables                 | #cccccc
- table background     | Incidental, code 7 formulae (lt gy)    | #fbfbfb
- Navigation base      | Navigation (link/visited)              | #cccccc
- Navigation hover     | Navigation (active/hover)              | #686868
- Navigation bkgrd     | Navigation background (link/visited)   | #fff
- Navigation bkgrd     | Navigation background (active/hover)   | #c8c8c8
- TOC list             | Contents list of entries (blue)        | #4C6C9C
- Footer background    | Footer area background (cream)         | #fbfaf6
- Footer navigation    | Footer navigation & spacer text (blue) | #4c6c9c
- Footer nav highlight | Footer nav highlights (lighter blue)   | #5b7daf
- Button background    | Button light orange                    | #e67e22
- Button hover         | Button dark orange (hover)             | #de7519
- Text (red)           | Red text highlight                     | #c0504d
- Untested link        | Highlights untested links              | #ff0000
-----------------------+----------------------------------------+---------------
- git-cmd              | Blue colour used for Git commands      | #4F81BD
- git-background       | Git command table background colour    | #404030
-----------------------+----------------------------------------+---------------
- Build Badge colours  | PS colour match - red                  | #BF504D
-                      | PS colour match - bright red (WIP)     | #E60D18
-                      | PS colour match - orange               | #F79545
-                      | PS colour match - green                | #9DBB61
-                      | PS colour match - bright green         | #50CA22
-                      | PS colour match - turquoise            | #4BABC5
-                      | PS colour match - blue                 | #4F81BC
-                      | PS colour match - violet               | #AB99C0
-                      | PS colour match - grey                 | #3F3F30
 -------------------------------------------------------------------------------
+
+
+*******************************************************************************
 MODIFICATION HISTORY:
 
 This is a complete summary of all software modifications.
 
-Date          Issue        Author         Reason for Modification
+Date           Issue       Author         Reason for Modification
 -------------------------------------------------------------------------------
-02 May 2025   D000.001       M. Gledhill    File created
+15 May 2025    001.000      M. Gledhill   File created
 ---------------------------------------------------------------------------- */
 
 /* ****************************************************************************
    REVISION
    **************************************************************************** */
-#rev-style-pal:after { content: "000.001"; }
+#rev-style-pal:after { content: "001.000"; }
 
 
 /* ****************************************************************************

@@ -1,16 +1,16 @@
 
-/* MASTERING GITHUB (c) 2025
+
+/* PRACTICALSERIES (c) 2021
 
 *******************************************************************************
-Title:            PAL COMMON STYLE                               SSTYLE-PAL.CSS
+Title :          PRACTICAL SERIES AUTOMATION LIBRARY (PAL)        STYLE-PAL.CSS
 *******************************************************************************
 
-MASTERING GITHUB: Is authored by Michael Gledhill 
-                  and published by the Practical Series of Publications
-                  Published in the United Kingdom
+PRACTICALSERIES: Practical Series of Publications by Michael Gledhill
+                 Published in the United Kingdom
 
-                  Email: mg@masteringgithub.com
-                  Web:   https://masteringgithub.com
+                 Email: mg@practicalseries.com
+                 Web:   www.practicalseries.com
 
 -------------------------------------------------------------------------------
 DETAILS
@@ -26,28 +26,95 @@ additional styles for:
 
 The style sheet also contains responsive formatting for each of the areas
 (responsive settings are at the end of each section).
+
+This is one of a set of style sheets associated with the website, a full list
+of style sheets and the order in which they should be called is given here:
+
+        ps-fonts.css            - web fonts for the site
+        tia-fonts.css           - Siemens TIA Portal web fonts for the site
+        ionicons.min.css        - Social media font icons
+        normalise.css           - standardises the rendering of the site on
+                                  different browsers
+        prettify.css            - styles associated with Google Prettify
+        (called by script)        this is called automatically by the
+                                  run_prettify.js file
+        lightbox.css            - styles associated with lightbox2 viewer
+        grid.css                - defines a responsive grid (Kerstner grid)
+                                  for columns within the website
+        style.css               - this file
+        codelines.css           - Optional, adds additional line styling to
+                                  Google Prettify code fragments
+
+COLOURS IN USE
+
+ Colour                 Usage                                    Hex Code
+----------------------+----------------------------------------+---------------
+ Page                 | Page colour outside 1276px boundary    | #fbfaf6
+ Page edge            | Border colour to page edge             | #ededed
+ Background           | Overall background colour (white)      | #fff
+ Main text            | main body text (v. dk gy)              | #404030
+ sidebar text         | Sidebar sans serif text (lt gy)        | #686868
+ sidebar border       | when collapsed (gy)                    | #cccccc
+ sidebar background   | when collapsed (lt gy)                 | #f8f8f8
+ Table border         | Outline for all tables                 | #cccccc
+ table background     | Incidental, code 7 formulae (lt gy)    | #fbfbfb
+ Navigation base      | Navigation (link/visited)              | #cccccc
+ Navigation hover     | Navigation (active/hover)              | #686868
+ Navigation bkgrd     | Navigation background (link/visited)   | #fff
+ Navigation bkgrd     | Navigation background (active/hover)   | #c8c8c8
+ TOC list             | Contents list of entries (blue)        | #4C6C9C
+ Footer background    | Footer area background (cream)         | #fbfaf6
+ Footer navigation    | Footer navigation & spacer text (blue) | #4c6c9c
+ Footer nav highlight | Footer nav highlights (lighter blue)   | #5b7daf
+ Button background    | Button light orange                    | #e67e22
+ Button hover         | Button dark orange (hover)             | #de7519
+ Text (red)           | Red text highlight                     | #c0504d
+ Untested link        | Highlights untested links              | #ff0000
+----------------------+----------------------------------------+---------------
+ git-cmd              | Blue colour used for Git commands      | #4F81BD
+ git-background       | Git command table background colour    | #404030
+----------------------+----------------------------------------+---------------
+ Build Badge colours  | PS colour match - red                  | #BF504D
+                      | PS colour match - bright red (WIP)     | #E60D18
+                      | PS colour match - orange               | #F79545
+                      | PS colour match - green                | #9DBB61
+                      | PS colour match - bright green         | #50CA22
+                      | PS colour match - turquoise            | #4BABC5
+                      | PS colour match - blue                 | #4F81BC
+                      | PS colour match - violet               | #AB99C0
+                      | PS colour match - grey                 | #3F3F30
 -------------------------------------------------------------------------------
-
-
-*******************************************************************************
 MODIFICATION HISTORY:
 
 This is a complete summary of all software modifications.
 
-Date           Issue       Author         Reason for Modification
+Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
-15 May 2025    001.000      M. Gledhill   Max width removed from body style and
-                                          added to rg-row (allows for hero bar)
+14 Feb 2021   000.102      M. Gledhill    .pal-headline-ps top margin adjusted
+                                          large title now lines up with side
+                                          logo
 
-08 May 2025    000.102      M. Gledhill   File created
-                                          Based on style-pal.css 000.102
+10 Feb 2021   000.101      M. Gledhill    Development release for site build
+                                          Revision control active
+
+08 Feb 2021   000.000      M. Gledhill    Established for PAL
+
+05 Feb 2021   D00.04       M. Gledhill    TOC level for SMDS sytling name
+                                          changed: toc-levX-num/text renamed 
+                                          toc-levX-numpal/textpal to avoid
+                                          overloading style.css
+
+04 Jun 2018   D00.03       M. Gledhill    Tables (various) added
+
+03 Jun 2018   D00.02       M. Gledhill    Side TOC adjusted for responsiveness
+
+20 Sep 2018   D00.01       M. Gledhill    File created
 ---------------------------------------------------------------------------- */
-
 
 /* ****************************************************************************
    REVISION
    **************************************************************************** */
-#rev-style-pal:after { content: "001.000"; }
+#rev-style-pal:after { content: "000.102"; }
 
 
 /* ****************************************************************************
@@ -61,18 +128,7 @@ Date           Issue       Author         Reason for Modification
 
 .pal-title-row {                            /* container for whole row */
     z-index: 1;
-    margin-top: 60px
 }
-@media all {.pal-title-row { margin-top: 60px;}}
-@media all and (max-width:1276px) {.pal-title-row { margin-top: 60px;}}
-@media all and (max-width:960px)  {.pal-title-row { margin-top: 57px;}}
-@media all and (max-width:920px)  {.pal-title-row { margin-top: 54px;}}
-@media all and (max-width:880px)  {.pal-title-row { margin-top: 54px;}}
-@media all and (max-width:840px)  {.pal-title-row { margin-top: 51px;}}
-@media all and (max-width:800px)  {.pal-title-row { margin-top: 47px;}}
-@media all and (max-width:760px)  {.pal-title-row { margin-top: 47px;}}
-@media all and (max-width:720px)  {.pal-title-row { margin-top: 44px;}}
-@media all and (max-width:680px)  {.pal-title-row { margin-top: 41px;}}
 
 .pal-headline {
     font-family: "conc-c8-r";
@@ -107,7 +163,7 @@ Date           Issue       Author         Reason for Modification
     border-top: 2px solid #404030;
 }
 .pal-blk-add {                              /* container for large number */
-/*    display: inline-block;*/
+    display: inline-block;
     float: left;
    /* width: 45%;*/
     text-align: left;
@@ -118,7 +174,7 @@ Date           Issue       Author         Reason for Modification
 }
 
 .pal-blk-sym {                              /* container for heading text */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
    /* width: 55%;*/
     text-align: left;
@@ -152,7 +208,7 @@ Date           Issue       Author         Reason for Modification
 }
 
 .pal-blk-auth {                             /* container for large number */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 50%;
     text-align: left;
@@ -163,7 +219,7 @@ Date           Issue       Author         Reason for Modification
 }
 
 .pal-blk-ver-txt {                          /* container for large number */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 35%;
     text-align: right;
@@ -174,7 +230,7 @@ Date           Issue       Author         Reason for Modification
 }
 
 .pal-blk-ver-rd {                           /* container for large number */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     background-image: linear-gradient(#C0504D, #953735);
     border-radius: 1rem;
@@ -223,7 +279,7 @@ Date           Issue       Author         Reason for Modification
 @media all and (max-width:520px)  {.pal-headline { font-size: 150%; }}
 @media all and (max-width:520px)  {.pal-blk-add { width: 34%; } .pal-blk-sym { width: 43%; }}
 @media all and (max-width:520px)  {.pal-blk-auth { width: 40%; } .pal-blk-ver-txt { width: 23%; text-align: left;}}
-@media all and (max-width:520px)  {.pal-headline-logo { max-width: 190px }}
+
 
 /* ****************************************************************************
    ASIDE IMAGE AND REVISION - OVERLOADING
@@ -251,7 +307,7 @@ Date           Issue       Author         Reason for Modification
 .table-rev {
     font-family: "trip-t3-r";
     font-feature-settings: "ss02";
-    color: #fff;
+    color: #aaa;
     font-size: 0.4rem;
     line-height: 1.0;
     line-height: 140%;
@@ -297,7 +353,7 @@ Date           Issue       Author         Reason for Modification
 
 
 .chap-num-box {                            /* container for large number */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 20%;
     text-align: left;
@@ -308,7 +364,7 @@ Date           Issue       Author         Reason for Modification
 }
 
 .chap-text-box {                           /* container for heading text */
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;
     width: 80%;
     font-family: "conc-t3-r";
@@ -356,7 +412,7 @@ Date           Issue       Author         Reason for Modification
     .chap-text-box { width: 100%; }
     .chap-small-num {
         visibility: visible;
-/*        display:inline-block;*/
+        display:inline-block;
         float:left;
         margin-right: 2%;}
     }
@@ -819,19 +875,15 @@ Date           Issue       Author         Reason for Modification
    respectively, these separate the chapter number, section number and title,
    these oprate in a similar way to the normal toc links.
    ************************************************************************* */
-d
+
 .side-toc {
     z-index: 9999;
-    background-color: #4C6C9C;
-    max-width: 286px;
-    width: 100%;
-    height: 40vh;;
-    top:31%;
+    top:30%;
     position:fixed;
 }
 .side-toc-box {
- /*   height: 2rem;
-    width: 2rem; */
+    height: 2rem;
+    width: 2rem;
     font-family: "conc-c4-r";
     color: #ccc;
     background-color: transparent;
@@ -845,8 +897,8 @@ d
 }
 
 .side-toc-box:hover {
- /*   height: auto;
-    width: auto;*/
+    height: auto;
+    width: auto;
     min-height: 8rem;
     color: #686868;
     background-color: #f8f8f8;
@@ -857,16 +909,15 @@ d
 }
 
 .side-toc-line {
-    /*display: none;*/
-    -moz-column-count: 1;
-         column-count: 1;
+    display: none;
+    -moz-column-count: 2;
+         column-count: 2;
     margin:0;
     padding-bottom: 0.5rem;                     /* padding to bottom of TOC box */
     list-style: none;
     font-family: "conc-t4-r";
     font-feature-settings: "ss02";
     font-size: 0.6rem;
-    overflow-y: scroll;
 }
 .side-toc-line li a:link,                        /* format the TOC list text */
 .side-toc-line li a:visited,
