@@ -597,7 +597,7 @@ a:active { color: #404030; }
    This is the first area a visitor to the site sees.
    ************************************************************************* */
    .hero {
-    background-image: url(../02-images/branch-bg-005.svg);
+    background-image: url(../02-images/branch-bg-005.png);
     background-color: #fff;
     background-position: center top;
     background-size: auto auto;
