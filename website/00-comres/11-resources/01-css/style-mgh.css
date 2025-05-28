@@ -1,1 +1,349 @@
-#rev-style-pal:after{content:"001.001"}.page-title{margin-top:4rem;margin-bottom:0}.page-title h1{font-family:"Poppins";font-weight:700;font-size:340%;letter-spacing:.086rem;text-transform:uppercase;text-align:center;color:#1C2F4B;margin:0 0 .4rem}.page-title h2,.page-title h3,.page-title h4{font-family:"Poppins";text-align:center;color:#4C6C9C}.page-title h2{font-weight:700;text-transform:uppercase;font-size:140%;letter-spacing:.086rem;line-height:140%;margin:1rem 0 0}.page-title h3{font-weight:600;text-transform:uppercase;letter-spacing:.086rem;font-size:110%;margin:.5rem 0 2rem}.page-title h4{font-size:104%;margin:0}@media all{.page-title h1{font-size:340%}.page-title h2{font-size:195%}.page-title h3{font-size:110%}}@media all and (max-width:1290px){.page-title h1{font-size:327%}.page-title h2{font-size:186%}.page-title h3{font-size:105%}}@media all and (max-width:1240px){.page-title h1{font-size:316%}.page-title h2{font-size:179%}.page-title h3{font-size:101%}}@media all and (max-width:1200px){.page-title h1{font-size:305%}.page-title h2{font-size:172%}.page-title h3{font-size:97%}}@media all and (max-width:1160px){.page-title h1{font-size:294%}.page-title h2{font-size:165%}.page-title h3{font-size:94%}}@media all and (max-width:1120px){.page-title h1{font-size:284%}.page-title h2{font-size:158%}.page-title h3{font-size:89%}}@media all and (max-width:1080px){.page-title h1{font-size:273%}.page-title h2{font-size:151%}.page-title h3{font-size:85%}}@media all and (max-width:1040px){.page-title h1{font-size:262%}.page-title h2{font-size:144%}.page-title h3{font-size:81%}}@media all and (max-width:1000px){.page-title h1{font-size:251%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:960px){.page-title h1{font-size:252%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:920px){.page-title h1{font-size:251%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:880px){.page-title h1{font-size:251%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:840px){.page-title h1{font-size:251%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:800px){.page-title h1{font-size:251%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:760px){.page-title h1{font-size:250%}.page-title h2{font-size:137%}.page-title h3{font-size:77%}}@media all and (max-width:720px){.page-title h1{font-size:250%}.page-title h2{font-size:137%}.page-title h3{font-size:76%}}@media all and (max-width:680px){.page-title h1{font-size:249%}.page-title h2{font-size:137%}.page-title h3{font-size:76%}}@media all and (max-width:640px){.page-title h1{font-size:249%}.page-title h2{font-size:137%}.page-title h3{font-size:76%}}@media all and (max-width:600px){.page-title h1{font-size:248%}.page-title h2{font-size:137%}.page-title h3{font-size:76%}}@media all and (max-width:560px){.page-title h1{font-size:248%}.page-title h2{font-size:137%}.page-title h3{font-size:76%}}@media all and (max-width:520px){.page-title h1{font-size:340%}.page-title h2{font-size:177%}.page-title h3{font-size:100%}}.toc-left-box{max-width:286px;border:1px solid #ccc;background-color:#fff;border-radius:.5rem;padding:.5rem .2rem;margin-bottom:3rem}.toc-left-title{font-family:"conc-c4-r";font-feature-settings:ss02;color:#4C6C9C;font-size:.9rem;margin-left:14.5%;margin-bottom:1rem;border-bottom:1px solid #4c6c9c}.toc-left{font-family:"conc-t4-r";font-feature-settings:ss02;font-size:.6rem;color:#4c6c9c;vertical-align:top;margin-top:0;margin-bottom:.4rem}.toc-left a:link,.toc-left a:visited{color:#4c6c9c;border-bottom:1px solid transparent;transition:border-bottom .2s}.toc-left a:hover,.toc-left a:active{text-decoration:underline;color:#4c6c9c;border-bottom:1px solid #4c6c9c}.toc-lhome-text{display:inline-block;font-family:"conc-t3-b";font-feature-settings:ss02;width:85%;margin-bottom:.3rem;vertical-align:top}.toc-l1-num{display:inline-block;font-family:"conc-t3-b";font-feature-settings:ss02;width:9%;margin-bottom:.3rem;vertical-align:top}.toc-l1-text{display:inline-block;font-family:"conc-t3-b";font-feature-settings:ss02;width:83%;margin-bottom:.3rem;vertical-align:top}.toc-l2-num{display:inline-block;width:20%;margin-bottom:.3rem;vertical-align:top}.toc-2-text{display:inline-block;width:64%;margin-bottom:.2rem;vertical-align:top}.toc-l3-num{display:inline-block;font-size:.54rem;width:20%;margin-bottom:.2rem;vertical-align:top}.toc-l3-text{display:inline-block;font-size:.54rem;width:64%;margin-bottom:.2rem;vertical-align:top}.toc-l4-text{display:inline-block;font-size:.55rem;width:64%;margin-bottom:.2rem;vertical-align:top}.toc-lhome-pad{margin-left:14.5%}.toc-l23-pad{display:inline-block;width:14.5%}.toc-l4-pad{display:inline-block;width:34.5%}.toc-left-gap{margin-top:.5rem}@media all{.toc-left{font-size:.6rem}.toc-l3-num{font-size:.54rem}.toc-l3-text{font-size:.54rem}.toc-l4-text{font-size:.54rem}}@media all and (max-width:1290px){.toc-left{font-size:.57rem}.toc-l3-num{font-size:.52rem}.toc-l3-text{font-size:.52rem}.toc-l4-text{font-size:.52rem}}@media all and (max-width:1240px){.toc-left{font-size:.55rem}.toc-l3-num{font-size:.5rem}.toc-l3-text{font-size:.5rem}.toc-l4-text{font-size:.5rem}}@media all and (max-width:1200px){.toc-left{font-size:.53rem}.toc-l3-num{font-size:.48rem}.toc-l3-text{font-size:.48rem}.toc-l4-text{font-size:.48rem}}@media all and (max-width:1160px){.toc-left{font-size:.51rem}.toc-l3-num{font-size:.46rem}.toc-l3-text{font-size:.46rem}.toc-l4-text{font-size:.46rem}}@media all and (max-width:1120px){.toc-left{font-size:.49rem}.toc-l3-num{font-size:.44rem}.toc-l3-text{font-size:.44rem}.toc-l4-text{font-size:.44rem}}@media all and (max-width:1080px){.toc-left{font-size:.47rem}.toc-l3-num{font-size:.42rem}.toc-l3-text{font-size:.42rem}.toc-l4-text{font-size:.42rem}}@media all and (max-width:1040px){.toc-left{font-size:.45rem}.toc-l3-num{font-size:.4rem}.toc-l3-text{font-size:.4rem}.toc-l4-text{font-size:.4rem}}@media all and (max-width:1000px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:960px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:920px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:880px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:840px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:800px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:760px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:720px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:680px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:640px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:600px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:560px){.toc-left{font-size:.43rem}.toc-l3-num{font-size:.39rem}.toc-l3-text{font-size:.39rem}.toc-l4-text{font-size:.39rem}}@media all and (max-width:520px){.toc-left{font-size:1rem}.toc-l3-num{font-size:.9rem}.toc-l3-text{font-size:.9rem}.toc-l4-text{font-size:.9rem}.toc-left-box{border-width:0}}.sub-title-area-sec{margin-top:6.5rem;margin-bottom:4.5rem}.sub-title-area-ssec{margin-top:5rem;margin-bottom:9rem}.sub-title-area-iln{margin-top:3.5rem;margin-bottom:1.5rem}.eop{width:100%;background:url(https://masteringgithub.com/00-comres/11-resources/02-images/bottom-circuit-04.webp);background-position:center center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}.eop-over-lay{position:relative;padding:3rem 0;top:0;left:0;width:100%;height:100%;background-image:linear-gradient(to right,#000f,#00000080,#000f)}.eop-title h2{font-family:"conc-t7-r";font-feature-settings:ss02;font-size:340%;text-align:left;color:#fff;margin:0 0 2rem}.eop-sans p{font-family:"conc-t4-r";font-feature-settings:ss02;color:#fff;padding-bottom:1rem}@media all{.eop-title h2{font-size:340%}.eop-title h3{font-size:110%}}@media all and (max-width:1290px){.eop-title h2{font-size:327%}.eop-title h3{font-size:105%}}@media all and (max-width:1240px){.eop-title h2{font-size:316%}.eop-title h3{font-size:101%}}@media all and (max-width:1200px){.eop-title h2{font-size:305%}.eop-title h3{font-size:97%}}@media all and (max-width:1160px){.eop-title h2{font-size:294%}.eop-title h3{font-size:94%}}@media all and (max-width:1120px){.eop-title h2{font-size:284%}.eop-title h3{font-size:89%}}@media all and (max-width:1080px){.eop-title h2{font-size:273%}.eop-title h3{font-size:85%}}@media all and (max-width:1040px){.eop-title h2{font-size:262%}.eop-title h3{font-size:81%}}@media all and (max-width:1000px){.eop-title h2{font-size:251%}.eop-title h3{font-size:77%}}@media all and (max-width:960px){.eop-title h2{font-size:252%}.eop-title h3{font-size:77%}}@media all and (max-width:920px){.eop-title h2{font-size:251%}.eop-title h3{font-size:77%}}@media all and (max-width:880px){.eop-title h2{font-size:251%}.eop-title h3{font-size:77%}}@media all and (max-width:840px){.eop-title h2{font-size:251%}.eop-title h3{font-size:77%}}@media all and (max-width:800px){.eop-title h2{font-size:251%}.eop-title h3{font-size:77%}}@media all and (max-width:760px){.eop-title h2{font-size:250%}.eop-title h3{font-size:77%}}@media all and (max-width:720px){.eop-title h2{font-size:250%}.eop-title h3{font-size:76%}}@media all and (max-width:680px){.eop-title h2{font-size:249%}.eop-title h3{font-size:76%}}@media all and (max-width:640px){.eop-title h2{font-size:249%}.eop-title h3{font-size:76%}}@media all and (max-width:600px){.eop-title h2{font-size:248%}.eop-title h3{font-size:76%}}@media all and (max-width:560px){.eop-title h2{font-size:248%}.eop-title h3{font-size:76%}}@media all and (max-width:520px){.eop-title h2{font-size:340%}.eop-title h3{font-size:100%}}
+/* MASTERING GITHUB (c) 2025
+
+*******************************************************************************
+Title:              MASTERING GITHUB                              STYLE-MGH.CSS
+*******************************************************************************
+
+MASTERING GITHUB:   Is authored by Michael Gledhill 
+                    and published by the Practical Series of Publications
+                    Published in the United Kingdom
+
+                    Email: mg@masteringgithub.com
+                    Web:   https://masteringgithub.com
+
+-------------------------------------------------------------------------------
+DETAILS
+
+This is an additional style sheet for the Mastering GitHub documentation, 
+it provides additional styles for:
+
+        Page headings
+
+The style sheet also contains responsive formatting for each of the areas
+(responsive settings are at the end of each section).
+-------------------------------------------------------------------------------
+
+
+*******************************************************************************
+MODIFICATION HISTORY:
+
+This is a complete summary of all software modifications.
+
+Date           Issue       Author         Reason for Modification
+-------------------------------------------------------------------------------
+27 May 2025    001.001      M. Gledhill   eop h2 added
+15 May 2025    001.000      M. Gledhill   File created
+---------------------------------------------------------------------------- */
+
+/* ****************************************************************************
+   REVISION
+   **************************************************************************** */
+#rev-style-pal:after { content: "001.001"; }
+
+
+/* ****************************************************************************
+   PAGE Headings
+   ****************************************************************************
+   On the site Home page, the navigation & title bars are missing, and a
+   cover image and titles are inserted in their place.
+
+   This is the first area a visitor to the site sees.
+   ************************************************************************* */
+
+   .page-title {
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+      }
+
+   .page-title h1 {                           /* format h1 - MAIN TITLE */
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 340%;
+    letter-spacing: 0.086rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1C2F4B;
+    margin: 0 0 0.4rem 0;
+}
+                                            /* format h2-h4 - COMMON FEATURES */
+.page-title h2,
+.page-title h3,
+.page-title h4 {
+    font-family: "Poppins";
+    text-align: center;
+    color: #4C6C9C;
+}
+.page-title h2 {                           /* format h2 - SUBHEADING */
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 140%;
+    letter-spacing: 0.086rem;
+    line-height: 140%;
+    margin: 1rem 0 0 0;
+}
+.page-title h3 { 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.086rem;
+    font-size: 110%;
+    margin: 0.5rem 0 2rem 0;
+}
+.page-title h4 {                           /* format h4 - OPTIONAL DESCRIPTION */
+    font-size: 104%;
+    margin: 0 0 0rem 0;
+}
+
+@media all {.page-title h1 { font-size: 340%; } .page-title h2 { font-size: 195%; } .page-title h3 { font-size: 110%; }}
+@media all and (max-width:1290px) {.page-title h1 { font-size: 327%; } .page-title h2 { font-size: 186%; } .page-title h3 { font-size: 105%; }}
+@media all and (max-width:1240px) {.page-title h1 { font-size: 316%; } .page-title h2 { font-size: 179%; } .page-title h3 { font-size: 101%; }}
+@media all and (max-width:1200px) {.page-title h1 { font-size: 305%; } .page-title h2 { font-size: 172%; } .page-title h3 { font-size: 97%; }}
+@media all and (max-width:1160px) {.page-title h1 { font-size: 294%; } .page-title h2 { font-size: 165%; } .page-title h3 { font-size: 94%; }}
+@media all and (max-width:1120px) {.page-title h1 { font-size: 284%; } .page-title h2 { font-size: 158%; } .page-title h3 { font-size: 89%; }}
+@media all and (max-width:1080px) {.page-title h1 { font-size: 273%; } .page-title h2 { font-size: 151%; } .page-title h3 { font-size: 85%; }}
+@media all and (max-width:1040px) {.page-title h1 { font-size: 262%; } .page-title h2 { font-size: 144%; } .page-title h3 { font-size: 81%; }}
+@media all and (max-width:1000px) {.page-title h1 { font-size: 251%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:960px)  {.page-title h1 { font-size: 252%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:920px)  {.page-title h1 { font-size: 251%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:880px)  {.page-title h1 { font-size: 251%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:840px)  {.page-title h1 { font-size: 251%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:800px)  {.page-title h1 { font-size: 251%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:760px)  {.page-title h1 { font-size: 250%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 77%; }}
+@media all and (max-width:720px)  {.page-title h1 { font-size: 250%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 76%; }}
+@media all and (max-width:680px)  {.page-title h1 { font-size: 249%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 76%; }}
+@media all and (max-width:640px)  {.page-title h1 { font-size: 249%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 76%; }}
+@media all and (max-width:600px)  {.page-title h1 { font-size: 248%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 76%; }}
+@media all and (max-width:560px)  {.page-title h1 { font-size: 248%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 76%; }}
+@media all and (max-width:520px)  {.page-title h1 { font-size: 340%; } .page-title h2 { font-size: 177%; } .page-title h3 { font-size: 100%; }}
+
+
+/* ****************************************************************************
+   HEADER TABLE OF CONTENTS
+   **************************************************************************** */
+
+.toc-left-box {
+    max-width:286px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.toc-left-title{
+    font-family: "conc-c4-r";
+    font-feature-settings: "ss02";
+    color: #4C6C9C; 
+    font-size: 0.9rem;
+    margin-left: 14.5%;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #4c6c9c;
+}
+
+
+.toc-left {
+    font-family: "conc-t4-r";
+    font-feature-settings: "ss02";
+    font-size: 0.6rem;
+    color: #4c6c9c; 
+
+    
+    vertical-align: top;
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+}
+
+.toc-left a:link,
+.toc-left a:visited {
+    color: #4c6c9c; 
+    /*text-decoration: none;
+    transition: text-decoration 0.2s;  */ 
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.toc-left a:hover,
+.toc-left a:active {
+    text-decoration: underline;
+    color: #4c6c9c;
+    border-bottom: 1px solid #4c6c9c;
+    /*background-color: #e8e8e8;*/
+}
+
+.toc-lhome-text{
+    display: inline-block;
+    font-family: "conc-t3-b";
+    font-feature-settings: "ss02";
+    width: 85%;
+    margin-bottom: 0.3rem;
+    vertical-align: top;
+}
+
+.toc-l1-num{
+    display: inline-block;
+    font-family: "conc-t3-b";
+    font-feature-settings: "ss02";
+    width: 9%;                          /* total width of num + text = 92% to allow for exp. icon */
+    margin-bottom: 0.3rem;
+    vertical-align: top;
+}
+.toc-l1-text{
+    display: inline-block;
+    font-family: "conc-t3-b";
+    font-feature-settings: "ss02";
+    width: 83%;
+    margin-bottom: 0.3rem;
+    vertical-align: top;
+}
+
+.toc-l2-num{
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 0.3rem;
+    vertical-align: top;
+}
+.toc-2-text{
+    display: inline-block;
+    width: 64%;
+    margin-bottom: 0.2rem;
+    vertical-align: top;
+}
+
+.toc-l3-num{
+    display: inline-block;
+    font-size: 0.54rem;
+    width: 20%;
+    margin-bottom: 0.2rem;
+    vertical-align: top;
+}
+.toc-l3-text{
+    display: inline-block;
+    font-size: 0.54rem;
+    width: 64%;
+    margin-bottom: 0.2rem;
+    vertical-align: top;
+}
+.toc-l4-text{
+    display: inline-block;
+    font-size: 0.55rem;
+    width: 64%;
+    margin-bottom: 0.2rem;
+    vertical-align: top;
+}
+
+.toc-lhome-pad{margin-left: 14.5%;}
+
+.toc-l23-pad{
+    display: inline-block;
+    width:14.5%
+}
+.toc-l4-pad{
+    display: inline-block;
+    width:34.5%
+}
+
+
+.toc-left-gap{
+    margin-top: 0.5rem;
+}
+
+
+@media all                        {.toc-left { font-size: 0.6rem; } .toc-l3-num { font-size: 0.54rem; } .toc-l3-text { font-size: 0.54rem; }.toc-l4-text { font-size: 0.54rem; }}
+@media all and (max-width:1290px) {.toc-left { font-size: 0.57rem; } .toc-l3-num { font-size: 0.52rem; } .toc-l3-text { font-size: 0.52rem; }.toc-l4-text { font-size: 0.52rem; }}
+@media all and (max-width:1240px) {.toc-left { font-size: 0.55rem; } .toc-l3-num { font-size: 0.50rem; } .toc-l3-text { font-size: 0.50rem; }.toc-l4-text { font-size: 0.50rem; }}
+@media all and (max-width:1200px) {.toc-left { font-size: 0.53rem; } .toc-l3-num { font-size: 0.48rem; } .toc-l3-text { font-size: 0.48rem; }.toc-l4-text { font-size: 0.48rem; }}
+@media all and (max-width:1160px) {.toc-left { font-size: 0.51rem; } .toc-l3-num { font-size: 0.46rem; } .toc-l3-text { font-size: 0.46rem; }.toc-l4-text { font-size: 0.46rem; }}
+@media all and (max-width:1120px) {.toc-left { font-size: 0.49rem; } .toc-l3-num { font-size: 0.44rem; } .toc-l3-text { font-size: 0.44rem; }.toc-l4-text { font-size: 0.44rem; }}
+@media all and (max-width:1080px) {.toc-left { font-size: 0.47rem; } .toc-l3-num { font-size: 0.42rem; } .toc-l3-text { font-size: 0.42rem; }.toc-l4-text { font-size: 0.42rem; }}
+@media all and (max-width:1040px) {.toc-left { font-size: 0.45rem; } .toc-l3-num { font-size: 0.40rem; } .toc-l3-text { font-size: 0.40rem; }.toc-l4-text { font-size: 0.40rem; }}
+@media all and (max-width:1000px) {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:960px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:920px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:880px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:840px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:800px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:760px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:720px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:680px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:640px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:600px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:560px)  {.toc-left { font-size: 0.43rem; } .toc-l3-num { font-size: 0.39rem; } .toc-l3-text { font-size: 0.39rem; }.toc-l4-text { font-size: 0.39rem; }}
+@media all and (max-width:520px)  {.toc-left { font-size: 1rem;  } .toc-l3-num { font-size: 0.9rem; } .toc-l3-text { font-size: 0.9rem; }.toc-l4-text { font-size: 0.9rem; }}
+@media all and (max-width:520px)  {.toc-left-box {border-width: 0; }}
+
+
+
+/* ****************************************************************************
+   SUBTITLE AREA - Matches the subtitle margins of a new row as an inline section
+   **************************************************************************** */
+
+.sub-title-area-sec {                           /* matches an inline sub-title area spacing */
+    margin-top: 6.5rem;
+    margin-bottom: 4.5rem;
+}
+.sub-title-area-ssec {                           /* matches an inline sub-title area spacing */
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+}
+.sub-title-area-iln {                           /* matches an inline sub-title area spacing */
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.eop{
+    width:100%;
+    background:url('https://masteringgithub.com/00-comres/11-resources/02-images/bottom-circuit-04.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.eop-over-lay{
+  position:relative;
+  padding: 3rem 0 3rem 0;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-image:linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,1));  
+}
+
+
+.eop-title h2 {                                 /* format h2 - MAIN TITLE */
+    font-family: "conc-t7-r";
+    font-feature-settings: "ss02";
+    font-size: 340%;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 2rem 0;
+}
+
+.eop-sans p{                                     /* TEXT STYLE - sans serif font (override) */
+    font-family: "conc-t4-r";
+    font-feature-settings: "ss02";
+    color: #fff;
+    padding-bottom: 1rem; 
+}
+
+
+@media all {.eop-title h2 { font-size: 340%; } .eop-title h3 { font-size: 110%; }}
+@media all and (max-width:1290px) {.eop-title h2 { font-size: 327%; } .eop-title h3 { font-size: 105%;}}
+@media all and (max-width:1240px) {.eop-title h2 { font-size: 316%; } .eop-title h3 { font-size: 101%;}}
+@media all and (max-width:1200px) {.eop-title h2 { font-size: 305%; } .eop-title h3 { font-size: 97%; }}
+@media all and (max-width:1160px) {.eop-title h2 { font-size: 294%; } .eop-title h3 { font-size: 94%; }}
+@media all and (max-width:1120px) {.eop-title h2 { font-size: 284%; } .eop-title h3 { font-size: 89%; }}
+@media all and (max-width:1080px) {.eop-title h2 { font-size: 273%; } .eop-title h3 { font-size: 85%; }}
+@media all and (max-width:1040px) {.eop-title h2 { font-size: 262%; } .eop-title h3 { font-size: 81%; }}
+@media all and (max-width:1000px) {.eop-title h2 { font-size: 251%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:960px)  {.eop-title h2 { font-size: 252%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:920px)  {.eop-title h2 { font-size: 251%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:880px)  {.eop-title h2 { font-size: 251%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:840px)  {.eop-title h2 { font-size: 251%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:800px)  {.eop-title h2 { font-size: 251%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:760px)  {.eop-title h2 { font-size: 250%; } .eop-title h3 { font-size: 77%; }}
+@media all and (max-width:720px)  {.eop-title h2 { font-size: 250%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:680px)  {.eop-title h2 { font-size: 249%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:640px)  {.eop-title h2 { font-size: 249%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:600px)  {.eop-title h2 { font-size: 248%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:560px)  {.eop-title h2 { font-size: 248%; } .eop-title h3 { font-size: 76%; }}
+@media all and (max-width:520px)  {.eop-title h2 { font-size: 340%; } .eop-title h3 { font-size: 100%; }}
+

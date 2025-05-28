@@ -1,0 +1,609 @@
+<!DOCTYPE html>                                                                 <!-- HTML 5 file -->
+
+<!-- MASTERING GITHUB (c) 2025
+
+*******************************************************************************
+
+MASTERING GITHUB: Is authored by Michael Gledhill 
+                  and published by the Practical Series of Publications
+                  Published in the United Kingdom
+
+                  Email: mg@masteringgithub.com
+                  Web:   https://masteringgithub.com
+
+                  ******************************************************************************* -->
+<html lang="en">                                                                <!-- Declare language                              -->
+    <head>                                                                      <!-- Start of head section                         -->
+        <meta name="pg-rev" content="000.100">
+        <meta charset="utf-8">                                                  <!-- Use unicode char set (< 1024 char from SOF)   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Make page follow browser width and reset zoom -->
+        <meta name="description" content="Mastering GitHub teaches version control through project-based learning. A free, beginner-friendly guide using real-world examples.">
+        <link rel="canonical" href="https://masteringgithub.com/11-mgh-web/98-00-blank.html" />                      <!-- Set to match page url   -->
+        <meta name='robots' content='noindex, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>  <!-- Change index arrangement-->
+        <meta name="title" content="Mastering GitHub: Project-Based Learning for Beginners" />
+        <meta name="description" content="Mastering GitHub teaches version control through project-based learning. A free, beginner-friendly guide using real-world examples."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://masteringgithub.com/11-mgh-web/98-00-blank.html"/>                  <!-- Set to match page url   -->
+        <meta property="og:title" content="Mastering GitHub: Project-Based Learning for Beginners"/>
+        <meta property="og:description" content="Mastering GitHub teaches version control through project-based learning. A free, beginner-friendly guide using real-world examples."/>
+        <meta property="og:image" content="https://masteringgithub.com/00-comres/11-resources/02-images/social-mgh.png"/>
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://masteringgithub.com/11-mgh-web/98-00-blank.html"/>             <!-- Set to match page url   -->
+        <meta property="twitter:title" content="Mastering GitHub: Project-Based Learning for Beginners"/>
+        <meta property="twitter:description" content="Mastering GitHub teaches version control through project-based learning. A free, beginner-friendly guide using real-world examples."/>
+        <meta property="twitter:image" content="https://masteringgithub.com/00-comres/11-resources/02-images/social-mgh.png"/>
+
+<!-- ==========================================================================
+
+
+
+*******************************************************************************
+Title :          MASTERING GITHUB
+
+                 BLANK PAGE                                    98-00-BLANK.HTML
+*******************************************************************************
+DETAILS
+
+MASTERING GITHUB
+
+This website is part of the Practical Series of Publications.
+
+Mastering GitHub, a completely free, beginner-friendly tutorial, simplifies 
+the steep learning curve using real-world examples and step-by-step lessons. 
+
+You’ll learn how to manage projects with GitHub confidently, even if you've 
+never touched version control before.
+
+*******************************************************************************
+MODIFICATION HISTORY:
+
+This is a complete summary of all software modifications.
+
+Date          Issue        Author         Reason for Modification
+*******************************************************************************
+02 May 2025   000.100      M. Gledhill    File created
+*************************************************************************** -->
+
+
+<!--**************************************************************************
+     FAVICON
+    ***********************************************************************-->
+
+        <!-- favicons all platforms --> <link rel="apple-touch-icon" sizes="57x57"         href="../00-comres/11-resources/02-images/01-favicons/apple-icon-57x57.png">
+                                        <link rel="apple-touch-icon" sizes="60x60"         href="../00-comres/11-resources/02-images/01-favicons/apple-icon-60x60.png">
+                                        <link rel="apple-touch-icon" sizes="72x72"         href="../00-comres/11-resources/02-images/01-favicons/apple-icon-72x72.png">
+                                        <link rel="apple-touch-icon" sizes="76x76"         href="../00-comres/11-resources/02-images/01-favicons/apple-icon-76x76.png">
+                                        <link rel="apple-touch-icon" sizes="114x114"       href="../00-comres/11-resources/02-images/01-favicons/apple-icon-114x114.png">
+                                        <link rel="apple-touch-icon" sizes="120x120"       href="../00-comres/11-resources/02-images/01-favicons/apple-icon-120x120.png">
+                                        <link rel="apple-touch-icon" sizes="144x144"       href="../00-comres/11-resources/02-images/01-favicons/apple-icon-144x144.png">
+                                        <link rel="apple-touch-icon" sizes="152x152"       href="../00-comres/11-resources/02-images/01-favicons/apple-icon-152x152.png">
+                                        <link rel="apple-touch-icon" sizes="180x180"       href="../00-comres/11-resources/02-images/01-favicons/apple-icon-180x180.png">
+                                        <link rel="icon" type="image/png" sizes="192x192"  href="../00-comres/11-resources/02-images/01-favicons/android-icon-192x192.png">
+                                        <link rel="icon" type="image/png" sizes="32x32"    href="../00-comres/11-resources/02-images/01-favicons/favicon-32x32.png">
+                                        <link rel="icon" type="image/png" sizes="96x96"    href="../00-comres/11-resources/02-images/01-favicons/favicon-96x96.png">
+                                        <link rel="icon" type="image/png" sizes="16x16"    href="../00-comres/11-resources/02-images/01-favicons/favicon-16x16.png">
+                                        <link rel="manifest"                               href="../00-comres/11-resources/02-images/01-favicons/manifest.json">
+                                        <meta name="msapplication-TileColor" content="#ffffff">
+                                        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+                                        <meta name="theme-color" content="#ffffff">
+
+
+<!--**************************************************************************
+     HEAD SCRIPT AREA
+    ***********************************************************************-->
+        <!-- jQuery Library -->         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+        <!-- Waypoints (sticky nav) --> <script src="../00-comres/21-global/05-js/jquery.waypoints.min.js" defer></script>
+        <!-- Hyphenator -->             <script src="../00-comres/21-global/05-js/hyphenator.js" defer></script>
+        <!-- Lightbox                   <script src="../00-comres/21-global/05-js/lightbox.js" defer></script>-->
+        <!-- Prettify (main)            <script src="../00-comres/21-global/05-js/run_prettify.js?autoload=true&lang=css" defer></script>-->
+        <!-- MathJax                    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>-->
+        <!-- PS main script -->         <script src="../00-comres/11-resources/05-js/script.js" defer></script>
+                                                                <!-- ▼▼▼▼ CHANGE FOLDER ▼▼▼▼  -->
+        <!-- PS local scroll script --> <script src="01-pages/98-00/05-local-js/scroll.js" defer></script>
+
+
+
+
+<!--**************************************************************************
+     HEAD CSS LOAD
+    ***********************************************************************-->
+        <!-- Load PS fonts -->          <link rel="stylesheet" type="text/css" href="../00-comres/21-global/03-fonts/ps-fonts.css" defer>
+        <!-- Load TIA fonts -->         <link rel="stylesheet" type="text/css" href="../00-comres/21-global/03-fonts/tia-fonts.css" defer>
+        <!-- Load Google fonts -->      <link rel="preconnect" href="https://fonts.googleapis.com" defer>
+                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet" defer>
+        <!-- Normalise -->              <link rel="stylesheet" type="text/css" href="../00-comres//21-global/01-css/normalise.css" defer>
+        <!-- Lightbox styles -->        <link rel="stylesheet" type="text/css" href="../00-comres/21-global/01-css/lightbox.css" defer>
+        <!-- Ionicons -->               <link rel="stylesheet" type="text/css" href="../00-comres/21-global/01-css/ionicons.min.css" defer>
+        <!-- PS grid system -->         <link rel="stylesheet" type="text/css" href="../00-comres/11-resources/01-css/grid.css" defer>
+        <!-- PS main styles -->         <link rel="stylesheet" type="text/css" href="../00-comres/11-resources/01-css/style.css" defer>
+        <!-- PAL styles -->             <link rel="stylesheet" type="text/css" href="../00-comres/11-resources/01-css/style-pal.css" defer>
+        <!-- MGH styles -->             <link rel="stylesheet" type="text/css" href="../00-comres/11-resources/01-css/style-mgh.css" defer>
+                                                                <!-- ▼▼▼▼ CHANGE FOLDER ▼▼▼▼  -->
+        <!-- Code frag highlights -->  <link rel="stylesheet" type="text/css" href="01-pages/98-00-blank/01-local-css/codelines.css" defer>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      GOOGLE ANALYTICS
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FP866HBPND"></script>
+                                        <script>
+                                        window.dataLayer = window.dataLayer || [];
+                                        function gtag(){dataLayer.push(arguments);}
+                                        gtag('js', new Date());
+
+                                        gtag('config', 'G-FP866HBPND');
+                                        </script>
+
+
+<!--**************************************************************************
+     TITLE
+    ***********************************************************************-->
+        <title>Mastering GitHub: A blank page for copying</title>
+    </head>
+
+<body>
+<!--************************************************************************** [WP SIDE-TOC]
+     SIDE TOC
+    ***********************************************************************-->
+<!-- ========================================================================== [WP END]  -->
+
+
+<!--************************************************************************** [WP HEADER]
+     HEADER (COVER & TABLE OF CONTENTS)
+    ***********************************************************************-->
+
+<header id="js--000000">
+
+
+<!--************************************************************************** [WP TOPNAV]
+     TOP NAVIGATION (ABOVE CONTENTS LIST)
+    ***********************************************************************-->
+
+    <nav>                                                   <!-- Start of top nav bar     -->
+        <div class="fix-nav">                               <!-- Start of top nav row     -->
+            <div class="rg-row">                            <!-- Start of nav button row  -->
+                <!-- Button 01 - Previous Section -->
+                <a class="nav-wide" href="97-00-blank-index.html#js--970101"><span class="top-nav-icon">l</span><span class="top-nav-text">Prev. section</span></a>
+                <!-- Button 02 - Previous Chapter -->
+                <a class="nav-wide" href="97-00-blank-index.html#js--000000"><span class="top-nav-icon">u</span><span class="top-nav-text">Prev. chapter</span></a>
+                <!-- Button 03 - Home wide (hidden when fixed nav activates) -->
+                <a class="nav-wide nav-home" href="../index.html#js--000000"><span class="top-nav-text">Home</span><span class="top-nav-icon">h</span></a>
+                <!-- Button 03a - Top narrow (hidden until fixed nav activates) -->
+                <a class="nav-narrow js--sc-000000" href="#"><span class="top-nav-icon">t</span><span class="top-nav-text">Top</span></a>
+                <!-- Button 03b - Home narrow (hidden until fixed nav activates) -->
+                <a class="nav-narrow" href="../index.html#js--000000"><span class="top-nav-text">Home</span><span class="top-nav-icon">h</span></a>
+                <!-- Button 04 - Next Chapter -->
+                <a class="nav-wide" href="98-00-blank.html#js--000000"><span class="top-nav-text">Next chapter</span><span class="top-nav-icon">d</span></a>
+                <!-- Button 05 - Next section -->
+                <a class="nav-wide" href="98-00-blank.html#js--000000"><span class="top-nav-text">Next section</span><span class="top-nav-icon">r</span></a>
+            </div>                                          <!-- End of nav button ro     -->
+        </div>                                              <!-- End of top nav row       -->
+    </nav>                                                  <!-- End of top nav bar       -->
+<!-- ========================================================================== [WP END]  -->
+
+<!-- ~🟢🟢🟢~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [WP HEADLINE]
+     HEADLINE - LEFT SIDEBAR (LOGO) & TITLE
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <div class="rg-row pal-title-row">                      <!-- Start of title row       -->
+        <div class="rg-col rg-span1-4">                     <!-- Start of left sidebar    -->
+            <aside class="aside-centre">
+                <a href="index.html">
+<!-- Logo image --> <img class="pal-headline-logo" src="../00-comres/11-resources/02-images/mgh-logo_07.svg" alt="PAL Logo">
+                </a>
+            </aside>
+        </div>                                              <!-- End of left sidebar      -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      HEADLINE - WEBSITE TITLE
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+        <div class="rg-col rg-span3-4">                     <!-- Start of Title area      -->
+            <div class="page-title">
+                <h1>Mastering GITHUB</h1>
+            </div>
+        </div>                                              <!-- End of of Title area     -->
+    </div>
+<!-- ========================================================================== [WP END]  -->
+
+
+
+<!--************************************************************************** [WP TITLE]
+     REVISION DATA
+    ***********************************************************************-->
+
+    <div class="rg-row">                                    <!-- Start of title row       -->
+        <div class="rg-col rg-span1-4">                     <!-- Start of left column     -->
+            <aside class="rev-badge-side">                  <!-- BUILD BADGE              -->
+                <img src="https://img.shields.io/badge/dev-000.101-ffffff?style=social&labelColor=FFFFFF" alt="Build">
+            </aside>
+        </div>                                              <!-- End of Left column       -->
+        <div class="rg-col rg-span3-4">                     <!-- Start of title           -->
+           <div class="pal-overline-index"></div>           <!-- Overline bar             -->
+        </div>                                              <!-- End of title             -->
+    </div>                                                  <!-- End of title row         -->
+<!-- ========================================================================== [WP END]  -->
+
+</header>                                                   <!-- End of header            -->
+<!-- ========================================================================== [WP END]  -->
+     
+  
+
+<!--************************************************************************** [WP TOC]
+     TABLE OF CONTENTS (SIDEBAR) - FIRST SECTION LEAD-IN AREA
+    ***********************************************************************-->
+<div class="rg-row">                                        <!-- Start of TOC section     -->
+    <nav class="rg-col rg-span1-4 toc-left-box">            <!-- Start of TOC column      -->
+        <div class="toc-left-title">Contents</div>
+        <div class="toc-left">
+<!-- Home    --><span class="toc-lhome-pad"></span><a href="../index.html#js--000000"><span class="toc-lhome-text">Home</span></a>
+        </div>
+        <details class="toc-left" open>                     <!-- Start of TOC Section     -->
+            <summary>
+<!-- Level 1 --><a  class="js--sc-980000" href="98-00-blank.html#js--000000"><span class="toc-l1-num">98</span><span class="toc-l1-text">BlankPage</span></a>
+            </summary>  
+<!-- Level 2 --><span class="toc-l23-pad"></span><a class="js--sc-980100"  href="98-00-blank.html#js--980100" ><span class="toc-l2-num">98.1</span  ><span class="toc-2-text" >SupplementarySection</span></a>
+<!-- Level 3 --><span class="toc-l23-pad"></span><a class="js--sc-980101"  href="98-00-blank.html#js--980101" ><span class="toc-l3-num">98.1.1</span><span class="toc-l3-text">SupplementarySubsection</span></a>
+<!-- Level 4 --><span class="toc-l4-pad" ></span><a class="js--sc-980101a" href="98-00-blank.html#js--980100a"><span class="toc-l4-text">SupplementaryInlineSection</span></a>
+
+<!-- Spacer  --><div class="toc-left-gap"></div>
+
+<!-- Level 2 --><span class="toc-l23-pad"></span><a class="js--sc-980200"  href="98-00-blank.html#js--980200" ><span class="toc-l2-num">98.2</span  ><span class="toc-2-text" >XYSection</span></a>
+<!-- Level 3 --><span class="toc-l23-pad"></span><a class="js--sc-980201"  href="98-00-blank.html#js--980201" ><span class="toc-l3-num">98.2.1</span><span class="toc-l3-text">XYZSubsection</span></a>
+<!-- Level 4 --><span class="toc-l4-pad" ></span><a class="js--sc-980201a" href="98-00-blank.html#js--980201a"><span class="toc-l4-text">InlineSection</span></a>
+<!-- Level 4 --><span class="toc-l4-pad" ></span><a class="js--sc-980201b" href="98-00-blank.html#js--980201b"><span class="toc-l4-text">AdditionalRow</span></a>
+        </details>                                          <!-- End of TOC Section       -->
+
+        <details class="toc-left">                          <!-- Start of TOC Section     -->
+            <summary>
+<!-- Level 1 --><a href="#"><span class="toc-l1-num">00</span><span class="toc-l1-text">abcdefghijklmnopqrstuvwxyzabcdefghijk</span></a>
+            </summary>  
+<!-- Level 2 --><span class="toc-l23-pad"></span><a class="js--sc-980100"  href="98-00-blank.html#js--980100" ><span class="toc-l2-num">00.1</span  ><span class="toc-2-text" >abcdefghijklmnopqrstuvwxyza</span></a>
+<!-- Level 3 --><span class="toc-l23-pad"></span><a class="js--sc-980101"  href="98-00-blank.html#js--980101" ><span class="toc-l3-num">00.1.1</span><span class="toc-l3-text">abcdefghijklmnopqrstuvwxyzabcd</span></a>
+<!-- Level 4 --><span class="toc-l4-pad" ></span><a class="js--sc-980101a" href="98-00-blank.html#js--980100a"><span class="toc-l4-text">abcdefghijklmnopqrstuvwxyzabcd</span></a>
+
+<!-- Spacer  --><div class="toc-left-gap"></div>
+
+<!-- Level 2 --><span class="toc-l23-pad"></span><a class="js--sc-980100"  href="98-00-blank.html#js--980100" ><span class="toc-l2-num">00.1</span  ><span class="toc-2-text" >abcdefghijklmnopqrstuvwxyza</span></a>
+<!-- Level 3 --><span class="toc-l23-pad"></span><a class="js--sc-980101"  href="98-00-blank.html#js--980101" ><span class="toc-l3-num">00.1.1</span><span class="toc-l3-text">abcdefghijklmnopqrstuvwxyzabcd</span></a>
+<!-- Level 4 --><span class="toc-l4-pad" ></span><a class="js--sc-980101a" href="98-00-blank.html#js--980100a"><span class="toc-l4-text">abcdefghijklmnopqrstuvwxyzabcd</span></a>
+        </details>                                          <!-- End of TOC Section       -->
+
+    </nav>                                                  <!-- End of TOC column        -->
+<!-- ========================================================================== [WP END]  -->
+
+<!--************************************************************************** [WP SECTION FIRST]
+     TITLE LINE - NO NUMBER(Large text format
+    ***********************************************************************-->
+
+    <div class="rg-col rg-span3-4 title-uplift"  id="js--980000a">   <!-- Start of title   -->
+        <h1 class="title-text-med">Getting started</h1>
+    </div>                                                           <!-- End of title     -->
+
+<!--************************************************************************** [WP SECTION FIRST]
+     FIRST SECTION TEXT 
+    ***********************************************************************-->
+
+    <section class="rg-col rg-span3-4">
+        <div class="section-std">
+
+            <p class="hyp sans"><span class="all-caps sans-b">Lead_In_Section</span></p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+        </div>
+<!-- ========================================================================== [WP END]  -->
+
+<!-- ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ -->
+
+<!--************************************************************************** [WP SECTION FIRST]
+     Supplementary SECTION - X.Y  
+    ***********************************************************************-->
+
+        <div class="sub-title-row sub-title-area-sec" id="js--980100">
+            <div class="sub-title-overline"></div>          <!-- Overline                 -->
+            <h2><span class="sub-title-num-box">98.1</span><span class="sub-title-text-box">SupplementarySection</span></h2>
+        </div>
+
+        <div class="section-std">
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+        </div>
+<!-- ========================================================================== [WP END]  -->
+
+<!-- ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ -->
+
+<!--************************************************************************** [WP SECTION FIRST]
+     Supplementary SECTION - X.Y.Z  
+    ***********************************************************************-->
+
+        <div class="sub-title-row sub-title-area-ssec" id="js--980101">
+            <h3><span class="sub-title-num-box">98.1.1</span><span class="sub-title-text-box">SupplementarySubsection</span></h3>
+        </div>
+
+        <div class="section-std">
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+        </div>
+<!-- ========================================================================== [WP END]  -->
+
+<!-- ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ -->
+
+<!--************************************************************************** [WP SECTION FIRST]
+     Supplementary SECTION - INLINE
+    ***********************************************************************-->
+
+        <div class="sub-title-row sub-title-area-iln" id="js--980101a">
+            <h4><span class="sub-title-text-box">SupplementaryInlineSection</span><br clear="all"></h4>
+        </div>
+
+        <div class="section-std">
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+            <p class="hyp sans">EmptyPara</p>
+
+        </div>
+<!-- ========================================================================== [WP END]  -->
+    </section>                                              <!-- End of section           -->
+<!-- ========================================================================== [WP END]  -->
+</div>                                                      <!-- End of lead-in section   -->
+<!-- =🔴🔴🔴================================================================== [WP END]  -->
+
+<!-- 🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 -->
+
+<!--************************************************************************** [WP SECTION]
+    SECTION - X.Y [SECTION NAME]
+    ***********************************************************************-->
+
+<section class="section-std" id="js--980200">               <!-- Start of section         -->
+    <div class="rg-row sub-title-row">                      <!-- Start of subtitle row    -->
+        <div class="rg-col rg-span1-4"></div>               <!-- Left column (not used)   -->
+        <div class="rg-col rg-span3-4">                     <!-- Start of subtitle column -->
+            <div class="sub-title-overline"></div>          <!-- Overline                 -->
+            <h2><span class="sub-title-num-box">98.2</span><span class="sub-title-text-box">XYSection</span></h2>
+        </div>                                              <!-- End of subtitle column   -->
+    </div>                                                  <!-- End of Subtitle row      -->
+
+    <div class="rg-row">                                    <!-- Start of section content -->
+        <div class="rg-col rg-span1-4">                     <!-- Start of left column     -->
+            <aside class="aside-left">                      <!-- Start of left side bar   -->
+                <p>OptionalSidebar</p>
+            </aside>                                        <!-- End of left side bar     -->
+        <!--     <aside class="aside-left">                      Start of left side bar   -->
+        <!--         <p></p>                                     Side bar content         -->
+        <!--     </aside>                                       End of left side bar     -->
+        </div>                                              <!-- End of left column       -->
+
+        <div class="rg-col rg-span3-4">                     <!-- Start of section text    -->
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        </div>                                              <!-- End of section text      -->
+    </div>                                                  <!-- End of section content   -->
+</section>                                                  <!-- End of section           -->
+<!-- ========================================================================== [WP END]  -->
+
+<!-- 🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 -->
+
+<!--************************************************************************** [WP SECTION]
+    SECTION - X.Y.Z [SECTION NAME]
+    ***********************************************************************-->
+
+<section class="section-std" id="js--980201">               <!-- Start of section         -->
+    <div class="rg-row sub-title-row">                      <!-- Start of subtitle row    -->
+        <div class="rg-col rg-span1-4"></div>               <!-- Left column (not used)   -->
+        <div class="rg-col rg-span3-4">                     <!-- Start of subtitle column -->
+            <h3><span class="sub-title-num-box">98.2.1</span><span class="sub-title-text-box">XYZSubsection</span></h3>
+        </div>                                              <!-- End of subtitle column   -->
+    </div>                                                  <!-- End of Subtitle row      -->
+
+    <div class="rg-row">                                    <!-- Start of section content -->
+        <div class="rg-col rg-span1-4">                     <!-- Start of left column     -->
+            <aside class="aside-left">                      <!-- Start of left side bar   -->
+                <p>OptionalSidebar</p>
+            </aside>                                        <!-- End of left side bar     -->
+        <!--     <aside class="aside-left">                     Start of left side bar   -->
+        <!--         <p></p>                                    Side bar content         -->
+        <!--     </aside>                                       End of left side bar     -->
+        </div>                                              <!-- End of left column       -->
+
+        <div class="rg-col rg-span3-4">                     <!-- Start of section text    -->
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        </div>                                              <!-- End of section text      -->
+    </div>                                                  <!-- End of section content   -->
+</section>                                                  <!-- End of section           -->
+<!-- ========================================================================== [WP END]  -->
+
+<!-- 🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 -->
+
+<!--************************************************************************** [WP SECTION]
+    SECTION - INLINE [SECTION NAME]
+    ***********************************************************************-->
+
+<section class="section-std" id="js--980201a">              <!-- Start of section         -->
+    <div class="rg-row sub-title-row">                      <!-- Start of subtitle row    -->
+        <div class="rg-col rg-span1-4"></div>               <!-- Left column (not used)   -->
+        <div class="rg-col rg-span3-4">                     <!-- Start of subtitle column -->
+            <h4><span class="sub-title-text-box">InlineSection</span></h4>
+        </div>                                              <!-- End of subtitle column   -->
+    </div>                                                  <!-- End of Subtitle row      -->
+
+    <div class="rg-row">                                    <!-- Start of section content -->
+        <div class="rg-col rg-span1-4">                     <!-- Start of left column     -->
+            <aside class="aside-left">                      <!-- Start of left side bar   -->
+                <p>OptionalSidebar</p>
+            </aside>                                        <!-- End of left side bar     -->
+        <!--     <aside class="aside-left">                     Start of left side bar   -->
+        <!--         <p></p>                                    Side bar content         -->
+        <!--     </aside>                                       End of left side bar     -->
+        </div>                                              <!-- End of left column       -->
+
+        <div class="rg-col rg-span3-4">                     <!-- Start of section text    -->
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        </div>                                              <!-- End of section text      -->
+    </div>                                                  <!-- End of section content   -->
+</section>                                                  <!-- End of section           -->
+<!-- ========================================================================== [WP END]  -->
+
+<!-- 🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 -->
+
+<!--************************************************************************** [WP SECTION]
+    SECTION - ADDITIONAL ROW
+    ***********************************************************************-->
+
+<section class="section-std" id="js--980201b">              <!-- Start of section         -->
+    <div class="rg-row">                                    <!-- Start of section content -->
+        <div class="rg-col rg-span1-4">                     <!-- Start of left column     -->
+            <aside class="aside-left">                      <!-- Start of left side bar   -->
+                <p>OptionalSidebar</p>
+            </aside>                                        <!-- End of left side bar     -->
+        <!--     <aside class="aside-left">                  Start of left side bar   -->
+        <!--         <p></p>                                 Side bar content         -->
+        <!--     </aside>                                    End of left side bar     -->
+        </div>                                              <!-- End of left column       -->
+
+        <div class="rg-col rg-span3-4">                     <!-- Start of section text    -->
+
+        <p class="hyp sans">AdditionalRow</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        <p class="hyp sans">EmptyPara</p>
+
+        </div>                                              <!-- End of section text      -->
+    </div>                                                  <!-- End of section content   -->
+</section>                                                  <!-- End of section           -->
+<!-- ========================================================================== [WP END]  -->
+
+<!-- 🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧 -->
+
+<!--************************************************************************** [WP FOOTER]
+     FOOTER
+    ***********************************************************************-->
+<footer class="rg-row">                                     <!-- Start of footer          -->
+    <div class="rg-col rg-span1-4"></div>                   <!-- Left column (not used)   -->
+    <div class="rg-col rg-span3-4 foot">                    <!-- Start of subtitle column -->
+        <ul class="footer-nav">                             <!-- Start of footer nav      -->
+            <li><a class="js--sc-000000" href="#"><span class="top-nav-icon" style="color:#1C2F4B">t</span>Top</a><span class="footer-spacer">&#x25C7;</span></li>
+            <li><a href="80-00-finally.html#js--800100">About</a><span class="footer-spacer">&#x25C7;</span></li>
+            <li><a href="80-00-finally.html#js--800200">Contact</a><span class="footer-spacer">&#x25C7;</span></li>
+            <li><a href="80-00-finally.html#js--800300">Terms</a><span class="footer-spacer">&#x25C7;</span></li>
+            <li><a href="80-00-finally.html#js--800400">Privacy</a></li>
+        </ul>                                               <!-- End of footer nav        -->
+    </div>
+</footer>                                                   <!-- End of footer            -->
+<!-- ========================================================================== [WP END]  -->
+
+</body>
+</html>

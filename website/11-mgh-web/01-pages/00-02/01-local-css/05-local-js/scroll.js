@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".aside-right-rev").append("<p>scroll.js&nbsp;&mdash;&nbsp;R01</p>"),$(".js--sc-000000").click(function(){$("html, body").animate({scrollTop:$("#js--000000").offset().top-80},1e3)})});
