@@ -2336,7 +2336,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
     color: #fff;
     font-size: 0.6rem;
     width: 100%;
-    max-width: 100;
+    max-width: 100%;
     margin: -0.9rem auto 1rem auto;
     border-collapse: collapse;
 }
@@ -2371,7 +2371,7 @@ tr.in-no-border th {                        /* incidental table no-bottom border
 @media all and (max-width:760px){ .table-clean  { width: 100%; margin: 0; } }
 @media all and (max-width:760px){ .table-dense  { width: 100%; margin: 0; } }
 @media all and (max-width:760px){ .table-git    { width: 100%; margin: 0; } }
-@media all and (max-width:760px){ .table-git-sb { width: 100%; margin: 0,0,1rem,0; } }
+@media all and (max-width:760px){ .table-git-sb { width: 100%; margin: 0 0 1rem 0; } }
 
 
 /* ****************************************************************************
