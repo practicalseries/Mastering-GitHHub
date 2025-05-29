@@ -92,6 +92,16 @@ Date           Issue       Author         Reason for Modification
     font-size: 104%;
     margin: 0 0 0rem 0;
 }
+   .page-title-text {                           /* format h1 - MAIN TITLE */
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 340%;
+    letter-spacing: 0.086rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1C2F4B;
+    margin: 0 0 0.4rem 0;
+}
 
 @media all {.page-title h1 { font-size: 340%; } .page-title h2 { font-size: 195%; } .page-title h3 { font-size: 110%; }}
 @media all and (max-width:1290px) {.page-title h1 { font-size: 327%; } .page-title h2 { font-size: 186%; } .page-title h3 { font-size: 105%; }}
@@ -115,6 +125,27 @@ Date           Issue       Author         Reason for Modification
 @media all and (max-width:560px)  {.page-title h1 { font-size: 248%; } .page-title h2 { font-size: 137%; } .page-title h3 { font-size: 76%; }}
 @media all and (max-width:520px)  {.page-title h1 { font-size: 340%; } .page-title h2 { font-size: 177%; } .page-title h3 { font-size: 100%; }}
 
+@media all {.page-title-text { font-size: 340%; }}
+@media all and (max-width:1290px) {.page-title-text { font-size: 327%; }}
+@media all and (max-width:1240px) {.page-title-text { font-size: 316%; }}
+@media all and (max-width:1200px) {.page-title-text { font-size: 305%; }}
+@media all and (max-width:1160px) {.page-title-text { font-size: 294%; }}
+@media all and (max-width:1120px) {.page-title-text { font-size: 284%; }}
+@media all and (max-width:1080px) {.page-title-text { font-size: 273%; }}
+@media all and (max-width:1040px) {.page-title-text { font-size: 262%; }}
+@media all and (max-width:1000px) {.page-title-text { font-size: 251%; }}
+@media all and (max-width:960px)  {.page-title-text { font-size: 252%; }}
+@media all and (max-width:920px)  {.page-title-text { font-size: 251%; }}
+@media all and (max-width:880px)  {.page-title-text { font-size: 251%; }}
+@media all and (max-width:840px)  {.page-title-text { font-size: 251%; }}
+@media all and (max-width:800px)  {.page-title-text { font-size: 251%; }}
+@media all and (max-width:760px)  {.page-title-text { font-size: 250%; }}
+@media all and (max-width:720px)  {.page-title-text { font-size: 250%; }}
+@media all and (max-width:680px)  {.page-title-text { font-size: 249%; }}
+@media all and (max-width:640px)  {.page-title-text { font-size: 249%; }}
+@media all and (max-width:600px)  {.page-title-text { font-size: 248%; }}
+@media all and (max-width:560px)  {.page-title-text { font-size: 248%; }}
+@media all and (max-width:520px)  {.page-title-text { font-size: 340%; }}
 
 /* ****************************************************************************
    HEADER TABLE OF CONTENTS
@@ -285,7 +316,7 @@ Date           Issue       Author         Reason for Modification
 }
 .sub-title-area-iln {                           /* matches an inline sub-title area spacing */
     margin-top: 3.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 7rem;
 }
 
 .eop{

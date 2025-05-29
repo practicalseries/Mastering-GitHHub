@@ -1265,11 +1265,11 @@ a:active { color: #404030; }
 .sub-title-inline {                         /* container for inline sub-title (no number) */
     /*display: inline-block;*/
     float: left;
-    width: 100%;
+    width: 80%;
     text-align: left;
     font-family: "conc-t3-r";
     font-feature-settings: "ss02";
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: #404030;
 }
 
