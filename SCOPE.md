@@ -81,11 +81,11 @@
 <!-- END OF OBS -->      </td>
 <!-- END OF CHAPTER -->  </tr>
 <!-- SECTION No -->      <tr><td></td><th>
-.1.<br>
-.2.<br>
-.3.<br>
-.4.<br>
-.5.<br>
+.1<br>
+.2<br>
+.3<br>
+.4<br>
+.5<br>
 <!-- END OF No -->       </th>
 <!-- SECTION LIST -->    <td colspan="2" align="left">
   ✅&emsp;&emsp;<!-- TEXT -->Section<br>
