@@ -9,8 +9,8 @@
 
 
 
-<table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅🔴🟠🟡🟢-->
-<tr><th width="52"></th><th align="left" width="600">Points and subpoints</th><th align="left" width="300">Observations</th></tr>
+<table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅🔴🟠🟡🟢● ⚫︎ ⬤-->
+<tr><td align="left" colspan="3"><img height="30px" src="https://img.shields.io/badge/PART 1 — VERSION CONTROL AND MANAGING REPOSITORIES-1E4E79?style=flat-square&Color=1E4E79.svg"></td></tr>
 <!-- MAIN LIST -->     <tr><th colspan="2" align="left">
 ⭕&emsp;&emsp;<!-- TEXT -->Introducing version control<br>
 <!-- END OF POINTS -->   </th>
@@ -20,7 +20,10 @@
 <!-- END OF MAIN -->   </tr>
 <!-- SUBLIST -->       <tr><td></td><td>
   ⭕&emsp;&emsp;<!-- TEXT -->The basic principles and terminology<br>
-  &emsp;&emsp;&emsp; 🔴&emsp;&emsp;<!-- TEXT -->The basic principles and terminology<br>  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
+  &emsp;&emsp;&emsp; ⚫︎&emsp;&emsp;<!-- TEXT -->Subpoint<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
+  &emsp;&emsp;&emsp; ⚫︎&emsp;&emsp;<!-- TEXT -->Subpoint<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Working, staged and committed files<br>
   ⭕&emsp;&emsp;<!-- TEXT -->The commit and tagging<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Branches and merging<br>
@@ -35,10 +38,10 @@
     <br>
 <!-- END OF OBS -->    </td>
 <!-- END OF MAIN --> </tr>
-<!-- CAPTION -->     <tr><th></th><!-- SPACER -->
-                       <th align="left" colspan="2"><sup>&#8202;
+<!-- CAPTION -->     <tr><th width="52"></th><!-- SPACER -->
+                       <th align="left" width="600"><sup>&#8202;
 <!-- CAPTION TEXT -->List c.n &mdash; Enhanced task list
-                       </sup></th></tr>
+                       </sup><td align="left" width="300"></td></th></tr>
 </table>                             <!-- TASK LIST END  🔼🔼(BLANK LINE BELOW) -->
 
 
