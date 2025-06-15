@@ -10,7 +10,7 @@
 
 
 <table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅🔴🟠🟡🟢● ⚫︎ ⬤-->
-<tr><td align="left" colspan="3"><img height="30px" src="https://img.shields.io/badge/PART 1 — VERSION CONTROL AND MANAGING REPOSITORIES-1E4E79?style=flat-square&Color=1E4E79.svg"></td></tr>
+<tr><td align="left" colspan="3"><img height="30px" src="https://img.shields.io/badge/PART 1 — VERSION CONTROL AND MANAGING REPOSITORIES-323F4F?style=flat-square&Color=323F4F.svg"></td></tr>
 <!-- MAIN LIST -->     <tr><th colspan="2" align="left">
 ⭕&emsp;&emsp;<!-- TEXT -->Introducing version control<br>
 <!-- END OF POINTS -->   </th>
