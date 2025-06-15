@@ -9,7 +9,7 @@
 
 
 
-<table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
+<table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅🔴🟠🟡🟢-->
 <tr><th width="52"></th><th align="left" width="600">Points and subpoints</th><th align="left" width="300">Observations</th></tr>
 <!-- MAIN LIST -->     <tr><th colspan="2" align="left">
 ⭕&emsp;&emsp;<!-- TEXT -->Introducing version control<br>
@@ -20,7 +20,7 @@
 <!-- END OF MAIN -->   </tr>
 <!-- SUBLIST -->       <tr><td></td><td>
   ⭕&emsp;&emsp;<!-- TEXT -->The basic principles and terminology<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
+  &emsp;&emsp;&emsp; 🔴&emsp;&emsp;<!-- TEXT -->The basic principles and terminology<br>  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Working, staged and committed files<br>
   ⭕&emsp;&emsp;<!-- TEXT -->The commit and tagging<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Branches and merging<br>
