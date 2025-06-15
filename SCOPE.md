@@ -8,166 +8,46 @@
 
 
 
-<table name="l-sow-01" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
-<tr><th width="52"></th><th width="52"></th><th align="left" width="52"></th><th align="left" width="556"> ${\large \color{#1F883D}\text{Text}}$ </th><th align="left" width="300">Obs</th></tr>
-<!-- CHAP No -->       <tr><th>
-1<br>
-2<br>
-3<br>
-4<br>
-5<br>
-<!-- END OF No -->       </th>
-<!-- CHAP LIST -->       <th colspan="3" align="left">
-⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-✅&emsp;&emsp;<!-- TEXT -->Chapter<br>
-⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-✅&emsp;&emsp;<!-- TEXT -->Chapter<br>
-⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-<!-- END OF CHAP -->     </th>
-<!-- OBSERVATIONS -->    <td>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-<!-- END OF OBS -->      </td>
-<!-- END OF CHAPTER -->  </tr>
-<!-- SECTION No -->      <tr><td></td><th>
-.1<br>
-.2<br>
-.3<br>
-.4<br>
-.5<br>
-<!-- END OF No -->       </th>
-<!-- SECTION LIST -->    <td colspan="2" align="left">
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-<!-- END OF SECTION --></td></td>
-<!-- OBSERVATIONS -->  <td>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-<!-- END OF OBS -->    </td>
-<!-- END OF SECTION --></tr>
-<!-- SUBSEC No -->     <tr><td></td><td></td><th>
-.1<br>
-.2<br>
-.3<br>
-.4<br>
-.5<br>
-<!-- END OF No -->       </th>
-<!-- SUBSEC LIST -->     <td>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-<!-- END OF SUBSEC --> </td></td>
-<!-- OBSERVATIONS -->  <td>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-<!-- END OF OBS -->    </td>
-<!-- END OF SUBSEC --> </tr>
-<!-- CAPTION -->       <tr><th></th><!-- SPACER -->
-                       <th align="left" colspan="4
-                       "><sup>&#8202;
-<!-- CAPTION TEXT -->List c.n &mdash; Enhanced task list
-                       </sup></th></tr>
-</table>                             <!-- TASK LIST END  🔼🔼(BLANK LINE BELOW) -->
-
-
-
 
 <table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
-<tr><th width="52">CNo</th><th width="52">SNo</th><th align="left" width="52">DNo</th><th align="left" width="556"></th><th align="left" width="300">Obs</th></tr>
-<!-- CHAP No -->       <tr><th>
-1<br>
-2<br>
-3<br>
-4<br>
-5<br>
-<!-- END OF No -->       </th>
-<!-- CHAP LIST -->       <th colspan="3" align="left">
-⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-✅&emsp;&emsp;<!-- TEXT -->Chapter<br>
-⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-✅&emsp;&emsp;<!-- TEXT -->Chapter<br>
-⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-<!-- END OF CHAP -->     </th>
+<tr><th width="52"></th><th align="left" width="600">Points and subpoints</th><th align="left" width="300">Observations</th></tr>
+<!-- MAIN LIST -->     <tr><th colspan="2" align="left">
+⭕&emsp;&emsp;<!-- TEXT -->Introducing version control<br>
+<!-- END OF POINTS -->   </th>
 <!-- OBSERVATIONS -->    <td>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
+    <br>
 <!-- END OF OBS -->      </td>
-<!-- END OF CHAPTER -->  </tr>
-<!-- SECTION No -->      <tr><td></td><th>
-.1<br>
-.2<br>
-.3<br>
-.4<br>
-.5<br>
-<!-- END OF No -->       </th>
-<!-- SECTION LIST -->    <td colspan="2" align="left">
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-<!-- END OF SECTION --></td></td>
+<!-- END OF MAIN -->   </tr>
+<!-- SUBLIST -->       <tr><td></td><td>
+  ⭕&emsp;&emsp;<!-- TEXT -->The basic principles and terminology<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Working, staged and committed files<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->The commit and tagging<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Branches and merging<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Regression<br>
+<!-- END OF SUBLIST --></td></td>
 <!-- OBSERVATIONS -->  <td>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 <!-- END OF OBS -->    </td>
-<!-- END OF SECTION --></tr>
-<!-- SUBSEC No -->     <tr><td></td><td></td><th>
-.1<br>
-.2<br>
-.3<br>
-.4<br>
-.5<br>
-<!-- END OF No -->       </th>
-<!-- SUBSEC LIST -->     <td>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-<!-- END OF SUBSEC --> </td></td>
-<!-- OBSERVATIONS -->  <td>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-    Observation<br>
-<!-- END OF OBS -->    </td>
-<!-- END OF SUBSEC --> </tr>
-<!-- CAPTION -->       <tr><th></th><!-- SPACER -->
-                       <th align="left" colspan="4
-                       "><sup>&#8202;
+<!-- END OF MAIN --> </tr>
+<!-- CAPTION -->     <tr><th></th><!-- SPACER -->
+                       <th align="left" colspan="2"><sup>&#8202;
 <!-- CAPTION TEXT -->List c.n &mdash; Enhanced task list
                        </sup></th></tr>
 </table>                             <!-- TASK LIST END  🔼🔼(BLANK LINE BELOW) -->
+
+
 
 
 
 
 
 <a name="idtop"></a><!-- 🟢TOP OF PAGE - MARKER  (BLANK LINE BELOW)   -->
-
-<img width="896px" src="./ps-github-wiki-logo.svg" alt="PAL Logo showing Wiki Documentation heading"><!-- 🟢TOP OF PAGE - LOGO IMAGE -->
 <p align="right"><img height="18" src="https://img.shields.io/badge/Web_ID-0000--eaq-blue"></p>      <!-- 🟢TOP OF PAGE - WEB ID     --> 
 
 # <!--       🟥H1🟥-->Engineer's Casenotes
