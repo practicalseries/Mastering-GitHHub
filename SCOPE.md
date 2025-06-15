@@ -57,7 +57,7 @@
 
 
 <table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
-<tr><th width="52">CNo</th><th width="52">SNo</th><th align="left" width="52">DNo</th><th align="left" width="454"></th><th align="left" width="300">Obs</th></tr>
+<tr><th width="52">CNo</th><th width="52">SNo</th><th align="left" width="52">DNo</th><th align="left" width="556"></th><th align="left" width="300">Obs</th></tr>
 <!-- CHAP No -->       <tr><th>
 1<br>
 2<br>
