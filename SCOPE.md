@@ -3,56 +3,86 @@
 <p align="right"><img height="18px" src="https://img.shields.io/badge/Web_ID-SCOPE.md--eek-blue.svg"></p>
 <!-- PAL LOGO AND WEB ID END-->
 
-# Mastering GitHub 
+# Mastering GitHub &mdash; Scope of works
 
-<table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
-<!-- MAIN LIST -->     <tr><th colspan="2" align="left">
-⭕&emsp;&emsp;<!-- TEXT -->MainPoint<br>
-✅&emsp;&emsp;<!-- TEXT -->MainPoint<br>
-⭕&emsp;&emsp;<!-- TEXT -->MainPoint<br>
-✅&emsp;&emsp;<!-- TEXT -->MainPoint<br>
-⭕&emsp;&emsp;<!-- TEXT -->MainPoint<br>
-<!-- END OF MAIN -->   </th></tr>
-<!-- SUBLIST -->       <tr><td></td><td>
-  ✅&emsp;&emsp;<!-- TEXT -->Subpoint<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Subpoint<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Subpoint<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Subpoint<br>
-  ✅&emsp;&emsp;<!-- TEXT -->Subpoint<br>
-<!-- END OF SUBLIST --></td></tr>
-<!-- CAPTION -->          <tr><th width="52"></th><!-- SPACER -->
-<!-- LIST WIDTH -->         <th align="left" width="900"><sup>&#8202;
-<!-- CAPTION TEXT -->List c.n &mdash; Task list
-                       </sup></th></tr>
-</table>                             <!-- TASK LIST END  🔼🔼(BLANK LINE BELOW) -->
 
-<table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
-<!-- Chapter -->     <tr><th colspan="3" align="left">
+
+
+<table name="l-sow-01" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅-->
+<tr><th width="52"></th><th width="52"></th><th align="left" width="52"></th><th align="left" width="556"> ${\large \color{#1F883D}\text{Text}}$ </th><th align="left" width="300">Obs</th></tr>
+<!-- CHAP No -->       <tr><th>
+1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+<!-- END OF No -->       </th>
+<!-- CHAP LIST -->       <th colspan="3" align="left">
 ⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
 ✅&emsp;&emsp;<!-- TEXT -->Chapter<br>
 ⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
 ✅&emsp;&emsp;<!-- TEXT -->Chapter<br>
 ⭕&emsp;&emsp;<!-- TEXT -->Chapter<br>
-<!-- END OF Chapter -->   </th></tr>
-<!-- Section -->       <tr><td></td><td colspan="2" align="left">
+<!-- END OF CHAP -->     </th>
+<!-- OBSERVATIONS -->    <td>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+<!-- END OF OBS -->      </td>
+<!-- END OF CHAPTER -->  </tr>
+<!-- SECTION No -->      <tr><td></td><th>
+.1<br>
+.2<br>
+.3<br>
+.4<br>
+.5<br>
+<!-- END OF No -->       </th>
+<!-- SECTION LIST -->    <td colspan="2" align="left">
   ✅&emsp;&emsp;<!-- TEXT -->Section<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
   ✅&emsp;&emsp;<!-- TEXT -->Section<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
   ✅&emsp;&emsp;<!-- TEXT -->Section<br>
-<!-- END OF Section --></td></tr>
-<!-- Section -->       <tr><td></td><td></td><td align="left">
-  ✅&emsp;&emsp;<!-- TEXT -->SubSec<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->SubSec<br>
-  ✅&emsp;&emsp;<!-- TEXT -->SubSec<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->SubSec<br>
-  ✅&emsp;&emsp;<!-- TEXT -->SubSec<br>
-<!-- END OF Section --></td></tr>
-<!-- CAPTION -->          <tr><th width="52"></th><th width="52"></th><!-- SPACER -->
-<!-- LIST WIDTH -->         <th align="left" width="900"><sup>&#8202;
-<!-- CAPTION TEXT -->List c.n &mdash; Task list
+<!-- END OF SECTION --></td></td>
+<!-- OBSERVATIONS -->  <td>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+<!-- END OF OBS -->    </td>
+<!-- END OF SECTION --></tr>
+<!-- SUBSEC No -->     <tr><td></td><td></td><th>
+.1<br>
+.2<br>
+.3<br>
+.4<br>
+.5<br>
+<!-- END OF No -->       </th>
+<!-- SUBSEC LIST -->     <td>
+  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
+  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Section<br>
+  ✅&emsp;&emsp;<!-- TEXT -->Section<br>
+<!-- END OF SUBSEC --> </td></td>
+<!-- OBSERVATIONS -->  <td>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+    Observation<br>
+<!-- END OF OBS -->    </td>
+<!-- END OF SUBSEC --> </tr>
+<!-- CAPTION -->       <tr><th></th><!-- SPACER -->
+                       <th align="left" colspan="4
+                       "><sup>&#8202;
+<!-- CAPTION TEXT -->List c.n &mdash; Enhanced task list
                        </sup></th></tr>
 </table>                             <!-- TASK LIST END  🔼🔼(BLANK LINE BELOW) -->
+
 
 
 
@@ -130,8 +160,6 @@
 <!-- CAPTION TEXT -->List c.n &mdash; Enhanced task list
                        </sup></th></tr>
 </table>                             <!-- TASK LIST END  🔼🔼(BLANK LINE BELOW) -->
-
-
 
 
 
