@@ -12,21 +12,21 @@
 <table name="l-cc-nn" align="center"><!-- TASK LIST START🔽🔽(BLANK LINE ABOVE) ⭕✅🔴🟠🟡🟢● ⚫︎ ⬤-->
 <tr><td align="left" colspan="3"><img height="30px" src="https://img.shields.io/badge/PART 1 — VERSION CONTROL AND MANAGING REPOSITORIES-323F4F?style=flat-square&Color=323F4F.svg"></td></tr>
 <!-- MAIN LIST -->     <tr><th colspan="2" align="left">
-⭕&emsp;&emsp;<!-- TEXT -->Introducing version control<br>
+⭕&emsp;&emsp;<!-- TEXT -->Introducing Git and GitHub<br>
 <!-- END OF POINTS -->   </th>
 <!-- OBSERVATIONS -->    <td>
     <br>
 <!-- END OF OBS -->      </td>
 <!-- END OF MAIN -->   </tr>
 <!-- SUBLIST -->       <tr><td></td><td>
-  ⭕&emsp;&emsp;<!-- TEXT -->The basic principles and terminology<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->The basic principles of version control<br>
   &emsp;&emsp;&emsp; ⚫︎&emsp;&emsp;<!-- TEXT -->Subpoint<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
   &emsp;&emsp;&emsp; ⚫︎&emsp;&emsp;<!-- TEXT -->Subpoint<br>
-  ⭕&emsp;&emsp;<!-- TEXT -->Local and remote repositories<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Working, staged and committed files<br>
   ⭕&emsp;&emsp;<!-- TEXT -->The commit and tagging<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Branches and merging<br>
+  ⭕&emsp;&emsp;<!-- TEXT -->Workflow<br>
   ⭕&emsp;&emsp;<!-- TEXT -->Regression<br>
 <!-- END OF SUBLIST --></td></td>
 <!-- OBSERVATIONS -->  <td>
